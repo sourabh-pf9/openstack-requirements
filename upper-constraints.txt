@@ -596,5 +596,13 @@ opentelemetry-proto===1.17.0
 XStatic-D3===3.5.17.0
 actdiag===3.0.0
 sysv-ipc===1.1.0
+<<<<<<< HEAD   (dffc6a Fix pkg_resources exception handling for py312)
 sphinxcontrib-applehelp===1.0.4
 scikit-learn===1.2.2
+=======
+sphinxcontrib-applehelp===1.0.4;python_version=='3.8'
+sphinxcontrib-applehelp===1.0.8;python_version>='3.9'
+scikit-learn===1.3.2;python_version=='3.8'
+scikit-learn===1.4.0;python_version>='3.9'
+infoblox-client===0.6.0
+>>>>>>> CHANGE (b3ee41 Add infoblox-client for Designate [1])
