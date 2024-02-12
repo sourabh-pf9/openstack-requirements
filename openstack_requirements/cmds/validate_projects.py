@@ -19,7 +19,7 @@ import argparse
 from openstack_requirements import project_config
 
 
-_BLACKLIST = set([
+_DENYLIST = set([
     # NOTE(dhellmann): It's not clear why these don't get updates,
     # except that trying to do so may break the test jobs using them
     # because of the nature of the projects.
@@ -49,7 +49,7 @@ def main():
             repo = repo.strip()
             if repo.startswith('#'):
                 continue
-            if repo in _BLACKLIST:
+            if repo in _DENYLIST:
                 continue
             pe = project_config.require_check_requirements_for_repo(
                 zuul_projects, repo)
