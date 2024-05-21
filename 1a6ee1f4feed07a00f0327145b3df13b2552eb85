@@ -16,6 +16,23 @@
       "message": "Can we hold this update, seeing some failures in neutron functional jobs https://review.opendev.org/c/openstack/neutron/+/919699 which looks related, so hold for confirmation and any needed fixes.",
       "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd82ca25_9903a90a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9656
+      },
+      "writtenOn": "2024-05-21T14:03:38Z",
+      "side": 1,
+      "message": "This can Depends-On I45c6e6a1c3536cf4f2d90b01a3577eec9eaf3743 I think.",
+      "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
