@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc494695_851a4f1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-05-21T04:21:35Z",
+      "side": 1,
+      "message": "Can take newer version https://review.opendev.org/c/openstack/requirements/+/920062",
+      "revId": "188267966e87042d4f4a86088f1bbb11a650e433",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
