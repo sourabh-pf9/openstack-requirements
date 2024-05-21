@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ad4df9d_1a571bf3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9303
+      },
+      "writtenOn": "2024-05-21T07:00:49Z",
+      "side": 1,
+      "message": "Need to unblock glance py312 failures.",
+      "revId": "ee26dad310f68661cc5d0b25d4d2b03076f92df4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
