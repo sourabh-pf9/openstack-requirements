@@ -33,6 +33,24 @@
       "message": "This can Depends-On I45c6e6a1c3536cf4f2d90b01a3577eec9eaf3743 I think.",
       "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b387653_c760d465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-05-21T17:45:31Z",
+      "side": 1,
+      "message": "for the functional test issue proposed https://review.opendev.org/c/openstack/neutron/+/920101 in neutron",
+      "parentUuid": "c339218a_ec98486b",
+      "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
