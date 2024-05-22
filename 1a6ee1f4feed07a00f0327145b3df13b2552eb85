@@ -51,6 +51,23 @@
       "parentUuid": "c339218a_ec98486b",
       "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "120ae922_51adf627",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-05-22T13:05:17Z",
+      "side": 1,
+      "message": "recheck the ft issue https://launchpad.net/bugs/2066263 is fixed now",
+      "revId": "1a6ee1f4feed07a00f0327145b3df13b2552eb85",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
