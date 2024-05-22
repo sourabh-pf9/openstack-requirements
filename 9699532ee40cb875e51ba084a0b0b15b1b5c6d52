@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b295c7a0_76266665",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-22T16:03:48Z",
+      "side": 1,
+      "message": "recheck unclear failure in designate cross check, seems unrelated",
+      "revId": "9699532ee40cb875e51ba084a0b0b15b1b5c6d52",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
