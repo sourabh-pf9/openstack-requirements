@@ -158,6 +158,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "98dd16c4_5d2c13ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131
+      },
+      "writtenOn": "2024-05-23T18:46:48Z",
+      "side": 1,
+      "message": "So unfortunately this bump is causing what looks like an OOM issue in the neutron coverage job. Not saying it\u0027s sqlalchemy, most likely a neutron test issue, but want to keep this active until we get to the bottom of it.\n\nhttps://review.opendev.org/c/openstack/neutron/+/920150\nhttps://bugs.launchpad.net/neutron/+bug/2065821",
+      "revId": "cbf7fd7d5477f90c7e065b70f5ef7258ec0b4dbe",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ae38a134_e139be53",
