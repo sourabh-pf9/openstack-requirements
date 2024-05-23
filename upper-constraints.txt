@@ -270,7 +270,7 @@ termcolor===2.4.0
 joblib===1.3.2
 google-api-python-client===2.125.0
 castellan===5.0.0
-oslo.versionedobjects===3.3.0
+oslo.versionedobjects===3.4.0
 enmerkar===0.7.1
 webcolors===1.13
 aodhclient===3.5.1
