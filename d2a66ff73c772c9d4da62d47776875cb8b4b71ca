@@ -16,6 +16,23 @@
       "message": "recheck zuul was faster than pypi",
       "revId": "d2a66ff73c772c9d4da62d47776875cb8b4b71ca",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f106790a_58daa2ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-23T09:55:44Z",
+      "side": 1,
+      "message": "recheck likely unrelated failure in designate cross job, made a note to the designate team",
+      "revId": "d2a66ff73c772c9d4da62d47776875cb8b4b71ca",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
