@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71789b59_2c794929",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-23T09:46:06Z",
+      "side": 1,
+      "message": "Sorry, needed to rebase in order to be able to stack other things on top. This one should be ready to go, though",
+      "revId": "26e59920a7bbdc47118845704322dcd32510a2d9",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
