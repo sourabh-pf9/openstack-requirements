@@ -16,6 +16,23 @@
       "message": "recheck zuul faster than pypi",
       "revId": "3803c330c5c05ba22dd662df986539eb6fea9027",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4e5f30d_57c121e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-05-23T12:10:06Z",
+      "side": 1,
+      "message": "Assuming the recheck will be fine.",
+      "revId": "3803c330c5c05ba22dd662df986539eb6fea9027",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
