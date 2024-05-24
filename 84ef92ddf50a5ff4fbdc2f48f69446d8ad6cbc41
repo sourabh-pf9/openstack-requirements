@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b952ad0_92c6ca72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-24T11:43:12Z",
+      "side": 1,
+      "message": "my fault, had dropped that job in a testing patch",
+      "revId": "84ef92ddf50a5ff4fbdc2f48f69446d8ad6cbc41",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
