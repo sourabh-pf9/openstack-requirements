@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f93043cb_55a2671c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-26T09:04:08Z",
+      "side": 1,
+      "message": "recheck tempest failure in test_rebuild_volume_backed_server",
+      "revId": "40e8109cd0b599673f23c503365acaa558ad3c1a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
