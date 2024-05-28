@@ -16,6 +16,24 @@
       "message": "While it is o.k. to bump this version, I\u0027m not sure if it is still needed. The only reference I can see where it has been used was in sqlalchemy-migrate, which is no longer being used. So maybe we can drop it from g-r instead?",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85891b71_23207a1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25277
+      },
+      "writtenOn": "2024-05-28T10:24:49Z",
+      "side": 1,
+      "message": "Thank you, Jens.\nI\u0027d be all for removing this dependency altogether if others agree or we can confirm it\u0027s no longer used.\nDo we have a good method to find out which projects rely on specific requirements from this repo without grepping through all of them manually?",
+      "parentUuid": "a43d4631_565569a7",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
