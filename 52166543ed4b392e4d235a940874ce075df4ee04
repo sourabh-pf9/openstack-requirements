@@ -34,6 +34,24 @@
       "parentUuid": "a43d4631_565569a7",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "576369b8_1e9e9b0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-05-28T11:48:28Z",
+      "side": 1,
+      "message": "https://codesearch.openstack.org/ allows you to search in all openstack repos at once",
+      "parentUuid": "85891b71_23207a1a",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
