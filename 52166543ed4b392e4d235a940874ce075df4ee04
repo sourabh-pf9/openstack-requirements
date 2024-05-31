@@ -52,6 +52,24 @@
       "parentUuid": "85891b71_23207a1a",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f2101d4_51fb473e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25277
+      },
+      "writtenOn": "2024-05-31T11:34:03Z",
+      "side": 1,
+      "message": "Thanks for the link!\n\nIt looks to me StarlingX are using this library in one of their repo but they also maitain their own upper-constraints there...",
+      "parentUuid": "576369b8_1e9e9b0b",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
