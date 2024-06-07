@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cbc2ad8_74e19ace",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131
+      },
+      "writtenOn": "2024-06-07T14:38:47Z",
+      "side": 1,
+      "message": "recheck unrelated openstacksdk failure",
+      "revId": "c1131bbdcfbf778816dd5bf838cdae9d84c17674",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
