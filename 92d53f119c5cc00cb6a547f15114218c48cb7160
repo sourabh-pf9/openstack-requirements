@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38b84211_e0c4e823",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-10T13:24:39Z",
+      "side": 1,
+      "message": "need to rebase onto master in order to be mergeable without check failures, but want to see the whole stack pass first",
+      "revId": "92d53f119c5cc00cb6a547f15114218c48cb7160",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
