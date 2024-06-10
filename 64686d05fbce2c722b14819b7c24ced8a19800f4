@@ -70,6 +70,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b778212e_6f63d1ac",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-10T10:29:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81cd64f5_d8e85919",
+      "revId": "64686d05fbce2c722b14819b7c24ced8a19800f4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d2d56af_53e69efc",
