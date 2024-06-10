@@ -16,6 +16,57 @@
       "message": "recheck not related",
       "revId": "b00afe6449ee7cc229650e26075f3f9c18ea4260",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53305ec3_a5d6f099",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-10T10:25:22Z",
+      "side": 1,
+      "message": "just a minor editing nit",
+      "revId": "b00afe6449ee7cc229650e26075f3f9c18ea4260",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d54dd8f_880f2b3c",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-10T10:25:22Z",
+      "side": 1,
+      "message": "I wonder what would happen if we actually drop this, then, but that\u0027s likely a topic for another patch",
+      "revId": "b00afe6449ee7cc229650e26075f3f9c18ea4260",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ffa579a_df4d0a71",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 503,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-10T10:25:22Z",
+      "side": 1,
+      "message": "please add the trailing newline again",
+      "revId": "b00afe6449ee7cc229650e26075f3f9c18ea4260",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
