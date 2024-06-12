@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e10083d_6dfb5003",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 27900
+      },
+      "writtenOn": "2024-06-12T15:20:24Z",
+      "side": 1,
+      "message": "lets add an explicit comment stating that Keystone needs that temporarily due to the unmaintained passlib. Otherwise it become hard to understand the reasoning (and unpin it once Keystone drops passlib)",
+      "revId": "33dd2610005e8144a5544a31722e8853d238f2ba",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
