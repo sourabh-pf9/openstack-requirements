@@ -8,7 +8,14 @@ automaton  # Apache-2.0
 autopage  # Apache-2.0
 beautifulsoup4  # MIT
 Babel!=2.4.0  # BSD
+<<<<<<< HEAD   (4ecf0a update constraint for oslo.serialization to new release 5.4.)
 bcrypt  # Apache-2.0
+=======
+# NOTE bcrypt is currently pinned at 4.0.1 in upper-constraints due to an issue
+# with passlib: https://foss.heptapod.net/python-libs/passlib/-/issues/190
+bcrypt==4.0.1  # Apache-2.0
+beautifulsoup4  # MIT
+>>>>>>> CHANGE (b9c903 Pin bcrypt until passlib is fixed/removed)
 betamax  # Apache-2.0
 blockdiag!=2.0.0  # Apache-2.0
 boto  # MIT

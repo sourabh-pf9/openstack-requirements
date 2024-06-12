@@ -213,10 +213,17 @@ tzlocal===5.2
 sphinxcontrib-jsmath===1.0.1
 python-novaclient===18.6.0
 pact===1.12.0
+<<<<<<< HEAD   (4ecf0a update constraint for oslo.serialization to new release 5.4.)
 bcrypt===4.1.2
 exceptiongroup===1.2.0;python_version=='3.10'
 exceptiongroup===1.2.0;python_version=='3.8'
 exceptiongroup===1.2.0;python_version=='3.9'
+=======
+bcrypt===4.0.1
+exceptiongroup===1.2.1;python_version=='3.10'
+exceptiongroup===1.2.1;python_version=='3.8'
+exceptiongroup===1.2.1;python_version=='3.9'
+>>>>>>> CHANGE (b9c903 Pin bcrypt until passlib is fixed/removed)
 os-client-config===2.1.0
 XStatic-Angular-Gettext===2.4.1.0
 Deprecated===1.2.14
