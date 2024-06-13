@@ -16,6 +16,23 @@
       "message": "thanks",
       "revId": "5abc182b671bebf2b7156fefe9cf439d969a27e7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a406332_aa86612e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36208
+      },
+      "writtenOn": "2024-06-13T02:13:04Z",
+      "side": 1,
+      "message": "passlib - bcrypt pined",
+      "revId": "5abc182b671bebf2b7156fefe9cf439d969a27e7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
