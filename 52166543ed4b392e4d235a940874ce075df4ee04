@@ -87,6 +87,24 @@
       "message": "seems the bump was already done as part of the automated update I8b1654e58c42acb0e4ade0c5ef3ba518087560b7\n\nif you want to amend this to drop sqlparse from reqs, that would be nice, otherwise this can be abandoned",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba65f208_37d491a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25277
+      },
+      "writtenOn": "2024-06-13T13:31:53Z",
+      "side": 1,
+      "message": "Thanks, Jens. I can submit a patch which removes ``sqlparse`` altogether but should we first post a deprecation notice?",
+      "parentUuid": "1be2129d_d0463fe8",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
