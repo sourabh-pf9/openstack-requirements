@@ -16,6 +16,23 @@
       "message": "recheck broken pkg on pypi was yanked",
       "revId": "1d97495709119fe16fa006452f2a80bbf32291b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2b025cd_46c32f12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2024-06-13T13:37:26Z",
+      "side": 1,
+      "message": "recheck not related",
+      "revId": "1d97495709119fe16fa006452f2a80bbf32291b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
