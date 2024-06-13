@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25ae2237_c09c4321",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 23
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-13T12:24:42Z",
+      "side": 1,
+      "message": "recheck failures due to pypi issue",
+      "revId": "42d1087290056141859251526d569e4447c23863",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
