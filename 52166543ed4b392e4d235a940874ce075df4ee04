@@ -105,6 +105,24 @@
       "parentUuid": "1be2129d_d0463fe8",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b15bb7b_ecc92818",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-14T04:57:37Z",
+      "side": 1,
+      "message": "I don\u0027t think we do deprecation notices for requirements, and since the library isn\u0027t actually in use anywhere, it should be fine to just drop it directly.",
+      "parentUuid": "ba65f208_37d491a5",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
