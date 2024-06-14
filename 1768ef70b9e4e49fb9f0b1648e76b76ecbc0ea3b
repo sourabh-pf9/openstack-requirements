@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5dd2e70_28a459ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-14T10:15:33Z",
+      "side": 1,
+      "message": "self-approving this to unblock the gate, feel free to post a revert or a follow-up if you disagree",
+      "revId": "1768ef70b9e4e49fb9f0b1648e76b76ecbc0ea3b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
