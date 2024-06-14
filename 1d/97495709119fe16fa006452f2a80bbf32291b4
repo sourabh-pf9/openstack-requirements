@@ -1,0 +1,10 @@
+Workflow+1: Jens Harbott <frickler@offenerstapel.de>
+Code-Review+1: Jay Faulkner <jay@jvf.cc>
+Verified+2: Zuul
+Code-Review+2: Jens Harbott <frickler@offenerstapel.de>
+Submitted-by: Zuul
+Submitted-at: Fri, 14 Jun 2024 15:33:10 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/915830
+Comments-Total: 19
+Project: openstack/requirements
+Branch: refs/heads/master
