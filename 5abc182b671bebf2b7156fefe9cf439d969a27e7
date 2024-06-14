@@ -33,6 +33,23 @@
       "message": "passlib - bcrypt pined",
       "revId": "5abc182b671bebf2b7156fefe9cf439d969a27e7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d582220d_47a21aa0",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 14288
+      },
+      "writtenOn": "2024-06-14T17:17:41Z",
+      "side": 1,
+      "message": "in order for this to be pinned you need to set a cap or some other limiter on bcrypt here",
+      "revId": "5abc182b671bebf2b7156fefe9cf439d969a27e7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
