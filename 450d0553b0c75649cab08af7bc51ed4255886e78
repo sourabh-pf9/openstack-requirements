@@ -16,6 +16,23 @@
       "message": "recheck failures due to pypi issue",
       "revId": "450d0553b0c75649cab08af7bc51ed4255886e78",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a724651_3d498e70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-14T12:07:14Z",
+      "side": 1,
+      "message": "recheck fix for horizon merged, keystone looks unstable",
+      "revId": "450d0553b0c75649cab08af7bc51ed4255886e78",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
