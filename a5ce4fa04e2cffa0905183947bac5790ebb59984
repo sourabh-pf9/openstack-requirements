@@ -16,6 +16,23 @@
       "message": "cinder failures look related and need fixing the unit tests at least",
       "revId": "a5ce4fa04e2cffa0905183947bac5790ebb59984",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af3d9f1d_8bacba42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9656
+      },
+      "writtenOn": "2024-06-15T01:02:09Z",
+      "side": 1,
+      "message": "FYI neutron gate is now ready for netaddr1.",
+      "revId": "a5ce4fa04e2cffa0905183947bac5790ebb59984",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
