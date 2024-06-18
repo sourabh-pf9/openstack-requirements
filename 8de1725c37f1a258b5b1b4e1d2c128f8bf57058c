@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dd9523d_9ed0f883",
+        "filename": "openstack_requirements/tests/test_requirement.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 14288
+      },
+      "writtenOn": "2024-06-18T14:08:48Z",
+      "side": 1,
+      "message": "should we just remove this test if it\u0027s not actually doing anyting?  (before it\u0027d at least try requirement.parse_line)",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3fe4c6c_38cc6156",
+        "filename": "openstack_requirements/tests/test_requirement.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 14288
+      },
+      "writtenOn": "2024-06-18T14:08:48Z",
+      "side": 1,
+      "message": "same here, removal of the try means that this test could be removed",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
