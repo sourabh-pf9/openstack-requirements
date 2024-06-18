@@ -13,7 +13,8 @@
 import textwrap
 
 import pkg_resources
-import pkg_resources.extern.packaging.requirements as pkg_resources_reqs
+import pkg_resources.extern.packaging.requirements as pkg_resources_ext_reqs
+import pkg_resources._vendor.packaging.requirements as pkg_resources_vendor_reqs
 import testscenarios
 import testtools
 
@@ -110,7 +111,8 @@ class TestParseRequirementFailures(testtools.TestCase):
         try:
             requirement.parse_line(self.line)
         except (pkg_resources.RequirementParseError,
-                pkg_resources_reqs.InvalidRequirement):
+                pkg_resources_ext_reqs.InvalidRequirement,
+                pkg_resources_vendor_reqs.InvalidRequirement):
             pass
         else:
             self.fail('No exception triggered')
@@ -156,7 +158,8 @@ class TestToReqs(testtools.TestCase):
         try:
             list(requirement.to_reqs('file:///foo#egg=foo'))
         except (pkg_resources.RequirementParseError,
-                pkg_resources_reqs.InvalidRequirement):
+                pkg_resources_ext_reqs.InvalidRequirement,
+                pkg_resources_vendor_reqs.InvalidRequirement):
             pass
         else:
             self.fail('No exception triggered')
