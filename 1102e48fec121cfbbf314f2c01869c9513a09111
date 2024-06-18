@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63aa40d2_57952546",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-18T06:39:12Z",
+      "side": 1,
+      "message": "this doesn\u0027t work yet, guess I gotta test on py3.12 directly instead of just looking at the logs",
+      "revId": "1102e48fec121cfbbf314f2c01869c9513a09111",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
