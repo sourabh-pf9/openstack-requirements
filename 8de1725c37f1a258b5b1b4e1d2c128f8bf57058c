@@ -1,6 +1,46 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "76ddc33c_62d4d747",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T02:25:15Z",
+      "side": 1,
+      "message": "Yup especially as in this case we\u0027re just using pkg_resources to access the *vendored* packaing library that we already use.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 57
+      },
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f77c073_a234e8bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T02:25:15Z",
+      "side": 1,
+      "message": "I\u0027m fine with this in general but I\u0027m also confused as can\u0027t reproduce the failure",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "4dd9523d_9ed0f883",
@@ -14,6 +54,24 @@
       "writtenOn": "2024-06-18T14:08:48Z",
       "side": 1,
       "message": "should we just remove this test if it\u0027s not actually doing anyting?  (before it\u0027d at least try requirement.parse_line)",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "518c5adc_97dbdd17",
+        "filename": "openstack_requirements/tests/test_requirement.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T02:25:15Z",
+      "side": 1,
+      "message": "It still does doesn\u0027t it?",
+      "parentUuid": "4dd9523d_9ed0f883",
       "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
