@@ -43,6 +43,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "a77e80ca_cb00105d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T12:02:24Z",
+      "side": 1,
+      "message": "Hmm, how did you try to reproduce? For me the error showed 1:1 as in the CI on a local Noble node",
+      "parentUuid": "5f77c073_a234e8bf",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4dd9523d_9ed0f883",
         "filename": "openstack_requirements/tests/test_requirement.py",
         "patchSetId": 2
