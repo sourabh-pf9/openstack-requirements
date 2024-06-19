@@ -76,6 +76,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "934fce54_704ad792",
+        "filename": "openstack_requirements/tests/test_requirement.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T11:02:55Z",
+      "side": 1,
+      "message": "This test still does the same thing, call `requirement.parse_line(self.line)` and verify that an Exception is raised, just in a more modern form. Sadly the testtools library doesn\u0027t support the nicer variant like unittest, otherwise this could look like:\n\n```\nwith self.assertRaises(ValueError):\n    requirement.parse_line(self.line)\n```\nwhich is more easily understandable. The only functional change is using the more generic ValueError class instead of the specific classes defined within pkg_resources, which vary depending on the python version.",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "d3fe4c6c_38cc6156",
