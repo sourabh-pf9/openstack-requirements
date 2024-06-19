@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bbb0f4e_1a2a2fa8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T12:15:13Z",
+      "side": 1,
+      "message": "I\u0027ll also delete the corresponding job definition in o-z-j and the periodic job.",
+      "revId": "ac0c1ffbe07fa9b56a7f86c51eb092ecefea557f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
