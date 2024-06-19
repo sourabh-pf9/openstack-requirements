@@ -69,6 +69,24 @@
       "parentUuid": "41dd7479_bb6b1133",
       "revId": "3dde5bf2f6dc52250261143094fae5baa039bf4b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0bdac37_4f523b9d",
+        "filename": "bindep.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T12:17:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa84403d_bc67a2ea",
+      "revId": "3dde5bf2f6dc52250261143094fae5baa039bf4b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
