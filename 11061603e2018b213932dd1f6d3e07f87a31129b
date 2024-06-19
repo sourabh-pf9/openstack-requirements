@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cd9c60d_e299a7b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T12:16:36Z",
+      "side": 1,
+      "message": "recheck all those repeated tempest-full failures are unrelated, I wonder whether we should make that job run only on u-c changes?",
+      "revId": "11061603e2018b213932dd1f6d3e07f87a31129b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
