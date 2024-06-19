@@ -16,6 +16,23 @@
       "message": "recheck:  (again)",
       "revId": "e6b8d6d52f36cf9284627f95b193b09f4d49ea24",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc2291dc_fc5d50d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T04:05:31Z",
+      "side": 1,
+      "message": "Okay got it.  This is the long standing NSS issue where NSS isn\u0027t compatible with current SSL?  We were getting by before because we had pre-built wheels.\n\nLOCI has a work around: https://opendev.org/openstack/loci/src/branch/master/scripts/requirements.sh#L59-L73\n\nWe need to research how much of \"unmaintained/zed\" actually uses python-nss",
+      "revId": "e6b8d6d52f36cf9284627f95b193b09f4d49ea24",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
