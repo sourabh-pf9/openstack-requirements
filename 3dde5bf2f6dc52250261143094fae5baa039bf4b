@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a74863b_0afa46d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T08:10:11Z",
+      "side": 1,
+      "message": "seems we need to dump the c8s wheel job, that platform is EOL",
+      "revId": "3dde5bf2f6dc52250261143094fae5baa039bf4b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41dd7479_bb6b1133",
+        "filename": "bindep.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-19T08:10:11Z",
+      "side": 1,
+      "message": "This is available on noble afaict, why would you not want to use it?",
+      "revId": "3dde5bf2f6dc52250261143094fae5baa039bf4b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
