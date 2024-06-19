@@ -16,6 +16,23 @@
       "message": "recheck:  (again)",
       "revId": "6dbb71f469379d468700026ff3ef876606aed4d3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96f27d73_16bd0657",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T04:06:18Z",
+      "side": 1,
+      "message": "Same issue as: https://review.opendev.org/c/openstack/requirements/+/917886/comments/dc2291dc_fc5d50d8",
+      "revId": "6dbb71f469379d468700026ff3ef876606aed4d3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
