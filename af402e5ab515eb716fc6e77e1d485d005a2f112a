@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45c51158_34d618f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-19T02:57:09Z",
+      "side": 1,
+      "message": "Yup.  This was used for nova-lxd which doesn\u0027t seem to be a gone for a while.\n\nhttps://pypi.org/project/nova-lxd/#history",
+      "revId": "af402e5ab515eb716fc6e77e1d485d005a2f112a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
