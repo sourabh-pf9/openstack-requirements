@@ -16,6 +16,24 @@
       "message": "I\u0027ll also delete the corresponding job definition in o-z-j and the periodic job.",
       "revId": "ac0c1ffbe07fa9b56a7f86c51eb092ecefea557f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f6eb86d_38f4461c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T00:29:38Z",
+      "side": 1,
+      "message": "I think: https://review.opendev.org/q/topic:drop-centos-8s covers this?",
+      "parentUuid": "4bbb0f4e_1a2a2fa8",
+      "revId": "ac0c1ffbe07fa9b56a7f86c51eb092ecefea557f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
