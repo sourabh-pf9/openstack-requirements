@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5c9fcac_b3f700b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T10:21:14Z",
+      "side": 1,
+      "message": "Approving as the ultimate aim is to create (non-voting) testing for py3.12  It\u0027s low rick and is the combined efforfs of 2 trusted developers",
+      "revId": "5bdc9d4b6194c2e3dcff04a44ad191e236468be9",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
