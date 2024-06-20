@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd28f02d_06550f45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-20T19:34:07Z",
+      "side": 1,
+      "message": "I wanted to look into how to add a check for this issue, but since setuptools are already included in test-requirements, all the unit tests couldn\u0027t detect this. It also hadn\u0027t helped to remove it there, since it is also implicitly required by testtools. So just doing the change proposed here should be the best option afaict.",
+      "revId": "b8019d70ca51d4b4611578f6972023baa6a2092d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
