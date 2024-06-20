@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95189011_02f5f261",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-20T05:30:37Z",
+      "side": 1,
+      "message": "recheck ironically failing due to timeout in the tempest job",
+      "revId": "bf1f33ea68ade7b7ffa2cf3c12ea809f00da23d9",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
