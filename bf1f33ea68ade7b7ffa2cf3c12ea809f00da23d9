@@ -16,6 +16,23 @@
       "message": "recheck ironically failing due to timeout in the tempest job",
       "revId": "bf1f33ea68ade7b7ffa2cf3c12ea809f00da23d9",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b4b1c06_f01c9908",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T10:21:40Z",
+      "side": 1,
+      "message": "Approving as the ultimate aim is to create (non-voting) testing for py3.12  It\u0027s low rick and is the combined efforfs of 2 trusted developers",
+      "revId": "bf1f33ea68ade7b7ffa2cf3c12ea809f00da23d9",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
