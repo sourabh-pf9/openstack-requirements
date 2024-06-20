@@ -16,6 +16,23 @@
       "message": "recheck post_failure no logs",
       "revId": "b557b9580a6ee987009e5e7945d86448f4d239de",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1bc148a_cb1fe952",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T10:21:54Z",
+      "side": 1,
+      "message": "Approving as the ultimate aim is to create (non-voting) testing for py3.12  It\u0027s low rick and is the combined efforfs of 2 trusted developers",
+      "revId": "b557b9580a6ee987009e5e7945d86448f4d239de",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
