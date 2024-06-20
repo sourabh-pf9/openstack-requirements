@@ -123,6 +123,23 @@
       "parentUuid": "ba65f208_37d491a5",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b879d6c2_afb818f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T10:30:33Z",
+      "side": 1,
+      "message": "I think as this addresses a CVE we should land this.  We can for sure remove it from global-requirements after we\u0027ve also removed the reference in glance.  And ideally Kolla also.",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
