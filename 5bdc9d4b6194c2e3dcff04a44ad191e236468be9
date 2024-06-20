@@ -16,6 +16,23 @@
       "message": "Approving as the ultimate aim is to create (non-voting) testing for py3.12  It\u0027s low rick and is the combined efforfs of 2 trusted developers",
       "revId": "5bdc9d4b6194c2e3dcff04a44ad191e236468be9",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e95b5a7a_e7292db4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-20T12:23:20Z",
+      "side": 1,
+      "message": "recheck unstable failure in openstacksdk-functional-devstack, guess we should mark that job the same as the tempest one",
+      "revId": "5bdc9d4b6194c2e3dcff04a44ad191e236468be9",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
