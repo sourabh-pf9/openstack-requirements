@@ -79,6 +79,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "487d4288_74b647f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T03:20:12Z",
+      "side": 1,
+      "message": "So yes I can reproduce this on Ubuntu-Noble but not Fedora-40 so I guess #shrug Go for it.",
+      "parentUuid": "9acfbcf4_c5e5f5dd",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4dd9523d_9ed0f883",
         "filename": "openstack_requirements/tests/test_requirement.py",
         "patchSetId": 2
