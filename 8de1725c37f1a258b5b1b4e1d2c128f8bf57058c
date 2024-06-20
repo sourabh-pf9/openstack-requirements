@@ -61,6 +61,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "9acfbcf4_c5e5f5dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-20T00:20:21Z",
+      "side": 1,
+      "message": "I ran tox (4) on my laptop with both 3.12.3 (Fedora default) and 3.12.4 (pyenv to match what I saw in thew logs)  I can try a noble vm/container.  I verified that setuptools is the same version.  So #confused.",
+      "parentUuid": "a77e80ca_cb00105d",
+      "revId": "8de1725c37f1a258b5b1b4e1d2c128f8bf57058c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4dd9523d_9ed0f883",
         "filename": "openstack_requirements/tests/test_requirement.py",
         "patchSetId": 2
