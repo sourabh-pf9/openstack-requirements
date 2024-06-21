@@ -157,6 +157,24 @@
       "message": "As I mentioned earlier, the u-c bump has already been merged, so in its current form, this patch is a no-op.",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9057301b_c7a45b8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-21T06:24:50Z",
+      "side": 1,
+      "message": "Seems I missed these references when doing codesearch earlier, I\u0027ll make patches for these two projects to drop it.",
+      "parentUuid": "b879d6c2_afb818f8",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
