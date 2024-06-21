@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4aeb67b4_0ed20d1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-21T03:51:58Z",
+      "side": 1,
+      "message": "Looks good to me.  Normally I\u0027d suggest: `bcrypt\u003c4.1.0  # Apache-2.0` but actually this might make it easier to undo when keystone has a better fix",
+      "revId": "b9c903e926087fe2f29bd92c9465a3564ccb2a1f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
