@@ -140,6 +140,23 @@
       "message": "I think as this addresses a CVE we should land this.  We can for sure remove it from global-requirements after we\u0027ve also removed the reference in glance.  And ideally Kolla also.",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a634361_a4de3d31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-06-21T06:20:50Z",
+      "side": 1,
+      "message": "As I mentioned earlier, the u-c bump has already been merged, so in its current form, this patch is a no-op.",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
