@@ -175,6 +175,41 @@
       "parentUuid": "b879d6c2_afb818f8",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25f0ff2b_354717d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-24T07:45:36Z",
+      "side": 1,
+      "message": "I\u0027m in favor removing sqlparse altogether once we can get ride of these references:\ntony@thor:~/src/opendev.org/openstack$ beagle --server https://codesearch.openstack.org search -f grep sqlparse | grep ^openstack | grep -v \u0027/requirements\u0027\nopenstack/glance:requirements.txt:10:sqlparse\u003e\u003d0.2.2 # BSD\nopenstack/kolla:docker/openstack-base/Dockerfile.j2:175:\u0027sqlparse\u0027,\nopenstack/rpm-packaging:openstack/glance/glance.spec.j2:54:BuildRequires:  {{ py3(\u0027sqlparse\u0027) }}\nopenstack/rpm-packaging:openstack/glance/glance.spec.j2:134:Requires:       {{ py3(\u0027sqlparse\u0027) }}\nopenstack/rpm-packaging:openstack/keystone/keystone.spec.j2:47:BuildRequires:  {{ py3(\u0027sqlparse\u0027) }}",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c81ba1b2_b37abca2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-24T07:45:36Z",
+      "side": 1,
+      "message": "Okay I messed that comment.",
+      "parentUuid": "9057301b_c7a45b8b",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
