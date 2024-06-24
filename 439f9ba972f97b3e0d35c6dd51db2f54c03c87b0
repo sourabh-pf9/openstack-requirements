@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "685bbdc2_7e831ca5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-06-24T10:11:43Z",
+      "side": 1,
+      "message": "recheck - strange errors, which passed in the previous run. flaky test cases?\n\ntest_does_not_parse(-e)\ntest_does_not_parse(-f)\ntest_does_not_parse(url)\ntest_not_urls",
+      "revId": "439f9ba972f97b3e0d35c6dd51db2f54c03c87b0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
