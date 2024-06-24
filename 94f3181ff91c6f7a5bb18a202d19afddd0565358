@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2439052c_6bd0e4ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-06-24T07:10:50Z",
+      "side": 1,
+      "message": "In trying to remove the Centos-8 jobs I saw the same failure on unmaintained/* so it isn\u0027t specific to python but setuptools/pkg_resources",
+      "revId": "94f3181ff91c6f7a5bb18a202d19afddd0565358",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
