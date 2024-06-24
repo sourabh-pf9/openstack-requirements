@@ -1,0 +1,10 @@
+Code-Review+2: Tony Breeds <tony@bakeyournoodle.com>
+Code-Review+1: sean mooney <smooney@redhat.com>
+Workflow+1: Tony Breeds <tony@bakeyournoodle.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 24 Jun 2024 04:45:15 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/922238
+Comments-Total: 6
+Project: openstack/requirements
+Branch: refs/heads/master
