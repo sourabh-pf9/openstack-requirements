@@ -210,6 +210,23 @@
       "parentUuid": "9057301b_c7a45b8b",
       "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8907123d_745efebd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25277
+      },
+      "writtenOn": "2024-06-25T01:07:07Z",
+      "side": 1,
+      "message": "This change has been abandoned in favour of https://review.opendev.org/c/openstack/requirements/+/922587.",
+      "revId": "52166543ed4b392e4d235a940874ce075df4ee04",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
