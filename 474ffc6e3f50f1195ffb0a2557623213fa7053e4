@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51412eba_34645e94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-07-02T18:49:30Z",
+      "side": 1,
+      "message": "recheck Unrelated (?) failure in openstacksdk-functional-devstack\n\n\u003e openstack.exceptions.ConflictException: ConflictException: 409: Client Error for url: https://10.210.192.144:9696/networking/v2.0/auto-allocated-topology/33c8fe6bb31a440fa773b9d9fafbbe7f, Unable to complete operation on network 56cf3cda-24a3-4bc6-9ffa-3e3ade4e57d3. There are one or more ports still in use on the network, id for these ports is: cd140397-4d6d-49be-b811-a74cd6a7f340",
+      "revId": "474ffc6e3f50f1195ffb0a2557623213fa7053e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
