@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83af67d5_283b8582",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 8313
+      },
+      "writtenOn": "2024-07-02T17:44:03Z",
+      "side": 1,
+      "message": "For Neutron we need to bump exabgp as with py3.12 bagpipe is broken with 4.2.21, see my patch: https://review.opendev.org/c/openstack/requirements/+/923311\n\n(Neutron bug: https://bugs.launchpad.net/neutron/+bug/2067452 \u0026 github issue: https://github.com/Exa-Networks/exabgp/issues/1208)",
+      "range": {
+        "startLine": 307,
+        "startChar": 0,
+        "endLine": 307,
+        "endChar": 15
+      },
+      "revId": "f372d82c4e61ca63150513a458e5c558f43edb5c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
