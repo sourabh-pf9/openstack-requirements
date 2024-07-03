@@ -1,0 +1,11 @@
+Code-Review+2: Elod Illes <elod.illes@est.tech>
+Code-Review+2: Sean McGinnis <sean.mcginnis@gmail.com>
+Workflow+1: Elod Illes <elod.illes@est.tech>
+Verified+2: Zuul
+Code-Review+1: yatin <ykarel@redhat.com>
+Submitted-by: Zuul
+Submitted-at: Wed, 03 Jul 2024 18:01:06 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/923311
+Comments-Total: 2
+Project: openstack/requirements
+Branch: refs/heads/master
