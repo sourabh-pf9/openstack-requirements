@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "619e1c3c_25b6137b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-07-05T19:11:05Z",
+      "side": 1,
+      "message": "Will need https://review.opendev.org/c/openstack/requirements/+/923566 to land first because of I89749eebc1e410f023169a115ffbfa9ef04cf3ad",
+      "revId": "21869f6d72b0212ed0aae62f70da5cc8598571ce",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
