@@ -16,6 +16,23 @@
       "message": "recheck Odd version conflict error:\n\nERROR: Cannot install python-magnumclient\u003e\u003d2.3.0 because these package versions have conflicting dependencies.\n\nThe conflict is caused by:\n    The user requested python-magnumclient\u003e\u003d2.3.0\n    The user requested (constraint) python-magnumclient\u003d\u003d\u003d4.6.0",
       "revId": "e633271128a0893a31f0ad796028e50c7b11e685",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ad6ed05_5993f2e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-06T11:28:46Z",
+      "side": 1,
+      "message": "recheck tempest-full-py3 failure",
+      "revId": "e633271128a0893a31f0ad796028e50c7b11e685",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
