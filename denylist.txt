@@ -1,3 +1,4 @@
+# DNM ignore
 # linters - each project may have a different version with loose convergence
 # over time.
 astroid
