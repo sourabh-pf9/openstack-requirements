@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13037ec2_e6f457f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11628
+      },
+      "writtenOn": "2024-07-10T02:40:46Z",
+      "side": 1,
+      "message": "We don\u0027t usually allow adding new requirements to stable branches.\nI will defer to the requirements team on this one.",
+      "revId": "126fb5ee61fb9924c754eb8b84a77886d67b9250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
