@@ -16,6 +16,23 @@
       "message": "We don\u0027t usually allow adding new requirements to stable branches.\nI will defer to the requirements team on this one.",
       "revId": "126fb5ee61fb9924c754eb8b84a77886d67b9250",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3918c6e_e360ae96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-07-11T20:59:52Z",
+      "side": 1,
+      "message": "The Noted change has backports from master to bobcat (2023.2)\n\nhttps://review.opendev.org/q/I35e03b9818851487686153bc68ad90c081e61966\n\nAdding a new requirement goes against the requirements and stable policies.  I\u0027m not a hard no on this, but I\u0027d like to see a mailing-list discussion about the benefit to designate and the expected impact to (designate) users and OS vendors.\n\nFor example without OS packages for infoblox-client, how are consumers going to install this?\nwhat is the expected imapact on the designate project if this isn\u0027t merged?",
+      "revId": "126fb5ee61fb9924c754eb8b84a77886d67b9250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
