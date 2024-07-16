@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db10bd53_6fd3bd69",
+        "filename": "playbooks/constraints/merge-run.yaml",
+        "patchSetId": 42
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-16T08:41:13Z",
+      "side": 1,
+      "message": "this is now called denylist\n\nI\u0027m also wondering why the job isn\u0027t failing, does this need better error handling?",
+      "range": {
+        "startLine": 38,
+        "startChar": 83,
+        "endLine": 38,
+        "endChar": 92
+      },
+      "revId": "614562f26b6c3235c22afa1d63debf22ae815f45",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
