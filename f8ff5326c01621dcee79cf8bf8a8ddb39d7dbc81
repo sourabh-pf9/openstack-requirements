@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3558ddd3_ac2e6a2e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-16T08:25:02Z",
+      "side": 1,
+      "message": "nit: global",
+      "range": {
+        "startLine": 7,
+        "startChar": 29,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "f8ff5326c01621dcee79cf8bf8a8ddb39d7dbc81",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ff9d2e6_e4a6a1c0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-16T08:25:02Z",
+      "side": 1,
+      "message": "Actually there is some even better argument: These libs have been yanked from pypi, see https://pypi.org/project/pyasn1-lextudio/ and https://pypi.org/project/pyasn1-modules-lextudio/, with comments that users should use plain pyasn1{,-modules} instead",
+      "revId": "f8ff5326c01621dcee79cf8bf8a8ddb39d7dbc81",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7045103_9df01e64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-16T08:25:02Z",
+      "side": 1,
+      "message": "IMO these should be dropped from upper-constraints.txt at the same time for consistency",
+      "revId": "f8ff5326c01621dcee79cf8bf8a8ddb39d7dbc81",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
