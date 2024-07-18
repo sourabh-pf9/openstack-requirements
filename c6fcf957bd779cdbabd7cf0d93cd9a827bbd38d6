@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "833456e8_30863eb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-07-18T02:34:58Z",
+      "side": 1,
+      "message": "Single-core approving to get this merged as it\u0027s been around for a while and is actively being used in tooz.",
+      "revId": "c6fcf957bd779cdbabd7cf0d93cd9a827bbd38d6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
