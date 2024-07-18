@@ -16,6 +16,23 @@
       "message": "Thanks",
       "revId": "6231fc8aa61783053b946063eac86d44c2a7edf3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b89de297_a9651b6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2024-07-18T14:46:44Z",
+      "side": 1,
+      "message": "Thanks frickler",
+      "revId": "6231fc8aa61783053b946063eac86d44c2a7edf3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
