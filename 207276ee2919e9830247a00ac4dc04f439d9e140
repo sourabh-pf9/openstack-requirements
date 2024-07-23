@@ -68,6 +68,47 @@
       "parentUuid": "001a07f3_9b18de19",
       "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "124a387e_2b9d94c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-23T09:46:18Z",
+      "side": 1,
+      "message": "But so far I\u0027m only seeing one particular job failing, if this is a global issue, why do we not see any other failures? However, I also admit that I\u0027m not a \"real\" requirements person, so waiting for other feedback now.",
+      "parentUuid": "0d10b3ee_6f69c377",
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7d58c7d_59476459",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-23T09:46:18Z",
+      "side": 1,
+      "message": "so you are claiming that this comment is wrong?",
+      "range": {
+        "startLine": 448,
+        "startChar": 74,
+        "endLine": 449,
+        "endChar": 38
+      },
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
