@@ -133,6 +133,30 @@
       },
       "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51e15a30_bbf49fda",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-23T11:56:58Z",
+      "side": 1,
+      "message": "The example that you are linking to is from a tempest installation. tempest is getting installed from master for the supported stable branches (since tempest is branchless) and thus this is also using master requirements.",
+      "parentUuid": "90e29bfc_33c3b3b3",
+      "range": {
+        "startLine": 448,
+        "startChar": 74,
+        "endLine": 449,
+        "endChar": 38
+      },
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
