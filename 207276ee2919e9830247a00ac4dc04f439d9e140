@@ -157,6 +157,30 @@
       },
       "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa15360e_3265f8db",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 8313
+      },
+      "writtenOn": "2024-07-23T12:48:36Z",
+      "side": 1,
+      "message": "As I see the same issue hit on zed for a glance patch: https://review.opendev.org/c/openstack/glance/+/923307/4",
+      "parentUuid": "51e15a30_bbf49fda",
+      "range": {
+        "startLine": 448,
+        "startChar": 74,
+        "endLine": 449,
+        "endChar": 38
+      },
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
