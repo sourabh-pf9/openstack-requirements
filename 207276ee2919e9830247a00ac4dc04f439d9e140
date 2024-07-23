@@ -50,6 +50,24 @@
       "message": "I don\u0027t think that doing this cap globally for a stable branch is a good idea. IIUC the referenced bug only affects testing on Ubuntu 20.04, can you implement a workaround in the Neutron job for this instead? Or possibly, since 2023.1 is almost EOL already, just drop the failing job?",
       "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d10b3ee_6f69c377",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2024-07-23T08:12:27Z",
+      "side": 1,
+      "message": "But this is the goal of requirements project, to list the libraries needed and cap them (we have a file for that). In this case, the bug is legit and we should not deploy setuptools\u003e\u003d70.2.0 if we are already capping packaging\u003d\u003d21.3. The code of setuptools\u003e\u003d70.2.0 is incompatible with the version of packaging we are using in 2023.1.\n\nBecause this is an stable release, it makes sense to cap this library here and not in a particular project.",
+      "parentUuid": "001a07f3_9b18de19",
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
