@@ -88,6 +88,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "acf8b893_d12462f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8313
+      },
+      "writtenOn": "2024-07-23T13:44:47Z",
+      "side": 1,
+      "message": "something based on this can work for this: https://review.opendev.org/c/openstack/neutron/+/924728, thanks ralonsoh and ykarel",
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7d58c7d_59476459",
