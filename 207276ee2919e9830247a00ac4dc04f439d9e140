@@ -109,6 +109,30 @@
       },
       "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90e29bfc_33c3b3b3",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2024-07-23T10:01:47Z",
+      "side": 1,
+      "message": "At least in 2023.1 it is, as far as we have one project capped but not setuptools.\n\nActually, checking other CI jobs, we are somehow overriding the packaging\u003d\u003d21.3 cap [1] we have in 2023.1. In other jobs, we are installing packaging\u003d\u003d24.1 [2]. This version has the patch that is compatible with setuptools\u003e\u003d70.2.0\n\n[1]https://github.com/openstack/requirements/blob/stable/2023.1/upper-constraints.txt#L339\n[2]https://zuul.opendev.org/t/openstack/build/17e3ff43798b4c20badce1e549f31cd3/log/job-output.txt#18253",
+      "parentUuid": "b7d58c7d_59476459",
+      "range": {
+        "startLine": 448,
+        "startChar": 74,
+        "endLine": 449,
+        "endChar": 38
+      },
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
