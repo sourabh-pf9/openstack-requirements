@@ -122,6 +122,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "304b22b1_937ee012",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2024-07-26T10:24:04Z",
+      "side": 1,
+      "message": "I think so, I\u0027ll check that in the Neutron CI.",
+      "parentUuid": "f74229f8_6cbd087c",
+      "revId": "207276ee2919e9830247a00ac4dc04f439d9e140",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7d58c7d_59476459",
