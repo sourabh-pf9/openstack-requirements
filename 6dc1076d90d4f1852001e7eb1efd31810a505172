@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ad07e88_21f19fa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-26T10:44:13Z",
+      "side": 1,
+      "message": "horizon now dropped support for py3.8, do we want to keep old horizon in u-c for py3.8 or just the new one restricted to \u003e\u003d 3.9? \n        \nalso this is going to become tedious if more projects take up on this example, another reason to finally dump 3.8 altogether?",
+      "revId": "6dc1076d90d4f1852001e7eb1efd31810a505172",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
