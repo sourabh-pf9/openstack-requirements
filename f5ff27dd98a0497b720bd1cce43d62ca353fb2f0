@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2912667_5c145e7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-26T07:24:18Z",
+      "side": 1,
+      "message": "self-approving this now before the next merge conflict comes along, I\u0027d rather rebase the release updates then",
+      "revId": "f5ff27dd98a0497b720bd1cce43d62ca353fb2f0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
