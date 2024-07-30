@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9635054_43f79660",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-07-30T23:41:31Z",
+      "side": 1,
+      "message": "Doing this for https://review.opendev.org/c/openstack/sushy/+/925304",
+      "revId": "a8b08f66e4229a00da57dddc7c310da827b95b12",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
