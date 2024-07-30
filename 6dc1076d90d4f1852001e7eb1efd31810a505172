@@ -34,6 +34,24 @@
       "parentUuid": "2ad07e88_21f19fa9",
       "revId": "6dc1076d90d4f1852001e7eb1efd31810a505172",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c676764_681039c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-07-30T13:17:20Z",
+      "side": 1,
+      "message": "Since python 3.8 is no longer part of the tested runtimes it should be removed from testing in master. We agreed that we postpone the removal to early 2025.1 for soft landing in other projects but most of the projects should complete the removal during this cycle, IMO.",
+      "parentUuid": "1f365cf8_1767bb6a",
+      "revId": "6dc1076d90d4f1852001e7eb1efd31810a505172",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
