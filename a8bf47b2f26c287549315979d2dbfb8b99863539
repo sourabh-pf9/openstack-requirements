@@ -33,6 +33,23 @@
       "message": "So the last time we tried to do a large uncoordinated version drop from openstack it ended in a lot of broken CI and it largely had to be undone. What I took away from that was that these cleanups need to be coordinated across openstack and performed in a very careful order to avoid fallout.\n\nIn particular the application code bases should drop support first, then libraries, then tools like requirements, then finally (and probably quite some time later) tools like PBR whose versions are more difficult to control in the wild go very very last. Looking at zuul build history and digging around in gerrit it appears projects like tempest and swift (both fall under the application category) are still testing with python 3.8 on master. There may be others as well this was just a quick check.\n\nThe application runtimes document provides requirements for python3.9 and some newer versions but that doesn\u0027t means 3.8 is forbidden if I understand it correctly. That does mean that support projects like requirements and the zuul jobs and oslo libraries need to work more slowly.\n\nSide note: it looks like oslo projects may have already dropped testing? I think this too is a bug.",
       "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81bf7306_093ee2da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-07-30T23:40:48Z",
+      "side": 1,
+      "message": "I think the potential for this to indirectly break things is high.\n\nPlease downgrade this to non-voting, and remove it from thew gate pipeline.\n\nWe can figure out the process for actually removing this later.  I think at this stage we\u0027ll need the rest of this cycle to figure things out with implementation next cycle.",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
