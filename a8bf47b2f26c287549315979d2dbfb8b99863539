@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6ecd595_a1c6fb84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-30T17:11:28Z",
+      "side": 1,
+      "message": "IMO we should remove the caps for 3.8 in upper-contraints at the same time, doesn\u0027t make sense to keep them in place, but untested",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
