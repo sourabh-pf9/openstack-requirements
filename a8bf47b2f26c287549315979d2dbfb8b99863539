@@ -50,6 +50,24 @@
       "message": "I think the potential for this to indirectly break things is high.\n\nPlease downgrade this to non-voting, and remove it from thew gate pipeline.\n\nWe can figure out the process for actually removing this later.  I think at this stage we\u0027ll need the rest of this cycle to figure things out with implementation next cycle.",
       "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee34a829_cf4055b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-31T03:58:17Z",
+      "side": 1,
+      "message": "see also https://review.opendev.org/c/openstack/requirements/+/924992",
+      "parentUuid": "d6fd86a3_51315a09",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
