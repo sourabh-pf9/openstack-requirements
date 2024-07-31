@@ -104,6 +104,24 @@
       "parentUuid": "ee34a829_cf4055b0",
       "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58b12994_bd64cc58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-07-31T19:31:20Z",
+      "side": 1,
+      "message": "I agree that dropping it from requirement should be the last step instead of first. \n\nI expressed my concern for oslo also to drop the py3.8 (make them uninstallable on py 3.8) on IRC also and we should continue encouraging projects to drop it first and then oslo and then here. One safe way or to speed up/coordinate effort is to plan it early next cycle (during PTG or before m-1 and oslo drop at m-1) so that if any project is late or not dropping it then we have enough time in the cycle to handle it.",
+      "parentUuid": "d3ab2019_c7f869b0",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
