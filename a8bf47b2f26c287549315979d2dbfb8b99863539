@@ -68,6 +68,42 @@
       "parentUuid": "d6fd86a3_51315a09",
       "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c727a32_76fbef8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-07-31T16:20:54Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "d6ecd595_a1c6fb84",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3ab2019_c7f869b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-07-31T16:20:54Z",
+      "side": 1,
+      "message": "The initial trigger is horizon which removed python 3.8 support according to the testing runtime. I\u0027m also planning to remove python 3.8 support from heat this cycle.\n\nFor oslo, we allow installation in python 3.8 but the testing coverage is already removed. We can restore it, but I really hope that we get documented steps agreed with TC, to avoid further confusion.",
+      "parentUuid": "ee34a829_cf4055b0",
+      "revId": "a8bf47b2f26c287549315979d2dbfb8b99863539",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
