@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9716069a_a4d777ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-07-31T14:40:21Z",
+      "side": 1,
+      "message": "Usually we don\u0027t bump upper constraints of external dependencies, but we cannot avoid in some rare cases. This workaround was chosen to fix the gate issues of stable/2023.1 as well, so let\u0027s do it here as well. Thanks Mohammed for the patch and prometheanfire for the review!",
+      "revId": "1a3b0b7508e206c1863f5a700c1e359728010a61",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
