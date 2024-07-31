@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e241a5e_af24c9db",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-07-31T15:52:59Z",
+      "side": 1,
+      "message": "Pretty gross from a release team perspective, I\u0027d say, will have to fix up stable branches accordingly:\n\nhttps://pypi.org/project/pyasn1-lextudio/#history\n\n```\nReason this release was yanked:\n\nUsers should use just pyasn1\n```\n\nMight be worth adding this as a comment to the commit message as documentation.",
+      "revId": "84f0c723ef4fbe021cebf03ea52efdefac699e07",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
