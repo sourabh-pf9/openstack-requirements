@@ -16,6 +16,23 @@
       "message": "Looks like this could be a legitimate failure. May need someone from the effected teams to take a look.",
       "revId": "097b9cd12349ab88048a1b4d8fdc2588da658e32",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efc2ede2_f71f3bf8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-01T18:12:25Z",
+      "side": 1,
+      "message": "This release enable the new RBAC by default and as expected we need to disable the RBAC flag explicitly for project not yet ready. I am working on those and will trigger test once they are merged.\n\njust -1 to notify that this is not yet ready.",
+      "revId": "097b9cd12349ab88048a1b4d8fdc2588da658e32",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
