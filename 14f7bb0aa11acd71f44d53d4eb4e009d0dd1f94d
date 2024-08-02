@@ -16,6 +16,23 @@
       "message": "still working on the barbican fixes and other services should be ok now",
       "revId": "14f7bb0aa11acd71f44d53d4eb4e009d0dd1f94d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a4a9a72_f95d2211",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-02T17:07:34Z",
+      "side": 1,
+      "message": "recheck cinder job should pass now",
+      "revId": "14f7bb0aa11acd71f44d53d4eb4e009d0dd1f94d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
