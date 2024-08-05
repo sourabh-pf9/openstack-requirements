@@ -1,0 +1,12 @@
+Code-Review+2: Jens Harbott <frickler@offenerstapel.de>
+Code-Review+1: Doug Goldstein <cardoe@cardoe.com>
+Workflow+1: Jens Harbott <frickler@offenerstapel.de>
+Verified+2: Zuul
+Code-Review+2: Sean McGinnis <sean.mcginnis@gmail.com>
+Submitted-by: Zuul
+Submitted-at: Mon, 05 Aug 2024 16:31:20 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/925405
+Comments-Total: 3
+Comments-Unresolved: 1
+Project: openstack/requirements
+Branch: refs/heads/master
