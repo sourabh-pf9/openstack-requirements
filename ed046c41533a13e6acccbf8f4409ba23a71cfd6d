@@ -18,6 +18,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc7efd94_ad3362a7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-06T18:35:58Z",
+      "side": 1,
+      "message": "Ubuntu: https://packages.ubuntu.com/focal/python3-importlib-metadata It\u0027s available in all versions supported by packages.ubuntu.com and the oldest version they have is 1.5 which is newer than what shipped with Python 3.9\n\nFedora: https://packages.fedoraproject.org/pkgs/python-importlib-metadata/python3-importlib-metadata/ It\u0027s in the 6.x series. But they even have it backported down to their Python 3.6.\n\nGentoo has it as well but they\u0027ve dropped Python\u0027s older than 3.10 so it\u0027s not a problem.\n\nSUSE: It\u0027s in the same state as Fedora.",
+      "parentUuid": "d9b607d2_da5b15d5",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "b54e6fff_98dda996",
@@ -65,6 +83,24 @@
       "writtenOn": "2024-08-06T18:26:13Z",
       "side": 1,
       "message": "I wonder whether the comment above applies in a similar way here, too and we should not restrict this to being included only for py3.8?\n\nor maybe cap to some older version? the current 6.x versions seem to correspond to what is available in py3.13, so this might lead to inconsistencies for intermediate python versions?",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15de17e3_dd9f68c0",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-06T18:35:58Z",
+      "side": 1,
+      "message": "So you\u0027ll see it is restricted to just Python 3.8 (well technically versions of Python less than 3.9).\n\nI\u0027m happy to add the upper-constraint to what\u0027s in Python 3.9 which is all that\u0027s really needed.",
+      "parentUuid": "ac6be6b3_03cb3140",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
