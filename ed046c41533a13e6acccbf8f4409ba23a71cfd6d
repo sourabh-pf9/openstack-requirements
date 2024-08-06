@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9b607d2_da5b15d5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-06T18:26:13Z",
+      "side": 1,
+      "message": "I\u0027m not sure if all the questions from https://docs.openstack.org/project-team-guide/dependency-management.html#for-new-requirements need to be answered, but I would at least wonder how distro support does look like?",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "b54e6fff_98dda996",
@@ -14,6 +31,40 @@
       "writtenOn": "2024-08-05T16:15:26Z",
       "side": 1,
       "message": "Thank you.",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b029aedb_d387afd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-06T18:26:13Z",
+      "side": 1,
+      "message": "-1 just for visibility of my questions",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac6be6b3_03cb3140",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-06T18:26:13Z",
+      "side": 1,
+      "message": "I wonder whether the comment above applies in a similar way here, too and we should not restrict this to being included only for py3.8?\n\nor maybe cap to some older version? the current 6.x versions seem to correspond to what is available in py3.13, so this might lead to inconsistencies for intermediate python versions?",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
