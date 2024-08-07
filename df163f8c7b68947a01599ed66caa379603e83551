@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0cb21f2_eb10821b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-07T06:56:14Z",
+      "side": 1,
+      "message": "the failure is real and IMO bad, see https://bugs.launchpad.net/python-openstackclient/+bug/2076212",
+      "revId": "df163f8c7b68947a01599ed66caa379603e83551",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
