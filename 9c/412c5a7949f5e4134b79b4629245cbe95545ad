@@ -1,0 +1,9 @@
+Verified+2: Zuul
+Workflow+1: Matthew Thode <mthode@mthode.org>
+Code-Review+1: yatin <ykarel@redhat.com>
+Code-Review+2: Matthew Thode <mthode@mthode.org>
+Submitted-by: Zuul
+Submitted-at: Wed, 07 Aug 2024 17:07:23 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/925786
+Project: openstack/requirements
+Branch: refs/heads/stable/2024.1
