@@ -56,6 +56,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "bdbe7293_c374f759",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-09T17:48:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d7fb9cde_4294e692",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "b54e6fff_98dda996",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 3
@@ -101,6 +119,23 @@
       "writtenOn": "2024-08-08T05:27:52Z",
       "side": 1,
       "message": "I\u0027m still not sure what the best option to proceed would be, adding more reviewers that may have some better idea",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce259100_d7943da5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-09T17:48:07Z",
+      "side": 1,
+      "message": "Happy to make any changes needed. Ultimately looking to utilize this to fix Python 3.12 support in Ironic. To be clear this dependency is only pulled in and used on Python 3.8 which is still supported by the Ironic project. From Python 3.9 and newer the necessary bits are in stdlib",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
