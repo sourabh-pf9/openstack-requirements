@@ -16,6 +16,23 @@
       "message": "recheck zuul faster than pypi once again",
       "revId": "9e611c68fac2458d19c153c7692aa81a0aaaa7a8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef512575_ed9624d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-08-20T18:11:59Z",
+      "side": 1,
+      "message": "recheck  Flapping unittest in cinder-py310 job",
+      "revId": "9e611c68fac2458d19c153c7692aa81a0aaaa7a8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
