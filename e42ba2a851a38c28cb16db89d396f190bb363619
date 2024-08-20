@@ -16,6 +16,23 @@
       "message": "recheck the new relesae was not found in a few jobs. Likely because of timing problem ?",
       "revId": "e42ba2a851a38c28cb16db89d396f190bb363619",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27ff5d88_99c19416",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-08-20T18:17:11Z",
+      "side": 1,
+      "message": "https://zuul.opendev.org/t/openstack/build/cb5cf9fc65d244c09062be4374b41323/log/job-output.txt#9578\n\nI don\u0027t think this is related to the change in question but does seem to be a valid error",
+      "revId": "e42ba2a851a38c28cb16db89d396f190bb363619",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
