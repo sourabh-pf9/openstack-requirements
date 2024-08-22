@@ -191,6 +191,24 @@
       "parentUuid": "15de17e3_dd9f68c0",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6917fc4d_3f74b879",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2024-08-22T15:28:20Z",
+      "side": 1,
+      "message": "I think you\u0027d just leave this unversioned and have the version limit in upper-constraints.",
+      "parentUuid": "72edd157_9a4e75af",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
