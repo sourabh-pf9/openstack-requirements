@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aba2cf59_c15fb015",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-08-22T17:31:52Z",
+      "side": 1,
+      "message": "library release for dalmatian with passing CI jobs, let\u0027s merge.",
+      "revId": "1539de95de21f06bca744692191bb6a66c54fd03",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
