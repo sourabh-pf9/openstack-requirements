@@ -173,6 +173,24 @@
       "parentUuid": "ac6be6b3_03cb3140",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72edd157_9a4e75af",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-22T14:52:46Z",
+      "side": 1,
+      "message": "So the tests don\u0027t seem to want me to put a limit in the global-requirements.txt. Do you have a suggestion on how I can achieve that Jens?",
+      "parentUuid": "15de17e3_dd9f68c0",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
