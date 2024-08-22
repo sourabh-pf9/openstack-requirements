@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "223dd263_55ea2766",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-08-22T14:47:40Z",
+      "side": 1,
+      "message": "let\u0027s merge this together with the other newly released dalmatian library deliverables o/",
+      "revId": "59971faa7fed30351e4ccfd47d03ec0bb7ab62b2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
