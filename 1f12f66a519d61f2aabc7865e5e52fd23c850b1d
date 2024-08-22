@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3daf66f2_ff72565f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-08-22T09:31:48Z",
+      "side": 1,
+      "message": "This is required to fix the broken octavia functional jobs.",
+      "revId": "1f12f66a519d61f2aabc7865e5e52fd23c850b1d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
