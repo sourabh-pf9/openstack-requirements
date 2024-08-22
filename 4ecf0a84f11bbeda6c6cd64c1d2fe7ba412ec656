@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60e53092_cd79f0d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-08-22T17:28:48Z",
+      "side": 1,
+      "message": "stable release for caracal, zuul is happy, let\u0027s bump the upper constraint.",
+      "revId": "4ecf0a84f11bbeda6c6cd64c1d2fe7ba412ec656",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
