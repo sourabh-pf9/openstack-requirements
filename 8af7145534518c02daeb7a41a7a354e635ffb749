@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df213256_478601dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-08-22T14:49:18Z",
+      "side": 1,
+      "message": "+1 from Zuul. let\u0027s bump upper constraints.",
+      "revId": "8af7145534518c02daeb7a41a7a354e635ffb749",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
