@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b99ab41a_79d90469",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-08-26T15:25:01Z",
+      "side": 1,
+      "message": "library version bump for a new release. jobs are passing, let\u0027s merge this ASAP.",
+      "revId": "b5cf46c967e9382ca29a7cebfc2da1455d2ad61a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
