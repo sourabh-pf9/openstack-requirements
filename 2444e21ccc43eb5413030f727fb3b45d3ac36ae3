@@ -34,6 +34,24 @@
       "parentUuid": "90ea4902_67f75d74",
       "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a0623b7_2a5577fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-08-26T17:50:15Z",
+      "side": 1,
+      "message": "Octavia one is [here](https://review.opendev.org/c/openstack/octavia/+/927193). I\u0027ve also sent [an email](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/4IID4UEXY4PJJGBTMFMTRYLKJIN4GOQ6/) out so we can proceed with this at the start of E.",
+      "parentUuid": "33fd77d5_80510831",
+      "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
