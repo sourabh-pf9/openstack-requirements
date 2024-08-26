@@ -16,6 +16,24 @@
       "message": "Please see https://bugs.launchpad.net/ironic/+bug/2026345 and test docs builds with all affected projects there, otherwise this will surely have to get reverted once again",
       "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33fd77d5_80510831",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-08-26T17:18:11Z",
+      "side": 1,
+      "message": "DevStack fix is [here](https://review.opendev.org/c/openstack/devstack/+/927105). Most of the others are specs repos. I wonder if we can push this fix and let projects fix them (the need for which will become apparent soon as we enter the E cycle)?",
+      "parentUuid": "90ea4902_67f75d74",
+      "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
