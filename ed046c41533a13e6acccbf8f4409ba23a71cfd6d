@@ -209,6 +209,24 @@
       "parentUuid": "72edd157_9a4e75af",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a316af8b_e22a3b8a",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 5890
+      },
+      "writtenOn": "2024-08-26T15:25:54Z",
+      "side": 1,
+      "message": "So if I limit the upper version to what shipped with Python 3.9, that means the distro packages won\u0027t be compatible. They\u0027re all shipping newer versions then that and don\u0027t have the Python 3.9 versions in their package repo.\n\nJens, your original request was to make sure I was compatible with the distro packaged versions so I\u0027m holding off on a change. I\u0027m happy to make whatever change you\u0027d prefer.",
+      "parentUuid": "6917fc4d_3f74b879",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
