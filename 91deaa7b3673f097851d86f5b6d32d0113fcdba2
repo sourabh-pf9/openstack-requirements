@@ -50,6 +50,23 @@
       "message": "possible Horizon fix: https://review.opendev.org/c/openstack/horizon/+/927380",
       "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "480f2c79_6152521c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8313
+      },
+      "writtenOn": "2024-08-28T12:01:43Z",
+      "side": 1,
+      "message": "possible Cinder fix: https://review.opendev.org/c/openstack/cinder/+/927382",
+      "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
