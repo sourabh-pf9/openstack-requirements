@@ -227,6 +227,24 @@
       "parentUuid": "6917fc4d_3f74b879",
       "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a27ef7c_98454dcb",
+        "filename": "global-requirements.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-28T08:36:18Z",
+      "side": 1,
+      "message": "Yeah, so maybe just go with this. I don\u0027t feel confident enough though to approve this myself, hoping other cores can take a look, too.",
+      "parentUuid": "a316af8b_e22a3b8a",
+      "revId": "ed046c41533a13e6acccbf8f4409ba23a71cfd6d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
