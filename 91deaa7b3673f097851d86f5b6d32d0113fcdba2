@@ -33,6 +33,23 @@
       "message": "not sure my last comment will trigger anything based on an error i got",
       "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "047359ed_9e988d7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8313
+      },
+      "writtenOn": "2024-08-28T11:28:12Z",
+      "side": 1,
+      "message": "possible Horizon fix: https://review.opendev.org/c/openstack/horizon/+/927380",
+      "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
