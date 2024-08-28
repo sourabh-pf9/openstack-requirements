@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "716421d2_00257c65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-28T12:22:25Z",
+      "side": 1,
+      "message": "recheck failure in tempest-full-py in test_image_web_download_import, which usually isn\u0027t known as an unstable test, so may actually be related to some of the bumps here",
+      "revId": "4012f63fe1df6d417eef8e063176a47f62fa5270",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
