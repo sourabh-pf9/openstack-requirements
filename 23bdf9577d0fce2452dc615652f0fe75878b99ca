@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7ab4fd0_bda32506",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-29T12:21:42Z",
+      "side": 1,
+      "message": "sphinx is pinned explicitly in u-c. but also see https://review.opendev.org/c/openstack/nova/+/927471 for the nova failure",
+      "revId": "23bdf9577d0fce2452dc615652f0fe75878b99ca",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
