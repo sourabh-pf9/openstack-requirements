@@ -16,6 +16,23 @@
       "message": "Horizon is not fixed yet",
       "revId": "1ff42616d6b7f841e938d29a4e5501629d3848a7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c1181c2_97f65711",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-29T17:38:55Z",
+      "side": 1,
+      "message": "horizon fix is still not ready yet. I fixed most of the tests except one and selenium job also needs to be fixed\n\nhttps://review.opendev.org/c/openstack/horizon/+/927341/4\n\nhttps://review.opendev.org/c/openstack/horizon/+/927342/5",
+      "revId": "1ff42616d6b7f841e938d29a4e5501629d3848a7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
