@@ -33,6 +33,23 @@
       "message": "recheck trigger test again as horizon deps updated",
       "revId": "af724731878229d1071b371913833909f70ea91a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dad10ee7_2f7c3003",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-30T20:08:14Z",
+      "side": 1,
+      "message": "recheck test_volume_upload test failing which is not related to oslo.policy 4.4.0",
+      "revId": "af724731878229d1071b371913833909f70ea91a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
