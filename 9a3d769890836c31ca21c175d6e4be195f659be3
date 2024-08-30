@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2277d83e_447ec472",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-30T07:49:09Z",
+      "side": 1,
+      "message": "procedural -2 since we are in reqs freeze now, we can continue discussing this early next cycle",
+      "revId": "9a3d769890836c31ca21c175d6e4be195f659be3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
