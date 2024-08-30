@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1296087a_2aa2ebfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-30T13:44:42Z",
+      "side": 1,
+      "message": "sometimes it helps to look at the CI results instead of blindly triggering recheck after recheck ...\n\nseems they dropped py3.8 support, so the bump needs to apply to \u003e\u003d 3.9 only, will amend the patch now",
+      "revId": "6e70b0183ffcd0e41ff61a43d16d3ce984867839",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
