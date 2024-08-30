@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd7008be_cea59835",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-30T17:43:48Z",
+      "side": 1,
+      "message": "it seems we need one more fix for keystone or horizon as projct non admin test still failing",
+      "revId": "64e3b9a6e587274e9b7140aea6760f41fd638c55",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
