@@ -67,6 +67,23 @@
       "message": "possible Cinder fix: https://review.opendev.org/c/openstack/cinder/+/927382",
       "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17e9b980_16797f36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-30T07:54:54Z",
+      "side": 1,
+      "message": "reqs freeze",
+      "revId": "91deaa7b3673f097851d86f5b6d32d0113fcdba2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
