@@ -69,6 +69,23 @@
       "message": "ack, let\u0027s do this right after branching and hope we can get everyone converted then",
       "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4a5caf0_eef8896d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-08-30T07:50:12Z",
+      "side": 1,
+      "message": "procedural -2 since we are in reqs freeze now",
+      "revId": "2444e21ccc43eb5413030f727fb3b45d3ac36ae3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
