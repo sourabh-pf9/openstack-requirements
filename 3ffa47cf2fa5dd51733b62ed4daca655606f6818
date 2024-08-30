@@ -16,6 +16,23 @@
       "message": "recheck oops, missed that the dependencies are not merged yet",
       "revId": "3ffa47cf2fa5dd51733b62ed4daca655606f6818",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "989c961e_b495ec3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-30T17:09:32Z",
+      "side": 1,
+      "message": "it seems my horizon original fixes is merged and that should pass gate here. https://review.opendev.org/c/openstack/horizon/+/927341",
+      "revId": "3ffa47cf2fa5dd51733b62ed4daca655606f6818",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
