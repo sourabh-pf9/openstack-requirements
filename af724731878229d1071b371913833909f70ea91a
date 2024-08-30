@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84096df2_91e460fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-08-30T17:49:27Z",
+      "side": 1,
+      "message": "Keeping horizon another fix which is not merged yet as depends-on. I am trying to get review there and merge that",
+      "revId": "af724731878229d1071b371913833909f70ea91a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
