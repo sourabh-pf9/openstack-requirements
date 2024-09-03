@@ -8,9 +8,7 @@ autobahn  # MIT License
 automaton  # Apache-2.0
 autopage  # Apache-2.0
 Babel!=2.4.0  # BSD
-# NOTE bcrypt is currently pinned at 4.0.1 in upper-constraints due to an issue
-# with passlib: https://foss.heptapod.net/python-libs/passlib/-/issues/190
-bcrypt==4.0.1  # Apache-2.0
+bcrypt  # Apache-2.0
 beautifulsoup4  # MIT
 betamax  # Apache-2.0
 boto  # MIT
@@ -64,7 +62,6 @@ icalendar  # BSD
 # Do not make importlib-metadata conditional on Python version: we depend on
 # newer code than in [most] releases of the Python std library.
 importlib-metadata  # Apache-2.0
-importlib-resources;python_version<'3.9'  # Apache-2.0
 infinisdk  # BSD-3
 influxdb!=5.3.0  # MIT
 influxdb-client  # MIT
@@ -117,6 +114,7 @@ PyECLib  # BSD
 pyghmi!=1.4.0,!=1.5.11  # Apache-2.0
 PyJWT  # MIT
 pykmip  # Apache 2.0 License
+pylxd  # Apache-2.0
 pymemcache!=1.3.0  # Apache 2.0 License
 PyMI;sys_platform=='win32'  # Apache 2.0 License
 pymongo!=3.1  # Apache-2.0
@@ -159,6 +157,7 @@ setproctitle  # BSD
 SQLAlchemy  # MIT
 sqlalchemy-filters  # Apache-2.0
 SQLAlchemy-Utils  # BSD License
+sqlparse  # BSD
 sshtunnel  # MIT
 statsd  # MIT
 suds-community  # LGPLv3+
@@ -249,11 +248,13 @@ pifpaf  # Apache-2.0
 psycopg2  # LGPL/ZPL
 psycopg2-binary  # LGPL/ZPL
 py-pure-client  # BSD
+pysendfile;sys_platform!='win32'  # MIT
 pytest  # MIT
 pytest-cov  # MIT
 pytest-django  # BSD (3 clause)
 pytest-html  #MPL-2.0
 pytest-xdist  # MIT
+python-consul  # MIT License
 python-subunit  # Apache-2.0/BSD
 pyzmq  # LGPL+BSD
 redis!=4.0.0  # MIT
@@ -493,12 +494,9 @@ wheel  # MIT
 extras  # MIT
 jsonpath-rw  # Apache-2.0
 jsonpath-rw-ext  # Apache-2.0
-python-consul  # MIT License
-python-consul2  # MIT License
+oauth2client!=4.0.0  # Apache-2.0
 # pysnmp library is not maintained since 4 years, it is
 # not recommended to use it, use its fork pysnmp-lextudio instead
-# in conjunction with its dependencies pyasn1-lextudio and
-# pyasn1-modules-lextudio
 pysnmp  # BSD
 simplejson  # MIT
 six  # MIT
