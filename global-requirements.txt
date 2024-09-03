@@ -497,8 +497,6 @@ python-consul  # MIT License
 python-consul2  # MIT License
 # pysnmp library is not maintained since 4 years, it is
 # not recommended to use it, use its fork pysnmp-lextudio instead
-# in conjunction with its dependencies pyasn1-lextudio and
-# pyasn1-modules-lextudio
 pysnmp  # BSD
 simplejson  # MIT
 six  # MIT
