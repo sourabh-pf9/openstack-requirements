@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d1a513b_4c114e56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-04T07:03:00Z",
+      "side": 1,
+      "message": "-2 just because we are in reqs freeze. the CI failure looks unrelated, so this should be fine one the new cycle start.",
+      "revId": "1e7e97e85056ab8c9afcf93b401c3e905922002f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
