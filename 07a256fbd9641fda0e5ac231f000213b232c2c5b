@@ -52,6 +52,24 @@
       "parentUuid": "969896b7_63020da7",
       "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b9e91a2_52decdd7",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 14200
+      },
+      "writtenOn": "2024-09-10T12:34:33Z",
+      "side": 1,
+      "message": "ok, lets test this\nhttps://review.opendev.org/c/openstack/kolla-ansible/+/928721",
+      "parentUuid": "de5037fd_62d8bb9b",
+      "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
