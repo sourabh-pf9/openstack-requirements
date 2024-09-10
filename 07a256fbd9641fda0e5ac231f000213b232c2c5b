@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a050f554_b731cc01",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-09-10T10:55:31Z",
+      "side": 1,
+      "message": "we should avoid to bump upper constraints in stable (and unmaintained) versions as that could cause issues with already deployed environment and probably upgrades as well.\n\nmaybe the best workaround here is to constrain setuptools (via virtualenv) in tox.ini. I know that is more work as it has to be done in every project where focal and py39 is used :-/ (btw, i saw the error with py39 env, not with py38)",
+      "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
