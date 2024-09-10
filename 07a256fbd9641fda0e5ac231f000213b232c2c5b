@@ -18,6 +18,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88f44cb5_8b3c3b1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14200
+      },
+      "writtenOn": "2024-09-10T13:01:08Z",
+      "side": 1,
+      "message": "lets merge your change, https://review.opendev.org/c/openstack/kolla-ansible/+/928789\nI will abandon my both",
+      "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a050f554_b731cc01",
