@@ -16,6 +16,24 @@
       "message": "we should avoid to bump upper constraints in stable (and unmaintained) versions as that could cause issues with already deployed environment and probably upgrades as well.\n\nmaybe the best workaround here is to constrain setuptools (via virtualenv) in tox.ini. I know that is more work as it has to be done in every project where focal and py39 is used :-/ (btw, i saw the error with py39 env, not with py38)",
       "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "969896b7_63020da7",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 14200
+      },
+      "writtenOn": "2024-09-10T11:53:01Z",
+      "side": 1,
+      "message": "no, it can\u0027t be fixed there because of u-c used\nhttps://opendev.org/openstack/kolla-ansible/src/branch/unmaintained/yoga/tox.ini#L12\nand ofcourse 3.9 should be also affected, but in this case 3.8.10 there",
+      "parentUuid": "a050f554_b731cc01",
+      "revId": "07a256fbd9641fda0e5ac231f000213b232c2c5b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
