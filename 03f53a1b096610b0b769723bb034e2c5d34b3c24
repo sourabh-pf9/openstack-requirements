@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca504222_707a5631",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 35929
+      },
+      "writtenOn": "2024-09-11T12:07:37Z",
+      "side": 0,
+      "message": "Perhaps update the comment to: \"in conjunction with its dependencies pyasn1 and pyasn1-modules\"",
+      "revId": "03f53a1b096610b0b769723bb034e2c5d34b3c24",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
