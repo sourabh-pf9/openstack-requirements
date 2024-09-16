@@ -50,6 +50,23 @@
       "message": "im ok to role forward or backward\n\nthe patch to go back is https://review.opendev.org/c/openstack/requirements/+/929552\n\nthe impornat thing is to unblock the gate imminently\nso we can merge the required patches in nova and can create rc1 ideally today.",
       "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1b30504_771d5832",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-09-16T17:04:43Z",
+      "side": 1,
+      "message": "I prefer rolling forward and fixing any upcoming bugs. Especially due to nova not being dependent on osc. Only the nova gate is dependent on osc. So what we risk is nova gate stability not nova product quality.",
+      "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
