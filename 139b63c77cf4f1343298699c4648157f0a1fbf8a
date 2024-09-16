@@ -16,6 +16,23 @@
       "message": "At this point I think we should roll back to \u003c7.x because nova is already late for rc1, this is blocking a critical fix we need for rc1, and lack of testing of this (and the immediate regression we found) makes 7.x high risk for us I think.",
       "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "678fb46b_391be3f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7166
+      },
+      "writtenOn": "2024-09-16T15:34:11Z",
+      "side": 1,
+      "message": "Dan is providing a right concern, we haven\u0027t really tested Nova with 7.x and we could find another regression later, which could be *after* RC1. We\u0027re already super late and a reasonable action for 2024.2 would be to *not* depend on OSC7.x",
+      "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
