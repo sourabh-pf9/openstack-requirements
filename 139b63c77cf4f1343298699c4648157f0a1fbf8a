@@ -84,6 +84,24 @@
       "message": "I\u0027m not opiniated either way, I defer to the release team to make a decision based on their criterias in between choosing that patch or https://review.opendev.org/c/openstack/requirements/+/929552\n\nWe just expressed concerns, they heard us, I just don\u0027t want that situation to reproduce in the future (while we already had that issue with oslo libs) but more importantly than others, I need a decision TODAY.",
       "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eed6f99_19639786",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-09-17T08:38:27Z",
+      "side": 1,
+      "message": "Yes, we understood the concerns. The fact that the upper-constraint bump (7.1) happened so late was quite unfortunate. We probably need some process change, practically that FF of python-openstackclient should happen at the same time as Oslo libs.\nNevertheless, I\u0027m supporting @stephenfin@redhat.com \u0027s approach to allow this patch to bump upper constraints as soon as possible as it *looks like* not that risky and could spare us unnecessary churns and pain. @dms@danplanet.com, can you please remove your -1 to speed up this thing and let the problem solve itself as soon as possible? Thanks in advnace.",
+      "parentUuid": "0a15e5e7_afd94520",
+      "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
