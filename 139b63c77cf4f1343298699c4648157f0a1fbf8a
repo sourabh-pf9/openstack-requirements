@@ -119,6 +119,24 @@
       "message": "Sorry, I meant to circle back on this yesterday and something unfortunately came up.\n\nIt sounds like there\u0027s no support for a more conservative approach here, which is disappointing (although I understand the reasoning). I want to argue with the assertion that this somehow matters because OSC is \"not a direct dependency of nova\". When we (were all asked to) give up our own client, OSC became the primary (and in some cases ONLY) mechanism by which users interact with the services. I think that makes it plenty strong of a dependency, even though it\u0027s not an import. The coordinated release asserts that this stuff has been tested together, and \"one run before we cut the branch\" is not what that means to me.",
       "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf799917_13974604",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-09-17T14:03:06Z",
+      "side": 1,
+      "message": "It\u0027s true. It seems that everyone tends to forget about the \u0027new-release\u0027 patch failures and the community does not react them in time. it\u0027s a common lesson that everyone needs to check time to time if there are things that got stuck. and of course, i\u0027ve added a note to relmgt\u0027s PTG topic collecting list to discuss this a bit and at least we have to add python-openstackclient next to Oslo\u0027s early-FF timing, as i said before. Let\u0027s merge this now so that we can see probably early enough if there are more bugs...",
+      "parentUuid": "9ec46752_58277cac",
+      "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
