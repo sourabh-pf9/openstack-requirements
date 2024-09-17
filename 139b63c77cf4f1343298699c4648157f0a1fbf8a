@@ -102,6 +102,23 @@
       "parentUuid": "0a15e5e7_afd94520",
       "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ec46752_58277cac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2024-09-17T13:35:17Z",
+      "side": 1,
+      "message": "Sorry, I meant to circle back on this yesterday and something unfortunately came up.\n\nIt sounds like there\u0027s no support for a more conservative approach here, which is disappointing (although I understand the reasoning). I want to argue with the assertion that this somehow matters because OSC is \"not a direct dependency of nova\". When we (were all asked to) give up our own client, OSC became the primary (and in some cases ONLY) mechanism by which users interact with the services. I think that makes it plenty strong of a dependency, even though it\u0027s not an import. The coordinated release asserts that this stuff has been tested together, and \"one run before we cut the branch\" is not what that means to me.",
+      "revId": "139b63c77cf4f1343298699c4648157f0a1fbf8a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
