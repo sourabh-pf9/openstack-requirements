@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b826774b_fe1535f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-18T23:05:55Z",
+      "side": 1,
+      "message": "i disagree with this as we have now blocked including them and made testing harder\n\ni too the previous approch so we coudl simply have a dnm patch against the bot propsoed bump to get extra test coverage.\n\nnow we need to explcity remove this pin instad of just not mergeing the broken releases.\n\nso this is very much not how we shoudld be doing this form my view.",
+      "revId": "dc918085516d6f7b47430ea14934493eef1ba748",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "dccebd65_3142581d",
