@@ -69,6 +69,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9c30d4d_7b5e9a50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 308
+      },
+      "writtenOn": "2024-09-18T15:07:49Z",
+      "side": 1,
+      "message": "We have the 7.1.x line a fair chance but we seem to continue discovering regressions, and we can\u0027t hold up the Nova RC1 any longer without jeopardizing release date, so I support this now. It\u0027s far from ideal but the other options are worse.",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4e89f56_49dafd18",
