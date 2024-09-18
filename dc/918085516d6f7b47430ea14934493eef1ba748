@@ -1,0 +1,10 @@
+Code-Review+2: Sean McGinnis <sean.mcginnis@gmail.com>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Wed, 18 Sep 2024 20:27:33 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/929829
+Comments-Total: 1
+Project: openstack/requirements
+Branch: refs/heads/master
