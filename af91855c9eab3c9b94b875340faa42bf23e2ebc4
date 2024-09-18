@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb2690ac_3bb122df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-09-18T09:43:50Z",
+      "side": 1,
+      "message": "The situation with osc 7.1.1. forced me to change my mind and vote for rolling back. It turned out that we rushed 7.1.1. and that caused trouble so rushing again 7.1.2. does not make sense.",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
