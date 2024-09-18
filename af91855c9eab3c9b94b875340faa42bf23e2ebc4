@@ -103,6 +103,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d48a934a_9089b81c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-09-18T17:48:26Z",
+      "side": 1,
+      "message": "Proposed the follow-up [here](https://review.opendev.org/c/openstack/requirements/+/929829/).",
+      "parentUuid": "e7359d8a_5d05127e",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4e89f56_49dafd18",
