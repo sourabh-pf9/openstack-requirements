@@ -18,6 +18,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "c45395b2_44017748",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-18T23:13:02Z",
+      "side": 1,
+      "message": "by the way i tough we had more extiensivne doc stateing we shoudl prefer masking broken release over caps\n\nhttps://docs.openstack.org/project-team-guide/dependency-management.html#global-requirements\n\n\"\"\"\nThese should be few and far between on stable branches, mainly masking known bad versions or in extreme adding a maximum version allowable for a package.\n\"\"\"\n\ni know there was a strong dislike of havign caps for many years.\nevidently this has lessened but i still think we shoudl prefer masking the know broken verison over a hard cap in situration like this.",
+      "parentUuid": "b826774b_fe1535f8",
+      "revId": "dc918085516d6f7b47430ea14934493eef1ba748",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "dccebd65_3142581d",
