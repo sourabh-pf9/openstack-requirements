@@ -33,6 +33,23 @@
       "message": "I think this is the best course of action at this point. Keep 7.x released, people can trivially install it with pipx if they want or need the new features, but communicate to everyone else that 6.x is what we know works. This is much less work for everyone, doesn\u0027t require the OSC team to mega-revert everything, and is the least risk for our users.",
       "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ca71ca1_47a24f93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7166
+      },
+      "writtenOn": "2024-09-18T13:54:55Z",
+      "side": 1,
+      "message": "I\u0027m in favor of holding OSC6.x for now and deliver Nova RC1 now.\n\nOSC7.x also changes the default behaviour by calling Nova microversions (latest now) and we also need to make sure everything works fine, because we also found some other problem https://bugs.launchpad.net/nova/+bug/2081023",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
