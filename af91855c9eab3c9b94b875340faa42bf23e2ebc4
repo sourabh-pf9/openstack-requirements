@@ -86,6 +86,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7359d8a_5d05127e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-09-18T17:20:07Z",
+      "side": 1,
+      "message": "fwiw, while I am disappointed but understand the reason for capping this, I disagree with the approach used. We should have temporarily capped the release (i.e. `\u003c 7.0.0` instead). Excludes are a bad idea that add very limited value. They\u0027re difficult for consuming projects to maintain and, from what I\u0027ve been told, are not factored into distro decisions. If we were to adopt the reasoning outlined in this commit message of excluding a version because it has known bugs, then our global requirements should be blocking every point release for every major-minor version of every package *except* the latest once, since by definition the newer point releases addresses bugs making the previous release \"broken\". That\u0027s nonsensical.\n\nWhen we get to release 7.1.2, we should be removing these excludes.",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4e89f56_49dafd18",
