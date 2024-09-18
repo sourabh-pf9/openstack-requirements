@@ -123,6 +123,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5eb80650_6ab07fcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-18T23:03:37Z",
+      "side": 1,
+      "message": "the approach use here was a temporary cap that allows the automated bot to propose a new patch when there is a new release.\n\nthis is the only way to do this properly as \u003c7.0.0 woudl not alow a fugure 7.x.y\n\ni dont know why pepopel keep thinkign that i blocked all 7.x.y release here as i went out of my way to only block the know broken ones.\n\n\nso https://review.opendev.org/c/openstack/requirements/+/929829 is absultely the wrong approch as it block all future 7.x.y releases.",
+      "parentUuid": "d48a934a_9089b81c",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a4e89f56_49dafd18",
         "filename": "upper-constraints.txt",
         "patchSetId": 2

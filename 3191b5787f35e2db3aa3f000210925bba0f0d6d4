@@ -16,6 +16,23 @@
       "message": "we proceeded with the bump to 7.1.1\n\nso this is not needed now unless we are going to revert to 6.x",
       "revId": "3191b5787f35e2db3aa3f000210925bba0f0d6d4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f26dbfcf_1bfa8fbd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-18T23:03:37Z",
+      "side": 1,
+      "message": "https://review.opendev.org/c/openstack/requirements/+/929504",
+      "revId": "3191b5787f35e2db3aa3f000210925bba0f0d6d4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
