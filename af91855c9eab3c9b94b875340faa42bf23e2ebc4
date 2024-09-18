@@ -50,6 +50,40 @@
       "message": "I\u0027m in favor of holding OSC6.x for now and deliver Nova RC1 now.\n\nOSC7.x also changes the default behaviour by calling Nova microversions (latest now) and we also need to make sure everything works fine, because we also found some other problem https://bugs.launchpad.net/nova/+bug/2081023",
       "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "315b9afd_dd305ddf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-09-18T15:04:35Z",
+      "side": 1,
+      "message": "This is unfortunate, but python-openstackclient\u0027s 7.x version bump arrived to late in the cycle and blocks nova\u0027s RC1 release. This is not the right solution, but the quickest (and dirtiest) to pin back to pre-7.x version.\n\nI don\u0027t know if this is right to do in requirements repository, so I let requirements core to approve this if acceptable. I only dare to +1 this.",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4e89f56_49dafd18",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-09-18T15:04:35Z",
+      "side": 1,
+      "message": "note that this was 6.6.0 previously, and 6.6.1 is released from stable/2024.1",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
