@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4211aa4c_e25978c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-09-19T15:14:31Z",
+      "side": 1,
+      "message": "In my local run keystone tests passed with tenacity 8.5.0 but there IS a problem with octavia unit tests. It seems tenacity 8.5.0 causes difference in statistics which are loaded by octavia logic. I\u0027ll report a bug.",
+      "revId": "3919ffd714d46a2ca233e389b01eba580eeeef59",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
