@@ -139,6 +139,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9ffc310_4ccafa7b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-19T00:00:20Z",
+      "side": 1,
+      "message": "sure but the normal way to do that si to -1 the bot patch and say we dont want to merge this yet we dont need to add a cap that prevents tox -e generate form creating the automatic patch.\n\ni explicitly too the appoch of no using \u003c7 to not break the automated patch proposal process. i also created https://review.opendev.org/c/openstack/devstack/+/929754 so we can trivially check new version of osc before the release is done by includign that in a DNM patch to any other project like this https://review.opendev.org/c/openstack/nova/+/929757\n\nagain to make sure we coudl test without needign to do a release of OSC",
+      "revId": "af91855c9eab3c9b94b875340faa42bf23e2ebc4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4e89f56_49dafd18",
