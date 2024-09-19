@@ -38,6 +38,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "37901426_52107a68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-09-19T00:04:19Z",
+      "side": 1,
+      "message": "it does that but it alos prevents tox -e generate form creating a patch that will pull in the new verison meanign the osc team will have to manually propose the bump\ninstaead of -1ing the bot patch.\n\neven with out my devstack pathch its possible to have a DNM change form a project against the requiremets patch to get extra ci coverage before it merged but if the patch is never propesed by the both then someone has to manually create the requriements bump patch to be able to test with the new release in that case.",
+      "revId": "dc918085516d6f7b47430ea14934493eef1ba748",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "dccebd65_3142581d",
         "filename": "global-requirements.txt",
         "patchSetId": 1
