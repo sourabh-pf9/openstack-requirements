@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbc00327_d367a287",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-09-20T13:17:56Z",
+      "side": 1,
+      "message": "Looks like we can merge this on Monday\n\n  https://review.opendev.org/c/openstack/nova/+/929758\n\nI confirmed that the job was definitely using this version:\n\n  https://zuul.opendev.org/t/openstack/build/0fa464a8154c4501ae1510815f27371e/log/job-output.txt#11972-11973",
+      "revId": "3e797e8703abd2f34d3952257b0bfd3af682cc09",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
