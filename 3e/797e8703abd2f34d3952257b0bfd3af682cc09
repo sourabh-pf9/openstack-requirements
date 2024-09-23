@@ -1,0 +1,11 @@
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Code-Review+1: Stephen Finucane <stephenfin@redhat.com>
+Code-Review+2: Dr. Jens Harbott <frickler@offenerstapel.de>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 23 Sep 2024 14:43:04 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/929938
+Comments-Total: 2
+Project: openstack/requirements
+Branch: refs/heads/master
