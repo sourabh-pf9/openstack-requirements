@@ -16,6 +16,23 @@
       "message": "Looks like we can merge this on Monday\n\n  https://review.opendev.org/c/openstack/nova/+/929758\n\nI confirmed that the job was definitely using this version:\n\n  https://zuul.opendev.org/t/openstack/build/0fa464a8154c4501ae1510815f27371e/log/job-output.txt#11972-11973",
       "revId": "3e797e8703abd2f34d3952257b0bfd3af682cc09",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0bdc53b_18e434c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-23T05:49:43Z",
+      "side": 1,
+      "message": "storlets was fixed with https://review.opendev.org/c/openstack/storlets/+/929335 which was merged before the reqs cap and tested 7.1.0, so I don\u0027t think any additional verification is necessary",
+      "revId": "3e797e8703abd2f34d3952257b0bfd3af682cc09",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
