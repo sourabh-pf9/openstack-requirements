@@ -617,3 +617,4 @@ sphinxcontrib-applehelp===1.0.4;python_version=='3.8'
 sphinxcontrib-applehelp===2.0.0;python_version>='3.9'
 scikit-learn===1.3.2;python_version=='3.8'
 scikit-learn===1.5.1;python_version>='3.9'
+pyasyncore # PSF-2.0
