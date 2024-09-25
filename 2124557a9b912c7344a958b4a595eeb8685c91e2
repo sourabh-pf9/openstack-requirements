@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a567d8b8_d3a4b052",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-25T09:43:21Z",
+      "side": 1,
+      "message": "this needs to go into the stable/2024.2 constraints",
+      "revId": "2124557a9b912c7344a958b4a595eeb8685c91e2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
