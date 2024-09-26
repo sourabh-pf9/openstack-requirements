@@ -1,0 +1,11 @@
+Verified+2: Zuul
+Code-Review+2: Tony Breeds <tony@bakeyournoodle.com>
+Workflow+1: Tony Breeds <tony@bakeyournoodle.com>
+Code-Review+1: Antony Messerli <antony@mes.ser.li>
+Code-Review+1: David Wilde <dwilde@redhat.com>
+Submitted-by: Zuul
+Submitted-at: Thu, 26 Sep 2024 04:24:29 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/928092
+Comments-Total: 2
+Project: openstack/requirements
+Branch: refs/heads/stable/2024.1
