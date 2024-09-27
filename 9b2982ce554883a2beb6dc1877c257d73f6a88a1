@@ -16,6 +16,23 @@
       "message": "sorry that this didn\u0027t get re-reviewed in time, should be an easy merge at the start of the new cycle. procedural -2 for reqs freeze now, though",
       "revId": "9b2982ce554883a2beb6dc1877c257d73f6a88a1",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "721ef9f3_426b017e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T07:46:53Z",
+      "side": 1,
+      "message": "Dropping the -2 now since I\u0027ll be on holiday over the next weeks, but IMO best wait with approving until after the release is finished",
+      "revId": "9b2982ce554883a2beb6dc1877c257d73f6a88a1",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
