@@ -16,6 +16,23 @@
       "message": "fast-approving release patch",
       "revId": "ca4a450bc5712e7e1472f3e0c56e1b453c587fe7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07c00013_0f810994",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T10:58:48Z",
+      "side": 1,
+      "message": "recheck failure during log upload",
+      "revId": "ca4a450bc5712e7e1472f3e0c56e1b453c587fe7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
