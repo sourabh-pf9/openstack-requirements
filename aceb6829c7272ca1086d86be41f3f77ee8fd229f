@@ -16,6 +16,23 @@
       "message": "The issue with octavia has been fixed, so this can be merged once requirement freeze is lifted.",
       "revId": "aceb6829c7272ca1086d86be41f3f77ee8fd229f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f387e2b_1a94faa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T07:43:52Z",
+      "side": 1,
+      "message": "Dropping the -2 now since I\u0027ll be on holiday over the next weeks, but IMO best wait with approving until after the release is finished",
+      "revId": "aceb6829c7272ca1086d86be41f3f77ee8fd229f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
