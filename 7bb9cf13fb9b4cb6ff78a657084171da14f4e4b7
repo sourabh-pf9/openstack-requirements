@@ -16,6 +16,23 @@
       "message": "reqs freeze",
       "revId": "7bb9cf13fb9b4cb6ff78a657084171da14f4e4b7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5909fbe6_bbf74c3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T07:45:55Z",
+      "side": 1,
+      "message": "Dropping the -2 now since I\u0027ll be on holiday over the next weeks, but IMO best wait with approving until after the release is finished",
+      "revId": "7bb9cf13fb9b4cb6ff78a657084171da14f4e4b7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
