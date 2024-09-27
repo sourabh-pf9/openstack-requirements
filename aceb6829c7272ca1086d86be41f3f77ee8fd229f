@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2350be83_c09386e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-09-27T03:04:56Z",
+      "side": 1,
+      "message": "The issue with octavia has been fixed, so this can be merged once requirement freeze is lifted.",
+      "revId": "aceb6829c7272ca1086d86be41f3f77ee8fd229f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
