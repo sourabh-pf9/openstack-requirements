@@ -16,6 +16,23 @@
       "message": "fast-approving release patch",
       "revId": "6aa25e94dea6593cbb659a7856b9b4f1322d9a91",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16325180_9a30b7bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T07:51:25Z",
+      "side": 1,
+      "message": "recheck unstable tempest-full failure: test_server_basic_ops",
+      "revId": "6aa25e94dea6593cbb659a7856b9b4f1322d9a91",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
