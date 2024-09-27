@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12de00e2_db42724b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-09-27T07:44:20Z",
+      "side": 1,
+      "message": "Dropping the -2 now since I\u0027ll be on holiday over the next weeks, but IMO best wait with approving until after the release is finished",
+      "revId": "3d78b4b82fc796c82ffaec4f692b9ed7758fa887",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
