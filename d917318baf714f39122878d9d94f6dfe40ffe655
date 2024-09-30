@@ -16,6 +16,24 @@
       "message": "Seems fine overall, but can you add answers for each of the new requirement questions here: https://docs.openstack.org/project-team-guide/dependency-management.html#for-new-requirements",
       "revId": "d917318baf714f39122878d9d94f6dfe40ffe655",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c62fb90_82c714ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11816
+      },
+      "writtenOn": "2024-09-30T20:39:28Z",
+      "side": 1,
+      "message": "thanks I was trying to find what else I had to do",
+      "parentUuid": "b8719183_44dbd063",
+      "revId": "d917318baf714f39122878d9d94f6dfe40ffe655",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
