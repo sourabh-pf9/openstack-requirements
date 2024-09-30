@@ -34,6 +34,24 @@
       "parentUuid": "b8719183_44dbd063",
       "revId": "d917318baf714f39122878d9d94f6dfe40ffe655",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8abc3373_b054d7c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11816
+      },
+      "writtenOn": "2024-09-30T21:05:06Z",
+      "side": 1,
+      "message": "I\u0027ve done these questions in the commit message, i had looked for other commits that added deps and didnt see it done this way so I\u0027m not sure where the Q\u0027s should be covered.\n\naiosqlite should be an easy add however I can see how both aiomysql and asyncmy, the two viable MySQL clients, both have shortcomings.  aiomysql basically is not that responsive to issues, but is in both ubuntu and fedora distros and is MIT licensed.  asyncmy is much newer and more responsive to issues, but is not in ubuntu and is apache licensed.   aiomysql is the more \"traditional\" DBAPI in this field, it\u0027s also maybe a little less complicated than asyncmy since it\u0027s pure Python and is mostly a direct port of pymysql which is what we already use for sync DBAPIs.",
+      "parentUuid": "1c62fb90_82c714ad",
+      "revId": "d917318baf714f39122878d9d94f6dfe40ffe655",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
