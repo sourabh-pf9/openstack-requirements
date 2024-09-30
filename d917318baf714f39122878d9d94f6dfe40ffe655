@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8719183_44dbd063",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-09-30T20:32:23Z",
+      "side": 1,
+      "message": "Seems fine overall, but can you add answers for each of the new requirement questions here: https://docs.openstack.org/project-team-guide/dependency-management.html#for-new-requirements",
+      "revId": "d917318baf714f39122878d9d94f6dfe40ffe655",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
