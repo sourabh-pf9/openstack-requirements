@@ -16,6 +16,23 @@
       "message": "Thanks!",
       "revId": "24d5403dacbe9db5e2ef5c468081b42c723f83b6",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c26fda31_5d863966",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-10-01T08:47:54Z",
+      "side": 1,
+      "message": "Thanks Mike for this patch. I moved the topic to eventlet-removal to have this patch in the big picture of the removal. Hope you don\u0027t mind.",
+      "revId": "24d5403dacbe9db5e2ef5c468081b42c723f83b6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
