@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c784c49_efd6443b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-10-04T11:29:39Z",
+      "side": 1,
+      "message": "recheck sdk job run out of compute resources to boot a VM",
+      "revId": "3b73ff32f098faef2d3c50175b37b928df25fc09",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
