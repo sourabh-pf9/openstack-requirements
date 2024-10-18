@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55a83c63_702abe6c",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-10-18T14:18:04Z",
+      "side": 1,
+      "message": "I also propose pulling the minor version from Dalmatian because this is 7.1.2 has known issues with a few identity commands.",
+      "range": {
+        "startLine": 499,
+        "startChar": 29,
+        "endLine": 499,
+        "endChar": 30
+      },
+      "revId": "21caff0acbece04062fbb0b64b52656c16dfb0e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc8d5a14_e06a394a",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-10-18T14:18:04Z",
+      "side": 1,
+      "message": "7.2.0 removed Python 3.8 support so we need this switch.",
+      "range": {
+        "startLine": 500,
+        "startChar": 0,
+        "endLine": 500,
+        "endChar": 52
+      },
+      "revId": "21caff0acbece04062fbb0b64b52656c16dfb0e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
