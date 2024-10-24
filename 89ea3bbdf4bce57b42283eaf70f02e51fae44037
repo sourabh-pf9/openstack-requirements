@@ -16,6 +16,23 @@
       "message": "recheck not sure if cinder failure is related, let\u0027s check to see how repeatable it is",
       "revId": "89ea3bbdf4bce57b42283eaf70f02e51fae44037",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64b6a93d_d61ea142",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-10-24T18:04:29Z",
+      "side": 1,
+      "message": "recheck looks like the cinder failures are indeed related, even though I do not yet see how",
+      "revId": "89ea3bbdf4bce57b42283eaf70f02e51fae44037",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
