@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3b17a00_64f4cd8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2024-10-24T18:38:27Z",
+      "side": 1,
+      "message": "recheck to see if the nova unit/functional tests fail in the same way.\n\nthe tempet job failed because oslo seams to be broken when used by neutron",
+      "revId": "276377c727f579b8b53c0a796eacde604264a3a4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
