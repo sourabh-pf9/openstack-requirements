@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d60e98b_469f8ef6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-10-25T07:49:37Z",
+      "side": 1,
+      "message": "recheck unrelated swift failure on RAX cloud",
+      "revId": "78e5daf72d5bd60d4d1cc981c2ef013c7a605f92",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
