@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f3bade6_966f8296",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-10-25T07:26:47Z",
+      "side": 1,
+      "message": "constraints for py3.8 were dropped, so reverted this back to the original patch",
+      "revId": "58480d796cbfd265f1538393017020cad8c91bbe",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
