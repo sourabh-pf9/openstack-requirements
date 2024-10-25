@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66d5c8a6_5adc8f79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-10-25T10:01:38Z",
+      "side": 1,
+      "message": "Well... The common point between all the failing jobs seems to be rlocks patching...\n\nI can observe many error like this within the failing jobs logs (mistral, masakari, etc...):\n```\nRLock(s) were not greened, to fix this error make sure you run eventlet.monkey_patch() before importing any other modules.\n```\n\nThe same is not true on successful jobs like nova. Notice that I didn\u0027t check all the jobs logs.\n\nThose deliverables are surely importing modules before monkey-patching there env.\nThis behavioral change is surely related to:\n\n- https://github.com/eventlet/eventlet/pull/970\n\nWhich was released within 0.37 https://github.com/eventlet/eventlet/issues/979\n\nIn substance, this eventlet change \"patch\" Green existing locks _after_ patching modules, since patching modules might involve imports that create new locks.\n\nWould be good to ping their maintainers here.",
+      "revId": "4e87ce086617b27b15ea9bc82c191b01d0583eeb",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
