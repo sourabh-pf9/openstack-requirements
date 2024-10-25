@@ -1,0 +1,11 @@
+Workflow+1: Dr. Jens Harbott <frickler@offenerstapel.de>
+Code-Review+1: Takashi Kajinami <kajinamit@oss.nttdata.com>
+Code-Review+2: Matthew Thode <mthode@mthode.org>
+Code-Review+2: Dr. Jens Harbott <frickler@offenerstapel.de>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 25 Oct 2024 09:28:47 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/925904
+Comments-Total: 1
+Project: openstack/requirements
+Branch: refs/heads/stable/2023.1
