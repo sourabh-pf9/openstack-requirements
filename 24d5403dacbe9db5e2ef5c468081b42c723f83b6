@@ -85,6 +85,23 @@
       "message": "recheck known cinder uni test falure caused by timeout",
       "revId": "24d5403dacbe9db5e2ef5c468081b42c723f83b6",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9f1fbf3_75b77368",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-10-28T15:11:57Z",
+      "side": 1,
+      "message": "recheck\nI don\u0027t think the cinder error is related to this req addition, as for now they are not in use anywhere",
+      "revId": "24d5403dacbe9db5e2ef5c468081b42c723f83b6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
