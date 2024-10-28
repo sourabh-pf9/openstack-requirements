@@ -16,6 +16,24 @@
       "message": "This broke propose-translation-update(running on bionic) in master branch and tempest jobs on stable/2023.1,zed,yoga/xena as tempest uses master constraints on those branches.\nhttps://zuul.openstack.org/builds?job_name\u003dpropose-translation-update\u0026branch\u003dmaster\u0026skip\u003d0\nhttps://zuul.openstack.org/builds?project\u003dopenstack%2Fneutron\u0026pipeline\u003dperiodic-weekly\u0026skip\u003d0",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a7a7306_fd364190",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-10-28T17:59:17Z",
+      "side": 1,
+      "message": "Yeah, We are fixing it on tempest side https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/FOWV4UQZTH4DPDA67QDEROAESYU5Z3LE/\n\nhttps://review.opendev.org/c/openstack/tempest/+/933398",
+      "parentUuid": "2686ace9_581514ce",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
