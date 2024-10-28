@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2686ace9_581514ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-10-28T12:49:56Z",
+      "side": 1,
+      "message": "This broke propose-translation-update(running on bionic) in master branch and tempest jobs on stable/2023.1,zed,yoga/xena as tempest uses master constraints on those branches.\nhttps://zuul.openstack.org/builds?job_name\u003dpropose-translation-update\u0026branch\u003dmaster\u0026skip\u003d0\nhttps://zuul.openstack.org/builds?project\u003dopenstack%2Fneutron\u0026pipeline\u003dperiodic-weekly\u0026skip\u003d0",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
