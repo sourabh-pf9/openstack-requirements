@@ -34,6 +34,24 @@
       "parentUuid": "2686ace9_581514ce",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3f57f9c_81eb0f56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-10-29T14:14:20Z",
+      "side": 1,
+      "message": "okk thanks, but that looks just new tag patch, believe there will be follow up patches on stable/unmaintained branches to pin to that tag to unblock the jobs in those branches?\nCurrently those branches CI is just blocked without it and stable/2023.1 is about to go in unmaintained.",
+      "parentUuid": "5a7a7306_fd364190",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
