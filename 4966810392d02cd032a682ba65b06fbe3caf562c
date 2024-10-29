@@ -52,6 +52,24 @@
       "parentUuid": "5a7a7306_fd364190",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "014c9f7a_7d8eec0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-10-29T17:39:51Z",
+      "side": 1,
+      "message": "The fix is merged for the master Tempest which means stable/2023.1 till master jobs should work fine https://review.opendev.org/c/openstack/tempest/+/933398\n\nFor unmaintained branches, yes, Tempest needs to be pin as soon as branch goes to unmaintained branch with the compatible Tempest tag. Hope unmaintained branches team is keeping it up to dated for all the current unmaintained branches.\n- https://docs.openstack.org/tempest/latest/tempest_and_plugins_compatible_version_policy.html",
+      "parentUuid": "a3f57f9c_81eb0f56",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
