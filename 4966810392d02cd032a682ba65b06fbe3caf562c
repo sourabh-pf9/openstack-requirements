@@ -70,6 +70,24 @@
       "parentUuid": "a3f57f9c_81eb0f56",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "433d3d46_5d9a18ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-10-30T06:46:24Z",
+      "side": 1,
+      "message": "Still couldn\u0027t understand how https://review.opendev.org/c/openstack/tempest/+/933398 fixes the issue seen in stable/2023.1, may be you have not seen the failures, pasting here as tempest is installed from git source and use master constraints and fails as:-\n2024-10-30 02:36:10.106271 | controller | ++ lib/tempest:configure_tempest:722        :   tox -revenv-tempest --notest\n2024-10-30 02:36:10.361725 | controller | venv-tempest create: /opt/stack/tempest/.tox/tempest\n2024-10-30 02:36:10.740950 | controller | venv-tempest installdeps: -chttps://releases.openstack.org/constraints/upper/master, -r/opt/stack/tempest/requirements.txt\n...\n2024-10-30 02:36:15.378906 | controller | ERROR: Cannot install -r /opt/stack/tempest/requirements.txt (line 14) because these package versions have conflicting dependencies.\n2024-10-30 02:36:15.378912 | controller |\n2024-10-30 02:36:15.378916 | controller | The conflict is caused by:\n2024-10-30 02:36:15.378920 | controller |     stestr 4.1.0 depends on voluptuous\u003e\u003d0.8.9\n2024-10-30 02:36:15.378925 | controller |     The user requested (constraint) voluptuous\u003d\u003d\u003d0.15.2\n\nunmaintained xena,yoga, zed and stable/2023.1 are impacted which runs on ubuntu focal",
+      "parentUuid": "014c9f7a_7d8eec0f",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
