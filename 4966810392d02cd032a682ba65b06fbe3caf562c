@@ -88,6 +88,24 @@
       "parentUuid": "014c9f7a_7d8eec0f",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07ffc037_7cc39ca8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-10-30T17:40:49Z",
+      "side": 1,
+      "message": "Reported https://bugs.launchpad.net/devstack/+bug/2085886 for the tempest + py3.8 issue and pushed https://review.opendev.org/q/topic:%22bug/2085886%22, tempest and devstack patches require each other to pass, if direction is ok can get tempest one force merged.",
+      "parentUuid": "433d3d46_5d9a18ae",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
