@@ -106,6 +106,24 @@
       "parentUuid": "433d3d46_5d9a18ae",
       "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f271422_6328796c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-10-30T17:48:35Z",
+      "side": 1,
+      "message": "I see, I did not realize stable/2023.1 is using focal. As this is going to be in unmaintained status next week or so, we can pin the tempest there too. I will check you changes.",
+      "parentUuid": "07ffc037_7cc39ca8",
+      "revId": "4966810392d02cd032a682ba65b06fbe3caf562c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
