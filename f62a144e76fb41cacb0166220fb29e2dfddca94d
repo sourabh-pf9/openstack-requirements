@@ -84,6 +84,24 @@
       "message": "interestingly the global u-c bump that includes this one hasn\u0027t shown this failure https://review.opendev.org/c/openstack/requirements/+/907665/48",
       "revId": "f62a144e76fb41cacb0166220fb29e2dfddca94d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "455f4ab3_cff5edab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27900
+      },
+      "writtenOn": "2024-10-31T12:56:10Z",
+      "side": 1,
+      "message": "it looks really like a unrelated error. I would not even say this is an unstable sdk test but rather that sometimes universe just doesn\u0027t want to work like you expect (server transitioned to error, volume errored).\nNova log tells: \"Got no allocation candidates from the Placement API. This could be due to insufficient resources or a temporary occurrence as compute nodes start up.\". Maybe parallelization of the tests is causing that, don\u0027t know.",
+      "parentUuid": "e14c4f4c_1d0bec5a",
+      "revId": "f62a144e76fb41cacb0166220fb29e2dfddca94d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
