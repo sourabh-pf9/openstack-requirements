@@ -33,6 +33,23 @@
       "message": "recheck cinder unit test failures are unrelated, should be fixed by https://review.opendev.org/c/openstack/cinder/+/933443",
       "revId": "af5c54811a9f6fba363da929de2e106fe474324c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "022e999a_9a9413be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-10-31T04:39:55Z",
+      "side": 1,
+      "message": "cinder fix merged, so hopefully this is working better now",
+      "revId": "af5c54811a9f6fba363da929de2e106fe474324c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
