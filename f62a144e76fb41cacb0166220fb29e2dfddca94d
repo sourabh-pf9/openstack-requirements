@@ -67,6 +67,23 @@
       "message": "recheck unstable sdk job I meant to say. dropping +2 for now until we have more data",
       "revId": "f62a144e76fb41cacb0166220fb29e2dfddca94d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e14c4f4c_1d0bec5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-10-31T11:29:16Z",
+      "side": 1,
+      "message": "interestingly the global u-c bump that includes this one hasn\u0027t shown this failure https://review.opendev.org/c/openstack/requirements/+/907665/48",
+      "revId": "f62a144e76fb41cacb0166220fb29e2dfddca94d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
