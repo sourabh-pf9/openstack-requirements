@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "987d8d9016403705e7db8173963bfe672fc60745",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb12123f_ba6a4f2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-01T08:53:52Z",
+      "side": 1,
+      "message": "seems the failure on nova is real, not sure if that may be a bug in nova or a regression in oslo.log",
+      "revId": "987d8d9016403705e7db8173963bfe672fc60745",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
