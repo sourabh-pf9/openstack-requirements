@@ -50,6 +50,23 @@
       "message": "recheck get some fresh results before approving",
       "revId": "aceb6829c7272ca1086d86be41f3f77ee8fd229f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "682d2dfe_0e7a2c21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-01T09:13:43Z",
+      "side": 1,
+      "message": "Current version is 9.0.0, not sure if we\u0027d want to bump to that instead?",
+      "revId": "aceb6829c7272ca1086d86be41f3f77ee8fd229f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
