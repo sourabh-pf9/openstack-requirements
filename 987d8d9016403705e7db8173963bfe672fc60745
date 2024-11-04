@@ -50,6 +50,23 @@
       "message": "seems the failure on nova is real, not sure if that may be a bug in nova or a regression in oslo.log",
       "revId": "987d8d9016403705e7db8173963bfe672fc60745",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9ec3c1_5eedad03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-11-04T07:23:17Z",
+      "side": 1,
+      "message": "nova needs https://review.opendev.org/c/openstack/nova/+/934015 to pass the test here.",
+      "revId": "987d8d9016403705e7db8173963bfe672fc60745",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
