@@ -67,6 +67,23 @@
       "message": "nova needs https://review.opendev.org/c/openstack/nova/+/934015 to pass the test here.",
       "revId": "987d8d9016403705e7db8173963bfe672fc60745",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4589af0_09d0096e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-04T13:14:17Z",
+      "side": 1,
+      "message": "recheck nova fix merged",
+      "revId": "987d8d9016403705e7db8173963bfe672fc60745",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
