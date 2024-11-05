@@ -51,6 +51,23 @@
       "parentUuid": "4e7476a3_837c0e4e",
       "revId": "5c00f88b383aef6bca43a4602f0f7a0a32598365",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54c4647f_7dc46afd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15343
+      },
+      "writtenOn": "2024-11-05T19:59:38Z",
+      "side": 1,
+      "message": "recheck\n\nhttps://bugs.launchpad.net/openstacksdk/+bug/2085654",
+      "revId": "5c00f88b383aef6bca43a4602f0f7a0a32598365",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
