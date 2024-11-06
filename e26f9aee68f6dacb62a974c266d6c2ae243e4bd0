@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3188e51b_ce4c10b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-06T15:19:53Z",
+      "side": 1,
+      "message": "fast-approving to unblock consumers. see e.g. https://zuul.opendev.org/t/openstack/build/5c80253db9a545abba4f23ce25d19d7b",
+      "revId": "e26f9aee68f6dacb62a974c266d6c2ae243e4bd0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
