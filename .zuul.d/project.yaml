@@ -1,61 +1,66 @@
 - project:
-    templates:
-      - openstack-python3-jobs
+    # templates:
+    #   - openstack-python3-jobs
     check:
       jobs:
-        - build-wheel-cache-ubuntu-bionic:
-            files:
-              - bindep.txt
-        - build-wheel-cache-ubuntu-focal:
-            files:
-              - bindep.txt
-        - build-wheel-cache-ubuntu-jammy:
-            files:
-              - bindep.txt
-        - openstack-tox-validate
-        - requirements-tox-babel
-        - requirements-tox-bindep:
-            voting: false
-        - requirements-tox-py39-check-uc
-        - requirements-tox-py310-check-uc
-        - requirements-tox-py311-check-uc
-        - requirements-tox-py312-check-uc
-        - requirements-tox-validate-projects:
-            voting: false
-        - cross-aodh-py312
-        - cross-barbican-py312
-        - cross-ceilometer-py312
-        - cross-cinder-py312
-        - cross-designate-py312
-        - cross-glance-py312
-        - cross-heat-py312
-        - cross-horizon-py312
-        - cross-horizon-npm
-        - cross-ironic-py312
-        - cross-keystone-py312
-        - cross-kuryr-py312
-        - cross-manila-py312
-        - cross-magnum-py312
-        - cross-masakari-py312:
-            voting: false
-        - cross-mistral-py312:
-            voting: false
-        - cross-neutron-py312
-        - cross-nova-pep8
-        - cross-nova-py312
-        - cross-placement-py312
-        - cross-osvif-py3
-        - cross-nova-functional
-        - cross-placement-functional-py312
-        - cross-octavia-py312
-        - cross-osc-tox-docs
-        - cross-swift-py312
-        - openstacksdk-functional-devstack
-        - tempest-full-py3:
-            irrelevant-files:
-              - ^bindep.txt$
-              - ^(test-|)requirements.txt$
-              - ^setup.cfg$
+        - requirements-check:
+            required-projects: openstack/nova
+            vars:
+              zuul_work_dir: "{{ zuul.projects['opendev.org/openstack/nova'].src_dir }}"
+              zuul_branch: "master"
+        # - build-wheel-cache-ubuntu-bionic:
+        #     files:
+        #       - bindep.txt
+        # - build-wheel-cache-ubuntu-focal:
+        #     files:
+        #       - bindep.txt
+        # - build-wheel-cache-ubuntu-jammy:
+        #     files:
+        #       - bindep.txt
+        # - openstack-tox-validate
+        # - requirements-tox-babel
+        # - requirements-tox-bindep:
+        #     voting: false
+        # - requirements-tox-py39-check-uc
+        # - requirements-tox-py310-check-uc
+        # - requirements-tox-py311-check-uc
+        # - requirements-tox-py312-check-uc
+        # - requirements-tox-validate-projects:
+        #     voting: false
+        # - cross-aodh-py312
+        # - cross-barbican-py312
+        # - cross-ceilometer-py312
+        # - cross-cinder-py312
+        # - cross-designate-py312
+        # - cross-glance-py312
+        # - cross-heat-py312
+        # - cross-horizon-py312
+        # - cross-horizon-npm
+        # - cross-ironic-py312
+        # - cross-keystone-py312
+        # - cross-kuryr-py312
+        # - cross-manila-py312
+        # - cross-magnum-py312
+        # - cross-masakari-py312:
+        #     voting: false
+        # - cross-mistral-py312:
+        #     voting: false
+        # - cross-neutron-py312
+        # - cross-nova-pep8
+        # - cross-nova-py312
+        # - cross-placement-py312
+        # - cross-osvif-py3
+        # - cross-nova-functional
+        # - cross-placement-functional-py312
+        # - cross-octavia-py312
+        # - cross-osc-tox-docs
+        # - cross-swift-py312
+        # - openstacksdk-functional-devstack
+        # - tempest-full-py3:
+        #     irrelevant-files:
+        #       - ^bindep.txt$
+        #       - ^(test-|)requirements.txt$
+        #       - ^setup.cfg$
     check-arm64:
       jobs:
         - build-wheel-cache-ubuntu-bionic-arm64:
