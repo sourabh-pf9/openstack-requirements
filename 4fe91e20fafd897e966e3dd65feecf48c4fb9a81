@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e995c65c_b50a4161",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-11-07T11:47:09Z",
+      "side": 1,
+      "message": "Depends-on has merged. This looks reasonable.",
+      "revId": "4fe91e20fafd897e966e3dd65feecf48c4fb9a81",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
