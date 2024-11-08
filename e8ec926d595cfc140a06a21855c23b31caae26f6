@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c225e5fd_61cc3ba8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-08T08:09:17Z",
+      "side": 1,
+      "message": "This should still fail since `pip install --user` is no longer supported by modern distros, so we\u0027ll need some further work sometime soon",
+      "revId": "e8ec926d595cfc140a06a21855c23b31caae26f6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
