@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfd0b653_30ab6523",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-11-12T11:39:20Z",
+      "side": 1,
+      "message": "Upstream discussion about this: https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/PKQ7EMNH4A7REG6HGTQFHZELOB3E2TRV/",
+      "revId": "5fe7b017cdce5648e0939f8e7bfbdae49d8da82c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
