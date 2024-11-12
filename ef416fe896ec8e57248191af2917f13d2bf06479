@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b14bf39_a81495fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-11-12T14:18:16Z",
+      "side": 1,
+      "message": "generated patch, LGTM, fast-approving.",
+      "revId": "ef416fe896ec8e57248191af2917f13d2bf06479",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
