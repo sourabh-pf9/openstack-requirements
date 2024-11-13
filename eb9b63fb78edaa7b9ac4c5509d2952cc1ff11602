@@ -16,6 +16,23 @@
       "message": "recheck unclear osvif failure",
       "revId": "eb9b63fb78edaa7b9ac4c5509d2952cc1ff11602",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de0b3ad8_380f6be9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-11-13T15:56:13Z",
+      "side": 1,
+      "message": "The failure is os-vif is caused by implicit dependency of os-vif on netifaces. (We removed dependency on netifaces from oslo.utils )\n\nhttps://review.opendev.org/c/openstack/os-vif/+/932436 (and a new release of os-vif after that is merged) should remove netifaces from os-vif\u0027s requirement but that one is currently blocked by https://bugs.launchpad.net/os-vif/+bug/2087982 .",
+      "revId": "eb9b63fb78edaa7b9ac4c5509d2952cc1ff11602",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
