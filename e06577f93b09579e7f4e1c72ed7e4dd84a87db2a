@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e340f32_67910436",
+        "filename": "global-requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-11-15T00:27:07Z",
+      "side": 1,
+      "message": "Is there a reason for including a restraint here? That should only be handled by upper-constraints unless there is a reason for it.",
+      "range": {
+        "startLine": 92,
+        "startChar": 13,
+        "endLine": 92,
+        "endChar": 19
+      },
+      "revId": "e06577f93b09579e7f4e1c72ed7e4dd84a87db2a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
