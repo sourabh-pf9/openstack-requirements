@@ -89,6 +89,7 @@ munch  # MIT
 ncclient  # Apache-2.0
 netaddr  # BSD
 netifaces!=0.10.0,!=0.10.1  # MIT
+netifaces-2>=0.0.22  # MIT
 netmiko  # MIT
 networkx!=2.8.4  # BSD
 oauthlib  # BSD
