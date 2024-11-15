@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ab15d9f_c7a5a861",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2
+      },
+      "writtenOn": "2024-11-15T00:49:51Z",
+      "side": 1,
+      "message": "Looking into what netifaces-2 is doing (nice codebase, it turns out) - I think it would actually make more sense to just lift a portion of the single method we need into sdk itself. Reason being, they take an approach of \"try shelling to ip command, if that doesn\u0027t work, try reading /proc/net/route\" - but given what sdk does and how it uses this, reading /proc/net/route would be better, and if that\u0027s not there just failing would be much nicer.\n\nSo - I\u0027ll do that tomorrow. If it winds up being stupid, we\u0027ll come back to this.",
+      "revId": "e06577f93b09579e7f4e1c72ed7e4dd84a87db2a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e340f32_67910436",
@@ -14,6 +31,30 @@
       "writtenOn": "2024-11-15T00:27:07Z",
       "side": 1,
       "message": "Is there a reason for including a restraint here? That should only be handled by upper-constraints unless there is a reason for it.",
+      "range": {
+        "startLine": 92,
+        "startChar": 13,
+        "endLine": 92,
+        "endChar": 19
+      },
+      "revId": "e06577f93b09579e7f4e1c72ed7e4dd84a87db2a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b83fc0d5_07002a4f",
+        "filename": "global-requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 2
+      },
+      "writtenOn": "2024-11-15T00:49:51Z",
+      "side": 1,
+      "message": "Habit? Can remove for sure. ... But also, I think I have an answer to not need this.",
+      "parentUuid": "4e340f32_67910436",
       "range": {
         "startLine": 92,
         "startChar": 13,
