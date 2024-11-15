@@ -16,6 +16,23 @@
       "message": "Upstream discussion about this: https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/PKQ7EMNH4A7REG6HGTQFHZELOB3E2TRV/",
       "revId": "5fe7b017cdce5648e0939f8e7bfbdae49d8da82c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b319e12d_aa6e9fdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-15T09:55:12Z",
+      "side": 1,
+      "message": "Please have a look at https://docs.openstack.org/project-team-guide/dependency-management.html#for-new-requirements and add this information to the commit message (ignore the outdated question about py3 support).",
+      "revId": "5fe7b017cdce5648e0939f8e7bfbdae49d8da82c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
