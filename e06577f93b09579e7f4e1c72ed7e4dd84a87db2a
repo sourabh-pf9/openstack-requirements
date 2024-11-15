@@ -18,6 +18,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da8e1a6e_4559e13b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-15T09:54:22Z",
+      "side": 1,
+      "message": "Once you want to proceed with this, remember https://docs.openstack.org/project-team-guide/dependency-management.html#for-new-requirements",
+      "revId": "e06577f93b09579e7f4e1c72ed7e4dd84a87db2a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e340f32_67910436",
