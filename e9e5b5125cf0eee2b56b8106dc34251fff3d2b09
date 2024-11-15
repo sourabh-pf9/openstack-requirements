@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af5af60e_bd07258b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-15T16:40:00Z",
+      "side": 1,
+      "message": "recheck swift failure very likely is unrelated",
+      "revId": "e9e5b5125cf0eee2b56b8106dc34251fff3d2b09",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
