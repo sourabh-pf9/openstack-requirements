@@ -16,6 +16,23 @@
       "message": "recheck volume cleanup",
       "revId": "7f3b2c324ac7b4a3dfe920165a2eb91d60843763",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6fb52a4_c7724a5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-16T20:52:54Z",
+      "side": 1,
+      "message": "recheck post_failure no logs",
+      "revId": "7f3b2c324ac7b4a3dfe920165a2eb91d60843763",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
