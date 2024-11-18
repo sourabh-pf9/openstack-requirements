@@ -16,6 +16,23 @@
       "message": "Dropping the -2 now since I\u0027ll be on holiday over the next weeks, but IMO best wait with approving until after the release is finished",
       "revId": "6107b2119f5938288ff1163c389135c36c39b168",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2195a7f7_01254139",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-11-18T12:19:51Z",
+      "side": 1,
+      "message": "fwiw, this is now out-of-date and pillow 11.0 is out. I\u0027m proposed https://review.opendev.org/c/openstack/requirements/+/935506 as an alternative and will close this once that\u0027s passing.",
+      "revId": "6107b2119f5938288ff1163c389135c36c39b168",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
