@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132e6903_e1ef699c",
+        "filename": "global-requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-11-18T13:32:21Z",
+      "side": 1,
+      "message": "Just drop the version in global-constraints, or use the exclusion (e.g. `!\u003d2.11.0`) syntax to skip 2.11.0. Adding caps in global constraints can cause challenges later on when trying to update to newer fixed versions.",
+      "range": {
+        "startLine": 356,
+        "startChar": 6,
+        "endLine": 356,
+        "endChar": 13
+      },
+      "revId": "76b5233ee654b847af9087176e44099bbec8dd7b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
