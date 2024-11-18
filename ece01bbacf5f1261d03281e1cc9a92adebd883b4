@@ -16,6 +16,23 @@
       "message": "The Neutron CI is currently blocked but a new release of os-ken [1] has been approved. Once we bump the upper requirements, I\u0027ll check again the proposed patch [2] to see if it works fine in the tempest jobs.\n\n[1]https://review.opendev.org/c/openstack/releases/+/935527\n[2]https://review.opendev.org/c/openstack/neutron/+/935524",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "894373f8_441fe82a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-18T20:22:34Z",
+      "side": 1,
+      "message": "also need to wait on https://review.opendev.org/c/openstack/requirements/+/935543 or rebase on top of it",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
