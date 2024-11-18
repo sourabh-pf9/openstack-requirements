@@ -33,6 +33,23 @@
       "message": "fwiw, this is now out-of-date and pillow 11.0 is out. I\u0027m proposed https://review.opendev.org/c/openstack/requirements/+/935506 as an alternative and will close this once that\u0027s passing.",
       "revId": "6107b2119f5938288ff1163c389135c36c39b168",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f81e3621_1094592b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2024-11-18T17:55:06Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "6107b2119f5938288ff1163c389135c36c39b168",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
