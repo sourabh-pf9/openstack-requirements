@@ -22,6 +22,30 @@
       },
       "revId": "76b5233ee654b847af9087176e44099bbec8dd7b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "717caf46_05c8fc12",
+        "filename": "global-requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 13861
+      },
+      "writtenOn": "2024-11-18T13:35:55Z",
+      "side": 1,
+      "message": "@Sean this is temporary and we soon will revert as soon as os-ken is fixed, or you mean if this is merged we will not be able to revert it?",
+      "parentUuid": "132e6903_e1ef699c",
+      "range": {
+        "startLine": 356,
+        "startChar": 6,
+        "endLine": 356,
+        "endChar": 13
+      },
+      "revId": "76b5233ee654b847af9087176e44099bbec8dd7b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
