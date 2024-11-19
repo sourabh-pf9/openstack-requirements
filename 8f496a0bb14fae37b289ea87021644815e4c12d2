@@ -16,6 +16,23 @@
       "message": "lgtm, thx",
       "revId": "8f496a0bb14fae37b289ea87021644815e4c12d2",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecc3a05b_f152d45d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-19T19:39:47Z",
+      "side": 1,
+      "message": "recheck segfault on cross-ironic?",
+      "revId": "8f496a0bb14fae37b289ea87021644815e4c12d2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
