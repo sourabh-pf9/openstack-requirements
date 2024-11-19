@@ -33,6 +33,23 @@
       "message": "also need to wait on https://review.opendev.org/c/openstack/requirements/+/935543 or rebase on top of it",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90883e35_98b48c89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11583
+      },
+      "writtenOn": "2024-11-19T15:33:16Z",
+      "side": 1,
+      "message": "recheck cross-mistral-py312",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
