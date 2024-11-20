@@ -84,6 +84,24 @@
       "message": "ftr, there is an issue with mistral and this new version of eventlet. I can reproduce locally. I will try to see on mistral side how to fix this.",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c380932c_74755388",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11583
+      },
+      "writtenOn": "2024-11-20T07:08:17Z",
+      "side": 1,
+      "message": "it\u0027s non voting anyway so no issue for me to move this forward",
+      "parentUuid": "ff8159f5_cd55d47d",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
