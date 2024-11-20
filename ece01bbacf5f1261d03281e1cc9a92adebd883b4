@@ -137,6 +137,24 @@
       "parentUuid": "ecf51f53_21487174",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ff1e75c_f43e555c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-20T20:49:54Z",
+      "side": 1,
+      "message": "that doesn\u0027t seem to be enough, see the q-svc log in https://zuul.opendev.org/t/openstack/build/4c991243369c47dd8d655be343d4faf8",
+      "parentUuid": "f0e75db7_c4a582ca",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
