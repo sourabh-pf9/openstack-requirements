@@ -119,6 +119,24 @@
       "message": "for heat \"86 RLock(s) were not greened, to fix this error make sure you run eventlet.monkey_patch() before importing any other modules.\"\n\nnova seems to have a unit test that gets stuck or crashes\n\nand neutron in the tempest jobs seems to be affected via oslo.messaging going \"RuntimeError: cannot notify on un-acquired lock\"",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0e75db7_c4a582ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2024-11-20T15:10:58Z",
+      "side": 1,
+      "message": "Neutron is fixing this issue with https://review.opendev.org/c/openstack/neutron/+/935524",
+      "parentUuid": "ecf51f53_21487174",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
