@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1a0e22c_19151348",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-11-20T02:49:58Z",
+      "side": 1,
+      "message": "Can you add the details of the library according to the criteria list documented in https://wiki.openstack.org/wiki/Requirements#Adding_a_Requirement_to_an_OpenStack_Project ?",
+      "revId": "eb8ed04430dc74019dc226b868329998c73f0e7f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
