@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a816e578_5525ca7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-21T12:21:26Z",
+      "side": 1,
+      "message": "recheck keystone unit tests do not use oslo.messaging, so very certainly unrelated",
+      "revId": "116791f732420f4369f7ef82e8d5d93ec1f7dafd",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
