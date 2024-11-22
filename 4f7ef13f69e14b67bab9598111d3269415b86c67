@@ -16,6 +16,23 @@
       "message": "recheck known issue for sdk job",
       "revId": "4f7ef13f69e14b67bab9598111d3269415b86c67",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b4ab298_7bd5d260",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-22T13:10:36Z",
+      "side": 1,
+      "message": "recheck same sdk issue, new fix is in the works, but should be retriable",
+      "revId": "4f7ef13f69e14b67bab9598111d3269415b86c67",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
