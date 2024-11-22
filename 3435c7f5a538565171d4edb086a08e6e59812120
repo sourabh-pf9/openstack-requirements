@@ -16,6 +16,23 @@
       "message": "spot checked some failures and these look like actual regressions",
       "revId": "3435c7f5a538565171d4edb086a08e6e59812120",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbab9750_acaeafb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-11-22T12:13:30Z",
+      "side": 1,
+      "message": "The actual fix here is in the various services, which are incorrectly calling keystonemiddleware with (a) the `v2password` method (which is not supported by keystone anymore) and, more importantly, (b) without auth information in the oslo.config fixtures.\n\nI\u0027ve proposed https://review.opendev.org/c/openstack/keystoneauth/+/935897 to work around this properly but I don\u0027t want to keep that and we should fix it in the services instead.",
+      "revId": "3435c7f5a538565171d4edb086a08e6e59812120",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
