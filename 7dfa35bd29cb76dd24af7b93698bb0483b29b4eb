@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58047233_a542aa29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-25T12:30:38Z",
+      "side": 1,
+      "message": "failure in heat:\n\n    testtools.matchers._impl.MismatchError: \u0027Invalid CRON expression: Exactly 5 or 6 columns has to be specified for \u0027 not in \u0027Invalid CRON expression: Exactly 5, 6 or 7 columns has to be specified for iterator expression.\u0027\n    \nbetter avoid hardcoding error message texts from consumed libraries",
+      "revId": "7dfa35bd29cb76dd24af7b93698bb0483b29b4eb",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
