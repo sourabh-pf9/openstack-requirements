@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f57a122c_f2edbcfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2024-11-25T16:35:00Z",
+      "side": 1,
+      "message": "The dependent fix has been merged into heat so this can be merged now.",
+      "revId": "94e30e27cde992c194172ebdd506f9630904aa91",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
