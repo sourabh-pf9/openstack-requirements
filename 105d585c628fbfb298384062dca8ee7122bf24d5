@@ -84,6 +84,23 @@
       "message": "recheck 50% failure still seems a lot to me",
       "revId": "105d585c628fbfb298384062dca8ee7122bf24d5",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8813410c_ae624d7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-26T07:46:05Z",
+      "side": 1,
+      "message": "recheck different failure this time, nova-functional",
+      "revId": "105d585c628fbfb298384062dca8ee7122bf24d5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
