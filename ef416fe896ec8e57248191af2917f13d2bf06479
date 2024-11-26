@@ -16,6 +16,23 @@
       "message": "generated patch, LGTM, fast-approving.",
       "revId": "ef416fe896ec8e57248191af2917f13d2bf06479",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c975272d_0f74400a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-11-26T17:43:33Z",
+      "side": 1,
+      "message": "recheck - devstack is fixed on unmaintained/2023.1",
+      "revId": "ef416fe896ec8e57248191af2917f13d2bf06479",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
