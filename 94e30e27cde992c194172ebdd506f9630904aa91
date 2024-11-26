@@ -16,6 +16,23 @@
       "message": "The dependent fix has been merged into heat so this can be merged now.",
       "revId": "94e30e27cde992c194172ebdd506f9630904aa91",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab28fb89_c5858538",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-11-26T07:25:18Z",
+      "side": 1,
+      "message": "thx for the update and the fix, one more thing to cross off of https://etherpad.opendev.org/p/requirements-blockers",
+      "revId": "94e30e27cde992c194172ebdd506f9630904aa91",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
