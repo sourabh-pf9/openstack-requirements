@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f5d733f_5e24e8ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2024-11-28T13:39:43Z",
+      "side": 1,
+      "message": "https://review.opendev.org/c/openstack/horizon/+/936454 will fix the horizon issue. IMO Horizon was depending on a bug in keystoneauth which we\u0027ve now fixed.",
+      "revId": "f6b937316030ecb728bfa465cd4b948a1bf97579",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
