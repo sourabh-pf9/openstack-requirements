@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c71f72d5_1f469882",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2024-12-03T21:35:19Z",
+      "side": 1,
+      "message": "Generated patch, let projects use the latest ovsdbapp release.",
+      "revId": "ec8f79d0dfe241b9ead0fefd3ef4d7ec543e97e0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
