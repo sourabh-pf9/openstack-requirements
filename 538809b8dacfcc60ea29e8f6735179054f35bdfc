@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dce6b24_1f61e87f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11536
+      },
+      "writtenOn": "2024-12-05T10:42:11Z",
+      "side": 1,
+      "message": "Seems this patch broke Zun\u0027s gate. Our gate has the following error:\n\nERROR: Requirement \u0027{Requirement(package\u003d\u0027grpcio\u0027, location\u003d\u0027\u0027, specifiers\u003d\u0027\u003e\u003d1.25.0\u0027, markers\u003d\u0027\u0027, comment\u003d\u0027# Apache-2.0\u0027, extras\u003dfrozenset())}\u0027 not in openstack/requirements",
+      "revId": "538809b8dacfcc60ea29e8f6735179054f35bdfc",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
