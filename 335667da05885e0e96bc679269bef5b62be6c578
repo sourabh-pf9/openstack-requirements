@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44587caf_02629d3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 58
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-08T20:33:56Z",
+      "side": 1,
+      "message": "recheck horizon npm failure was unrelated, incomplete repo update?",
+      "revId": "335667da05885e0e96bc679269bef5b62be6c578",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
