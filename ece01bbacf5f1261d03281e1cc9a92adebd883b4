@@ -206,6 +206,24 @@
       "message": "We do have the same log line in mistral about Rlock not greened.\n\nThis log line appears more often now because of this commit:\nhttps://github.com/eventlet/eventlet/commit/06ec82896ebb9a26edaf6e1ad4d63393990f15b7\n\nIt does not seems harmful, and per my tests, it\u0027s mostly due to the test environment which is importing a lot of thing before calling eventlet.monkey_patch().\n\n\n\nHowever, this commit:\nhttps://github.com/eventlet/eventlet/commit/c4f4e691e2a6b129f29e47e99e0763ea568c4311\n\nis the root cause of failure on mistral side (especially the write part).\n\nUnfortunately, I don\u0027t know enough on eventlet part to either fix mistral or eventlet to make this works.\n\nI don\u0027t know neither if this is the same problem for nova, neutron and other projects. \n\nMaybe @herveberaud.pro@gmail.com would know more about this since he reviewed it at first place?",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab8c1417_81efe170",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-09T20:14:38Z",
+      "side": 1,
+      "message": "\u003e It does not seems harmful, and per my tests, it\u0027s mostly due to the test environment which is importing a lot of thing before calling eventlet.monkey_patch().\n\nthis is precisely the cause for the failures afaict. you must make sure that monkey_patch() is called before anything else gets imported. even if eventlet only issues a warning, weird things will happen later",
+      "parentUuid": "b6840804_5d86d740",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
