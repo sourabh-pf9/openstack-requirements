@@ -16,6 +16,24 @@
       "message": "This seems fine to me.  Good to get it in \"early\" in the epoxy cycle.\n\nI\u0027d like some idea how long/complex the transition away from django-pyscss ?",
       "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bf26b71_c114a6c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-09T16:00:43Z",
+      "side": 1,
+      "message": "Not long at all. As soon as this patch merges, we can merge https://review.opendev.org/c/openstack/horizon/+/935894 and then it\u0027s done.",
+      "parentUuid": "8f6945bf_75a7edaf",
+      "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
