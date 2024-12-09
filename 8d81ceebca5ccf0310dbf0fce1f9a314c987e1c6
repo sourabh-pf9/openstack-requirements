@@ -34,6 +34,24 @@
       "parentUuid": "8f6945bf_75a7edaf",
       "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64cc9f87_efa32693",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-12-09T16:20:26Z",
+      "side": 1,
+      "message": "Thanks for that.\n\nSolid progress, I thought there were other users but it looks like I was wrong.\n\nhttps://codesearch.opendev.org/?q\u003ddjango-pyscss\u0026i\u003dnope\u0026literal\u003dnope\u0026files\u003drequirements.txt\u0026excludeFiles\u003d\u0026repos\u003d",
+      "parentUuid": "1bf26b71_c114a6c3",
+      "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
