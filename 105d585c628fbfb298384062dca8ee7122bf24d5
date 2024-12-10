@@ -118,6 +118,23 @@
       "message": "recheck one more time without failure and I\u0027m ready to send this into the gate again",
       "revId": "105d585c628fbfb298384062dca8ee7122bf24d5",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c7ebfa9_ae8afa26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-10T09:49:24Z",
+      "side": 1,
+      "message": "recheck gate doesn\u0027t seem to like this, but the cinder failure I think is a known and unrelated thing",
+      "revId": "105d585c628fbfb298384062dca8ee7122bf24d5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
