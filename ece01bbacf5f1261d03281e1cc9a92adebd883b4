@@ -241,6 +241,24 @@
       "message": "I prepared a new version that will be released soon: https://github.com/eventlet/eventlet/issues/1001\n\nIt delivers additional fixes for python 3.13.",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b1e8890_500fc488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-12-10T10:43:10Z",
+      "side": 1,
+      "message": "I\u0027d suggest to ignore 0.37.0 and to go straight to 0.38.1",
+      "parentUuid": "49447d45_dba2a77b",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
