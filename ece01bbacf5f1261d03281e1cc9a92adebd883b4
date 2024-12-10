@@ -224,6 +224,23 @@
       "parentUuid": "b6840804_5d86d740",
       "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49447d45_dba2a77b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-12-10T10:41:46Z",
+      "side": 1,
+      "message": "I prepared a new version that will be released soon: https://github.com/eventlet/eventlet/issues/1001\n\nIt delivers additional fixes for python 3.13.",
+      "revId": "ece01bbacf5f1261d03281e1cc9a92adebd883b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
