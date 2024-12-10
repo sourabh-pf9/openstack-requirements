@@ -16,6 +16,23 @@
       "message": "Updated with https://pypi.org/project/eventlet/0.38.1/",
       "revId": "cd4f257b9a606ff37baea51fc6ae4cb8d845b5b7",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "beff6088_93747788",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-10T20:54:42Z",
+      "side": 1,
+      "message": "recheck some failures look unrelated",
+      "revId": "cd4f257b9a606ff37baea51fc6ae4cb8d845b5b7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
