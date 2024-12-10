@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b9cb96f_d5a62f2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2024-12-10T14:19:38Z",
+      "side": 1,
+      "message": "Updated with https://pypi.org/project/eventlet/0.38.1/",
+      "revId": "cd4f257b9a606ff37baea51fc6ae4cb8d845b5b7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
