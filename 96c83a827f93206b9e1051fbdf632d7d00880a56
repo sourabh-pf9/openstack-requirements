@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9ac58ae_435f7f4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2024-12-11T16:58:42Z",
+      "side": 1,
+      "message": "Looks like this is still in the docs/requirements.txt and test-requirement.txt files for oslo.messaging.",
+      "revId": "96c83a827f93206b9e1051fbdf632d7d00880a56",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
