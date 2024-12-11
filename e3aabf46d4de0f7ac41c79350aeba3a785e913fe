@@ -33,6 +33,23 @@
       "message": "* cross-nova-functional fails due to an error message change in the new jsonschema version. Nova needs to change the test assert.\n* cross-placement-functional-py312 ditto fails on a changed error message so needs a test fix.\nI will try to help tomorrow",
       "revId": "e3aabf46d4de0f7ac41c79350aeba3a785e913fe",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cafcd3f1_89a310af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-12-11T17:25:23Z",
+      "side": 1,
+      "message": "We need https://review.opendev.org/c/openstack/nova/+/937556 in nova to be compatible with the new jsonschema lib version",
+      "revId": "e3aabf46d4de0f7ac41c79350aeba3a785e913fe",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
