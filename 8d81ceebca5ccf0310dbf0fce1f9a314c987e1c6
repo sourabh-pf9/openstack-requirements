@@ -69,6 +69,24 @@
       "message": "nit: it would be great to keep this list ordered, but I guess we can also fix this in a follow-up",
       "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d35778fb_40cb90c3",
+        "filename": "global-requirements.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-11T07:59:26Z",
+      "side": 1,
+      "message": "I\u0027m happy to do a follow-up patch.",
+      "parentUuid": "74040e5b_27dd50c1",
+      "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
