@@ -16,6 +16,23 @@
       "message": "recheck new neutron patch",
       "revId": "21ec161dacbc78b76a88faff9648c4c109273975",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b130a70_83fc6bf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2024-12-11T13:36:43Z",
+      "side": 1,
+      "message": "https://review.opendev.org/c/openstack/neutron/+/937527 will be merged today or tomorrow. Neutron API is no longer failing in tempest",
+      "revId": "21ec161dacbc78b76a88faff9648c4c109273975",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
