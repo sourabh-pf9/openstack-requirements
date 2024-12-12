@@ -50,6 +50,24 @@
       "message": "We need https://review.opendev.org/c/openstack/nova/+/937556 in nova to be compatible with the new jsonschema lib version",
       "revId": "e3aabf46d4de0f7ac41c79350aeba3a785e913fe",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82725b79_3ee69f4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-12-12T08:18:23Z",
+      "side": 1,
+      "message": "OK the nova jobs are green now with this depends-on",
+      "parentUuid": "cafcd3f1_89a310af",
+      "revId": "e3aabf46d4de0f7ac41c79350aeba3a785e913fe",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
