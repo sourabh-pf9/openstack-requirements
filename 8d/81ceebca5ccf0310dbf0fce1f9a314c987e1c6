@@ -1,0 +1,13 @@
+Code-Review+1: Jan Jasek <jjasek@redhat.com>
+Code-Review+1: Tatiana Ovchinnikova <t.v.ovtchinnikova@gmail.com>
+Code-Review+2: Tony Breeds <tony@bakeyournoodle.com>
+Code-Review+1: Ashish Gupta <ashigupt@redhat.com>
+Code-Review+2: Dr. Jens Harbott <frickler@offenerstapel.de>
+Workflow+1: Tony Breeds <tony@bakeyournoodle.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 12 Dec 2024 01:49:34 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/934220
+Comments-Total: 8
+Project: openstack/requirements
+Branch: refs/heads/master
