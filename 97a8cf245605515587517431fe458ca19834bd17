@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4d0a2a1_2018c60e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9708
+      },
+      "writtenOn": "2024-12-12T15:50:01Z",
+      "side": 1,
+      "message": "recheck tempest failed due to guest kernel panic\n```\n[    6.311427] Kernel panic - not syncing: Attempted to kill init! exitcode\u003d0x00001000\n```",
+      "revId": "97a8cf245605515587517431fe458ca19834bd17",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
