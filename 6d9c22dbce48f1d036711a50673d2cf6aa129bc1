@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7db4cbb3_e1fce6f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-13T12:50:19Z",
+      "side": 1,
+      "message": "I just rearranged the three packages manually, and left everything else as it was now.",
+      "revId": "6d9c22dbce48f1d036711a50673d2cf6aa129bc1",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
