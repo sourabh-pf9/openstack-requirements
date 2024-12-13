@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ae8f6b2b_2144a575",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-13T12:37:36Z",
+      "side": 1,
+      "message": "I just put the line comments on the same line as the package they were for, piped the whole section through `sort`, and restored the comments.",
+      "parentUuid": "dfea7a3f_24237574",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a34f2508_0e5238ec",
         "filename": "global-requirements.txt",
         "patchSetId": 2
