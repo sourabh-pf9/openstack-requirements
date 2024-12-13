@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f58c572a_c6b07946",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-13T12:18:18Z",
+      "side": 1,
+      "message": "please do not sort upper-constraints.txt at this time, it is mostly auto-generated, so we would need to update the tooling that generates it, but that would be a different topic, since we also have some other updates to that tooling pending",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "090f5a68_1b2c1ab3",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-13T12:18:18Z",
+      "side": 1,
+      "message": "moving these two seems to be correct, good catch",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfea7a3f_24237574",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-13T12:18:18Z",
+      "side": 1,
+      "message": "what tooling did you use for this? it seems that in what has been used before, we have \" \" (or end of word) smaller than most other chars, which I think also is classic lexicographic ordering, so I think we should keep that",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a34f2508_0e5238ec",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-13T12:18:18Z",
+      "side": 1,
+      "message": "this doesn\u0027t make sense at all, unless you also move requests-aws. better keep the existing order",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
