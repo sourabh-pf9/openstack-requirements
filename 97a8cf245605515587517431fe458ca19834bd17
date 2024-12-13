@@ -16,6 +16,23 @@
       "message": "recheck tempest failed due to guest kernel panic\n```\n[    6.311427] Kernel panic - not syncing: Attempted to kill init! exitcode\u003d0x00001000\n```",
       "revId": "97a8cf245605515587517431fe458ca19834bd17",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d086c3b2_e72c6689",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-13T08:17:00Z",
+      "side": 1,
+      "message": "thx, everything is passing now \\o/\n\njust need to wait for the fixes to get merged, then",
+      "revId": "97a8cf245605515587517431fe458ca19834bd17",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
