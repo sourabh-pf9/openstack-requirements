@@ -1,11 +1,11 @@
 ## section:general
 
+aiomysql  # MIT License
+aiosqlite  # MIT License
 alembic!=1.2.0,!=1.6.3  # MIT
 amqp!=2.1.4,!=5.0.4  # BSD
 appdirs  # MIT License
 apscheduler  # MIT License
-aiomysql  # MIT License
-aiosqlite  # MIT License
 autobahn  # MIT License
 automaton  # Apache-2.0
 autopage  # Apache-2.0
@@ -15,9 +15,9 @@ Babel!=2.4.0  # BSD
 bcrypt==4.0.1  # Apache-2.0
 beautifulsoup4  # MIT
 betamax  # Apache-2.0
-boto  # MIT
 boto3  # Apache-2.0
 botocore  # Apache-2.0
+boto  # MIT
 cachetools  # MIT License
 cassandra-driver!=3.6.0  # Apache-2.0
 cffi  # MIT
@@ -32,12 +32,11 @@ cursive  # Apache-2.0
 datetimerange  # MIT
 decorator  # BSD
 defusedxml  # PSF
+Django<4.3  # BSD
 django-compressor  # MIT
 django-debreach  # BSD
 django-formtools  # BSD
 django-pyscss  # BSD License (2 clause)
-libsass  # MIT
-Django<4.3  # BSD
 # eventlet is not compatibile with 2.0.0: https://github.com/eventlet/eventlet/issues/619
 dnspython!=2.0.0,!=2.2.0  # http://www.dnspython.org/LICENSE
 dogpile.cache!=0.9.1,!=1.1.7  # BSD
@@ -65,8 +64,7 @@ httplib2  # MIT
 httpx  # BSD
 hvac  # Apache-2.0
 icalendar  # BSD
-# Do not make importlib-metadata conditional on Python version: we depend on
-# newer code than in [most] releases of the Python std library.
+# Do not make importlib-metadata conditional on Python version: we depend on # newer code than in [most] releases of the Python std library.
 importlib-metadata  # Apache-2.0
 infinisdk  # BSD-3
 influxdb!=5.3.0  # MIT
@@ -83,6 +81,7 @@ kazoo  # Apache-2.0
 kombu!=4.0.2  # BSD
 kubernetes  # Apache-2.0
 ldap3  # LGPLv3
+libsass  # MIT
 libvirt-python!=4.1.0,!=4.2.0  # LGPLv2+
 lxml!=3.7.0  # BSD
 Mako  # MIT
@@ -100,8 +99,8 @@ ovs  # Apache-2.0
 packaging!=20.5,!=20.6,!=20.7  # Apache-2.0
 paramiko!=2.9.0,!=2.9.1  # LGPLv2.1+
 passlib  # BSD
-Paste  # MIT
 PasteDeploy  # MIT
+Paste  # MIT
 pecan!=1.0.2,!=1.0.3,!=1.0.4,!=1.2,!=1.4.0  # BSD
 pexpect!=3.3  # ISC License
 pika  # BSD
@@ -146,8 +145,8 @@ pyzabbix  # LGPL
 rbd-iscsi-client  # Apache-2.0
 requests!=2.20.0,!=2.24.0  # Apache-2.0
 requests-aws  # BSD License (3 clause)
-requests-kerberos  # ISC
 requestsexceptions  # Apache-2.0
+requests-kerberos  # ISC
 rfc3986  # Apache-2.0
 Routes  # MIT
 rtslib-fb  # Apache-2.0
@@ -159,8 +158,8 @@ scipy  # BSD
 scrypt!=0.8.21  # BSD
 semantic-version  # BSD
 setproctitle  # BSD
-SQLAlchemy  # MIT
 sqlalchemy-filters  # Apache-2.0
+SQLAlchemy  # MIT
 SQLAlchemy-Utils  # BSD License
 sshtunnel  # MIT
 statsd  # MIT
@@ -177,12 +176,11 @@ websocket-client  # LGPLv2+
 websockify  # LGPLv3
 wmi;sys_platform=='win32'  # MIT
 xattr;sys_platform!='win32'  # MIT
-XStatic  # MIT License
-XStatic-Angular  # MIT License
 XStatic-Angular-Bootstrap  # MIT License
 XStatic-Angular-FileUpload  # MIT License
 XStatic-Angular-Gettext  # MIT License
 XStatic-Angular-lrdragndrop  # MIT License
+XStatic-Angular  # MIT License
 XStatic-Angular-Schema-Form  # MIT
 xstatic-angular-uuid  # MIT License
 xstatic-angular-vis  # MIT License
@@ -190,23 +188,24 @@ XStatic-Bootstrap-Datepicker  # Apache 2.0 License
 XStatic-Bootstrap-SCSS  # Apache 2.0 License
 XStatic-bootswatch  # MIT License
 XStatic-D3  # BSD License (3 clause)
-XStatic-Dagre  # MIT License
 XStatic-Dagre-D3  # MIT License
+XStatic-Dagre  # MIT License
 xstatic-filesaver  # MIT License
 XStatic-Font-Awesome<4.8.0  # SIL OFL 1.1 License, MIT License
 XStatic-Graphlib  # MIT License
 XStatic-Hogan  # Apache 2.0 License
 XStatic-Jasmine  # MIT License
-XStatic-jQuery  # MIT License
 XStatic-JQuery-Migrate  # MIT License
-XStatic-jquery-ui  # MIT License
+XStatic-jQuery  # MIT License
 XStatic-JQuery.quicksearch  # MIT License
 XStatic-JQuery.TableSorter  # MIT License
-xstatic-js-yaml  # MIT License
+XStatic-jquery-ui  # MIT License
 XStatic-JSEncrypt  # MIT License
 xstatic-json2yaml  # MIT License
+xstatic-js-yaml  # MIT License
 XStatic-lodash  # MIT License
 XStatic-mdi  # SIL OPEN FONT LICENSE Version 1.1
+XStatic  # MIT License
 XStatic-moment  # MIT License
 XStatic-Moment-Timezone  # MIT License
 XStatic-objectpath  # MIT
