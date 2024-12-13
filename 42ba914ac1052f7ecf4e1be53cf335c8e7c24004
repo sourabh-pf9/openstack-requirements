@@ -70,6 +70,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecd6dd0d_6401e8f6",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-13T12:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae8f6b2b_2144a575",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a34f2508_0e5238ec",
@@ -83,6 +101,24 @@
       "writtenOn": "2024-12-13T12:18:18Z",
       "side": 1,
       "message": "this doesn\u0027t make sense at all, unless you also move requests-aws. better keep the existing order",
+      "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95a2c21a_0e1e54a0",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2024-12-13T12:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a34f2508_0e5238ec",
       "revId": "42ba914ac1052f7ecf4e1be53cf335c8e7c24004",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
