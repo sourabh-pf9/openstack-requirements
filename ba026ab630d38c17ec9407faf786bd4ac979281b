@@ -16,6 +16,23 @@
       "message": "recheck log upload failure",
       "revId": "ba026ab630d38c17ec9407faf786bd4ac979281b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "583c4b22_3e57b0ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-12-14T00:32:34Z",
+      "side": 1,
+      "message": "recheck\n\njob timed_out on second run that didn\u0027t on the first :/",
+      "revId": "ba026ab630d38c17ec9407faf786bd4ac979281b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
