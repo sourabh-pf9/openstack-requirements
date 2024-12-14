@@ -56,6 +56,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "77352143_b64da662",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-12-14T00:13:40Z",
+      "side": 1,
+      "message": "This and the horizon change have merged.  Can we get a change published to remove the obsolete library?  We can delay merging a little to ensure that horizon doesn\u0027t regress.",
+      "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "74040e5b_27dd50c1",
         "filename": "global-requirements.txt",
         "patchSetId": 6
