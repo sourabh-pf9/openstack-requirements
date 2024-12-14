@@ -51,6 +51,23 @@
       "message": "Sorry, totally missed the depends-on link in the commit. Looks good then!",
       "revId": "96c83a827f93206b9e1051fbdf632d7d00880a56",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e1af441_fd21bf18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-12-14T00:33:29Z",
+      "side": 1,
+      "message": "Thanks",
+      "revId": "96c83a827f93206b9e1051fbdf632d7d00880a56",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
