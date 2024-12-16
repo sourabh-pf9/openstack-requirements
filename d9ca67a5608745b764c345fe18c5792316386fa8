@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c550121_3a6763ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 59
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-16T06:24:49Z",
+      "side": 1,
+      "message": "daiquiri\u003d\u003d\u003d3.3.0 dropped support for py3.9, another one to add to the list ...",
+      "revId": "d9ca67a5608745b764c345fe18c5792316386fa8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
