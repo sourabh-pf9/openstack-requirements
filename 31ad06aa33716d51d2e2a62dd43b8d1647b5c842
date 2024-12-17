@@ -50,6 +50,23 @@
       "message": "failures in cinder and nova, not sure if any of these are related but I would advise further investigation before proceeding",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ed31c71_465e6cf5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2024-12-17T06:39:00Z",
+      "side": 1,
+      "message": "recheck gather more data",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
