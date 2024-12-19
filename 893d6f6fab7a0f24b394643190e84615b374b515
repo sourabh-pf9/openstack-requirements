@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0a30b29_cc694f3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2024-12-19T01:54:23Z",
+      "side": 1,
+      "message": "I resolved the merge conflict by removing the changes to upper-constraints.txt.  These are typically desired but they\u0027ll be handled with the next bot sync anyway",
+      "revId": "893d6f6fab7a0f24b394643190e84615b374b515",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
