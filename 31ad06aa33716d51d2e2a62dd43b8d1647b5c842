@@ -101,6 +101,23 @@
       "message": "recheck cross-mistral-py312",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d9a56a8_e905afc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11583
+      },
+      "writtenOn": "2025-01-04T14:57:16Z",
+      "side": 1,
+      "message": "so the good news is that mistral is now ok.\nthe bad one is failure on cross-nova-functional",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
