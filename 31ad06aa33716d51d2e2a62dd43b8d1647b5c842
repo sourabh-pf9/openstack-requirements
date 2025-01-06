@@ -118,6 +118,23 @@
       "message": "so the good news is that mistral is now ok.\nthe bad one is failure on cross-nova-functional",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d73e6e5_b41752d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-06T06:03:13Z",
+      "side": 1,
+      "message": "2025-01-04 13:22:16,477 DEBUG [nova.compute.manager] Unexpected attempt to cancel events during shutdown.\n\nsounds like maybe some race condition\n\nbut yes, it seems like the nova patch still needs more work, see also the discussion there",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
