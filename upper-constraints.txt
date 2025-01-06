@@ -310,7 +310,7 @@ boto3===1.35.92
 jeepney===0.8.0
 stestr===4.1.0
 pillow===11.1.0
-infoblox-client===0.6.1
+infoblox-client===0.6.2
 pysmi-lextudio===1.4.3
 oslo.serialization===5.6.0
 warlock===2.0.1
