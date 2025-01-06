@@ -135,6 +135,23 @@
       "message": "2025-01-04 13:22:16,477 DEBUG [nova.compute.manager] Unexpected attempt to cancel events during shutdown.\n\nsounds like maybe some race condition\n\nbut yes, it seems like the nova patch still needs more work, see also the discussion there",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf636f9b_9cd1fec0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2025-01-06T13:31:54Z",
+      "side": 1,
+      "message": "recheck cross-nova-functional",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
