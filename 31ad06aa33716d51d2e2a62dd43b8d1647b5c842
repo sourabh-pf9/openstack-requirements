@@ -204,6 +204,23 @@
       "message": "Adding Gibi as he is in charge of managing the migration for Nova",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4158aa65_b9dfad47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36603
+      },
+      "writtenOn": "2025-01-08T18:09:52Z",
+      "side": 1,
+      "message": "I believe I have figured out what\u0027s going on with Nova.\n\n1. The failures only happen with eventlet 0.37.0 and later.\n2. One of the changes there is making os.read/os.write be non-blocking by default.\n3. Hypothesis: This impacts oslo.log\u0027s PipeMutex.\n4. Evidence: When I install the git version of oslo.log, which has a fix for PipeMutex, nova functional tests start passing locally even with the latest eventlet.\n\nTherefore, the solution is like:\n\n1. Release oslo.log with the fixed PipeMutex: https://review.opendev.org/c/openstack/releases/+/938683\n2. Change this change to also up the version of oslo.log",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
