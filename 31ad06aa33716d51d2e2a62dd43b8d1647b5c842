@@ -169,6 +169,24 @@
       "message": "same nova func failure again. and in addition nova unit test timeout, stuck 30 mins with no progress before the timeout, good chance this is also related",
       "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1cff5cd_5a50bda1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2025-01-08T09:56:49Z",
+      "side": 1,
+      "message": "Indeed",
+      "parentUuid": "9863a5af_5fd11bde",
+      "revId": "31ad06aa33716d51d2e2a62dd43b8d1647b5c842",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
