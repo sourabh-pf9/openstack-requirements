@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80abef9f_c8bbb111",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-01-09T14:26:37Z",
+      "side": 1,
+      "message": "recheck - designate failure does not look related.",
+      "revId": "22781f7b9c1ef6fb10b33126dc03f829aa9d9453",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
