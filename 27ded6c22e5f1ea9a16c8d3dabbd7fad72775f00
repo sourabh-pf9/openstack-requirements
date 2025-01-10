@@ -84,6 +84,23 @@
       "message": "Thank you Itamar, great job!",
       "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6e5bc32_e4739972",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-10T17:48:57Z",
+      "side": 1,
+      "message": "all other nova jobs tested fine in https://review.opendev.org/c/openstack/nova/+/938879, so this is just blocked by the nova unit/func test fixup",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
