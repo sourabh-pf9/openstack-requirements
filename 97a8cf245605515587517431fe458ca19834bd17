@@ -33,6 +33,23 @@
       "message": "thx, everything is passing now \\o/\n\njust need to wait for the fixes to get merged, then",
       "revId": "97a8cf245605515587517431fe458ca19834bd17",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d24ac861_c96e3d0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-11T10:43:15Z",
+      "side": 1,
+      "message": "recheck deps have been merged, this should be fine now",
+      "revId": "97a8cf245605515587517431fe458ca19834bd17",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
