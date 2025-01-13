@@ -101,6 +101,24 @@
       "message": "all other nova jobs tested fine in https://review.opendev.org/c/openstack/nova/+/938879, so this is just blocked by the nova unit/func test fixup",
       "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "144b78c0_87051c82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2025-01-13T10:49:16Z",
+      "side": 1,
+      "message": "Sean blocked (-workflow [1]) his nova patch (the one on the depends-on of this patch [2]) and told that he won\u0027t actively work on it [1], meaning that this bump and the support of Python 3.13 is for now blocked.\n\nThe requirements freeze is in most than 1 big month leaving us a chance to unlock our path.\n\nDo you know what are the supported python runtimes of \"F\"?\n\n[1] https://review.opendev.org/c/openstack/nova/+/933365/comment/018d22a5_8be32ef2/\n[2] https://review.opendev.org/c/openstack/nova/+/933365",
+      "parentUuid": "c6e5bc32_e4739972",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
