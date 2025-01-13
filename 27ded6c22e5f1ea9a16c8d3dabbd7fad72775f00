@@ -136,6 +136,24 @@
       "message": "im actully hoping to make time to update it today or find some else to take it over if it dont so let me see if i can update ti today",
       "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a119af5e_ec67a9fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-13T18:02:02Z",
+      "side": 1,
+      "message": "\u003e Do you know what are the supported python runtimes of \"F\"?\n\nThis isn\u0027t decided yet, but I don\u0027t expect there to be much change. There is no working Centos10 image in the CI, so we cannot drop CS9 and py3.9. we might add py3.13 support, but possibly only as optional",
+      "parentUuid": "144b78c0_87051c82",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
