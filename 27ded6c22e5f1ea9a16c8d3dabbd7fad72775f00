@@ -154,6 +154,24 @@
       "parentUuid": "144b78c0_87051c82",
       "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a34c034_425bd3cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-01-13T18:07:55Z",
+      "side": 1,
+      "message": "my rebase of https://review.opendev.org/c/openstack/nova/+/938879 is also green so teh updated https://review.opendev.org/c/openstack/nova/+/933365 shoudl be ready to go.\n\nill see if we can get that merged today or early this week and then ye can proceed with this bump.",
+      "parentUuid": "a119af5e_ec67a9fd",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
