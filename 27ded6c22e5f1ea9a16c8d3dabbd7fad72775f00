@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "16cbbc68_dfd969a6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-01-13T19:04:41Z",
+      "side": 1,
+      "message": "hi just an fyi with master nova and the oslo.logs bump its pass for me locally without this change.\n\nit might be wroth dropign this and seeign if it passes in ci",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "e227df4c_d0023d5d",
