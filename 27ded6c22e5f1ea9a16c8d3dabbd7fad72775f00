@@ -189,6 +189,24 @@
       "parentUuid": "a119af5e_ec67a9fd",
       "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2a7f08e_64df388c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28522
+      },
+      "writtenOn": "2025-01-14T09:11:29Z",
+      "side": 1,
+      "message": "Thank you Sean.\n@Jens: In all the case if we want 3.13 support, then this bump is mandatory.",
+      "parentUuid": "3a34c034_425bd3cd",
+      "revId": "27ded6c22e5f1ea9a16c8d3dabbd7fad72775f00",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
