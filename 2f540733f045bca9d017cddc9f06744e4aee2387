@@ -16,6 +16,23 @@
       "message": "Context here is that neutron gate is busted and we see eventlet errors in logs: https://meetings.opendev.org/irclogs/%23openstack-neutron/%23openstack-neutron.2025-01-14.log.html#t2025-01-14T22:51:12",
       "revId": "2f540733f045bca9d017cddc9f06744e4aee2387",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78dbc55a_a9be0ea5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9656
+      },
+      "writtenOn": "2025-01-15T04:21:57Z",
+      "side": 1,
+      "message": "The initial check seems to confirm the hypothesis that this bump broke neutron gate: https://review.opendev.org/q/topic:%22reverteventlet%22\n\nI rechecked all the above again to confirm. If rally jobs don\u0027t time out there even after rechecks, I would suggest this merged. In general, these drastic bumps should probably be checked against full project gates via Depends-On, the requirements gate is not elaborate enough.",
+      "revId": "2f540733f045bca9d017cddc9f06744e4aee2387",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
