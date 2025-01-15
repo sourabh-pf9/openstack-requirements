@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbe930b9_64f5d421",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2025-01-15T19:46:10Z",
+      "side": 1,
+      "message": "cid and I looked at this today, and we have pushed https://review.opendev.org/c/openstack/horizon/+/939389 which should make all co-gated projects pass unit tests with this version of pytest.",
+      "revId": "53ef1a107051ebced05f19a86ae6ed812f84053e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
