@@ -16,6 +16,23 @@
       "message": "Let\u0027s revert to unblock project gates, looks it will be impacting other project gates too like rally atleast",
       "revId": "8915eaa5cad7f341a33e7710f69620b282bb3595",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e15da1f_bdd7dc69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-15T06:56:11Z",
+      "side": 1,
+      "message": "we have to weight the impact in Neutron against the impact this revert may have in terms of blocking the further removal of eventlet. from my pov it would be better to just make the neutron-rally job non-voting until it can be fixed. I don\u0027t see a lot of activity in the rally project itself and their CI has been broken a long time anyway, too",
+      "revId": "8915eaa5cad7f341a33e7710f69620b282bb3595",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
