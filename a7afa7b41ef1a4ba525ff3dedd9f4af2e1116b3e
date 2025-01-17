@@ -16,6 +16,23 @@
       "message": "recheck unstable keystone psql test looks very much unrelated",
       "revId": "a7afa7b41ef1a4ba525ff3dedd9f4af2e1116b3e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23066e54_6570a37f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-01-17T13:22:54Z",
+      "side": 1,
+      "message": "recheck cross-nova-functional timeout",
+      "revId": "a7afa7b41ef1a4ba525ff3dedd9f4af2e1116b3e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
