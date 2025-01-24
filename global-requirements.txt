@@ -188,7 +188,9 @@ XStatic-D3  # BSD License (3 clause)
 XStatic-Dagre  # MIT License
 XStatic-Dagre-D3  # MIT License
 xstatic-filesaver  # MIT License
-XStatic-Font-Awesome<4.8.0  # SIL OFL 1.1 License, MIT License
+# NOTE XStatic-Font-Awesome is currently pinned at 4.7.0.0 in upper-constraints due to an issue
+# with Horizon - https://bugs.launchpad.net/horizon/+bug/2095374
+XStatic-Font-Awesome==4.7.0.0  # SIL OFL 1.1 License, MIT License
 XStatic-Graphlib  # MIT License
 XStatic-Hogan  # Apache 2.0 License
 XStatic-Jasmine  # MIT License
