@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "4fdf40f2_c06bab44",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 37598
+      },
+      "writtenOn": "2025-01-24T22:50:57Z",
+      "side": 1,
+      "message": "@frickler@offenerstapel.de\n\nFull details about MR ;)\n\nAfter start investigating case https://bugs.launchpad.net/horizon/+bug/2095374\n\nI founded little error in requirements.txt (https://opendev.org/openstack/horizon/src/branch/master/requirements.txt)\n\nXStatic-Font-Awesome\u003e\u003d4.7.0.0 # SIL OFL 1.1 License, MIT License\n\nIf we do:\npip3 install XStatic-Font-Awesome\u003e\u003d4.7.0.0 - installed version:\nSuccessfully installed XStatic-Font-Awesome-6.2.1.1\n\nHorizon not work (and another errors):\nError: File to import not found or unreadable: /horizon/lib/font_awesome/scss/font-awesome.scss.\n\nIf we changed line to:\nXStatic-Font-Awesome\u003c\u003d4.7.0.0 # SIL OFL 1.1 License, MIT License\n\nAll working without problem.\n\nI commit fix for Horizon only:\nhttps://review.opendev.org/c/openstack/horizon/+/940064\n\nAnd received error:\nERROR: Requirement for package XStatic-Font-Awesome excludes a version not excluded in the global list.\n  Local settings : {\u0027\u003c\u003d4.7.0.0\u0027}\n  Global settings: {\u0027\u003c4.8.0\u0027}\n  Unexpected     : {\u0027\u003c\u003d4.7.0.0\u0027}\n \n \n After it I created current MR for fix global-requirements.txt \n \n If I\u0027m wrong, please tell me.",
+      "parentUuid": "4480528a_43627b4f",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f73ecf7b_026db04e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 6
