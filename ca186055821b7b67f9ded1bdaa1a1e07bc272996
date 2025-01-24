@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d76590f_86037ce8",
+        "filename": "global-requirements.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-24T13:28:23Z",
+      "side": 1,
+      "message": "There is no release between 4.7.0.0 and 4.8.0, so I don\u0027t see where this would make any difference?\n\nSide note: it would be really great if horizon could finally adapt to some of the newer versions, those are a couple of years old by now. 4.7.0.0 is from 2016.",
+      "revId": "ca186055821b7b67f9ded1bdaa1a1e07bc272996",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
