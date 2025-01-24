@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "4480528a_43627b4f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-24T19:41:48Z",
+      "side": 1,
+      "message": "This change doesn\u0027t touch upper-constraints.txt at all?",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "f73ecf7b_026db04e",
@@ -14,6 +31,23 @@
       "writtenOn": "2025-01-24T13:45:23Z",
       "side": 1,
       "message": "Updated.",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "713a3b00_200b0557",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-24T19:41:48Z",
+      "side": 1,
+      "message": "I don\u0027t think that this is better and I still do not understand what the expected effect of this change should be",
       "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
