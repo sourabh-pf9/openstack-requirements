@@ -33,6 +33,23 @@
       "message": "recheck cross-nova-functional timeout",
       "revId": "a7afa7b41ef1a4ba525ff3dedd9f4af2e1116b3e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bb247db_6f56cc7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-27T21:12:07Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "a7afa7b41ef1a4ba525ff3dedd9f4af2e1116b3e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
