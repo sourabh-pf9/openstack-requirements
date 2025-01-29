@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "a236273e_92e2e8e4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-01-29T08:56:49Z",
+      "side": 1,
+      "message": "So installing requirements without a constraint is an error that can lead to failures in a lot of circumstances and thus should be avoided. IMHO it is not necessary to guard against that in horizon requirements because it will make later upgrades that fix those issues more difficult. So the solution for the bug you cite is simply \"use upper-constraints.txt or something similar\" and your patch for horizon should not be needed, just like this one.",
+      "parentUuid": "4fdf40f2_c06bab44",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f73ecf7b_026db04e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 6
