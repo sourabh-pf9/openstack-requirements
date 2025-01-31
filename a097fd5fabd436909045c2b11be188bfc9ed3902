@@ -56,6 +56,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "63b611ba_3b19d83e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 37598
+      },
+      "writtenOn": "2025-01-31T16:41:38Z",
+      "side": 1,
+      "message": "@frickler@offenerstapel.de\n\nHmm, I decided to check it out and noticed:\n\ngit clone https://opendev.org/openstack/horizon -b stable/2024.2 --depth\u003d1\n\ncd horizon\n\npython3 -m pip install -c https://opendev.org/openstack/requirements/raw/branch/stable/2024.2/upper-constraints.txt .\nProcessing /root/horizon\n  Preparing metadata (setup.py) ... done\nERROR: Cannot install horizon 0.0.0 (from /root/horizon) because these package versions have conflicting dependencies.\n\nThe conflict is caused by:\n    The user requested horizon 0.0.0 (from /root/horizon)\n    The user requested (constraint) horizon\u003d\u003d\u003d25.0.0\n\nTo fix this you could try to:\n1. loosen the range of package versions you\u0027ve specified\n2. remove package versions to allow pip attempt to solve the dependency conflict\n\nERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts\n\nMaybe I\u0027m wrong? Thank you.",
+      "parentUuid": "a236273e_92e2e8e4",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f73ecf7b_026db04e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 6
