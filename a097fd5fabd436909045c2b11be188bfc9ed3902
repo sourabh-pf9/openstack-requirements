@@ -74,6 +74,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "69dc7f27_7e972891",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-06T06:12:10Z",
+      "side": 1,
+      "message": "this is getting kind of out of scope for this review, maybe discussing in the horizon bug might be better, but essentially I think if you install horizon from source, you need to drop it from upper-constraints.txt in a local copy",
+      "parentUuid": "63b611ba_3b19d83e",
+      "revId": "a097fd5fabd436909045c2b11be188bfc9ed3902",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f73ecf7b_026db04e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 6
