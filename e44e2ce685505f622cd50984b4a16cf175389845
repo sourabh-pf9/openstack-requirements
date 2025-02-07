@@ -16,6 +16,23 @@
       "message": "ah, I missed that duplication, too. thx for the update",
       "revId": "e44e2ce685505f622cd50984b4a16cf175389845",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30988835_7ec62588",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2025-02-07T13:25:09Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "e44e2ce685505f622cd50984b4a16cf175389845",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
