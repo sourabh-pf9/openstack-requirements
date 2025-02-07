@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af9fb4fa_e81da974",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-02-07T02:41:11Z",
+      "side": 1,
+      "message": "I don\u0027t object at all to removing the defunct line but py-pure-client is already included.\n\nIf you wanted to remove the old library and, optionally, move the py-pure-client down into the \"cinder section\" that\u0027d be cool",
+      "revId": "87dba9d03aa165dd5e5b9eb8c91ddae22d922cee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c946542_d1638905",
+        "filename": "global-requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-02-07T02:41:11Z",
+      "side": 1,
+      "message": "Altered line duplicates this.",
+      "revId": "87dba9d03aa165dd5e5b9eb8c91ddae22d922cee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0185fd57_ec18977f",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-02-07T02:41:11Z",
+      "side": 1,
+      "message": "Altered line duplicates this.",
+      "revId": "87dba9d03aa165dd5e5b9eb8c91ddae22d922cee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
