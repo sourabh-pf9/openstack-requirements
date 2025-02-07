@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a94cb57_0833e59d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-02-07T03:39:37Z",
+      "side": 1,
+      "message": "This will only break masakari-dashboard and monasca-statsd, as the other repos do not run the check-requirements job.\n\nSo I guess I\u0027m okay with merging this.\n```\ntony@thor:~$ beagle --server https://codesearch.opendev.org search --file \u0027.*requirements.txt\u0027 oslosphinx | grep -Ev \u0027^\\| (x|airship|starlingx)/\u0027\n+-----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+\n| Repository                                    | Filename                                                                                                                                | Line | Text                                    |\n+-----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+\n| opendev/git-restack                           | test-requirements.txt                                                                                                                   |    6 | oslosphinx                              |\n| opendev/mqtt_statsd                           | test-requirements.txt                                                                                                                   |   10 | oslosphinx\u003e\u003d4.7.0 # Apache-2.0          |\n| openinfra/transparency-policy                 | requirements.txt                                                                                                                        |    2 | oslosphinx\u003e\u003d2.2.0                       |\n| openstack/masakari-dashboard                  | doc/requirements.txt                                                                                                                    |   12 | oslosphinx\u003e\u003d4.7.0 # Apache-2.0          |\n| openstack/monasca-statsd                      | doc/requirements.txt                                                                                                                    |    2 | oslosphinx\u003e\u003d4.7.0 # Apache-2.0          |\n| openstack/openstack-zuul-roles                | test-requirements.txt                                                                                                                   |   10 | oslosphinx\u003e\u003d4.7.0 # Apache-2.0          |\n| openstack/performance-docs                    | scripts/rally-runners/test-requirements.txt                                                                                             |   10 | oslosphinx!\u003d3.4.0,\u003e\u003d2.5.0 # Apache-2.0  |\n| openstack/requirements                        | global-requirements.txt                                                                                                                 |  440 | oslosphinx  # Apache-2.0                |\n+-----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+\ntony@thor:~$ for i in opendev/git-restack opendev/mqtt_statsd openinfra/transparency-policy openstack/masakari-dashboard openstack/monasca-statsd openstack/openstack-zuul-roles openstack/performance-docs ; do grep -Erin check-requirements -- ~/src/opendev.org/$i; done\n/home/tony/src/opendev.org/openstack/masakari-dashboard/.zuul.yaml:3:      - check-requirements\n/home/tony/src/opendev.org/openstack/monasca-statsd/.zuul.yaml:3:      - check-requirements\ntony@thor:~$ \n\n```",
+      "revId": "36fe1671947ed8b20d4c02cd88a66520e9075935",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
