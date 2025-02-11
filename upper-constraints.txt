@@ -434,6 +434,7 @@ contextvars===2.4
 cmd2===2.5.11
 python-json-logger===3.3.0
 redis===6.0.0
+valkey===6.1.0
 jmespath===1.0.1
 click===8.1.8
 XStatic-smart-table===1.4.13.2
