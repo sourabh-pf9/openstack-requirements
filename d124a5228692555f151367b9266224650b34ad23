@@ -16,6 +16,24 @@
       "message": "duplicate of https://review.opendev.org/c/openstack/requirements/+/942115 , no need to manually propose bumps for openstack-released projects, we have a bot that does that",
       "revId": "d124a5228692555f151367b9266224650b34ad23",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "417fde06_5ba86707",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7730
+      },
+      "writtenOn": "2025-02-18T17:54:47Z",
+      "side": 1,
+      "message": "Perfect, thanks !",
+      "parentUuid": "0683c236_aadbe77e",
+      "revId": "d124a5228692555f151367b9266224650b34ad23",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
