@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c71407c_045d0e82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131
+      },
+      "writtenOn": "2025-02-19T22:44:56Z",
+      "side": 1,
+      "message": "I really don\u0027t even know what this file does, but networking-ovn is no more...",
+      "revId": "4fa1d2f0e539240a289491c969fe023b3362bc26",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
