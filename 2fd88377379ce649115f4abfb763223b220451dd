@@ -50,6 +50,23 @@
       "message": "Please stop this patch.",
       "revId": "2fd88377379ce649115f4abfb763223b220451dd",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a6300e3_d2253442",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-20T11:10:48Z",
+      "side": 1,
+      "message": "please also look into adding proper test coverage, then",
+      "revId": "2fd88377379ce649115f4abfb763223b220451dd",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
