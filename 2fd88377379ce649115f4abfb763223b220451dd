@@ -33,6 +33,23 @@
       "message": "There is a bug in the \"port show\" command due to https://github.com/openstack/python-openstackclient/commit/2a0431e8255671824b9f938de94715f36bed48ba.\n\nI\u0027m opening a bug right now to solve it.",
       "revId": "2fd88377379ce649115f4abfb763223b220451dd",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d0e094c_9bb50402",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2025-02-20T10:47:39Z",
+      "side": 1,
+      "message": "Please stop this patch.",
+      "revId": "2fd88377379ce649115f4abfb763223b220451dd",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
