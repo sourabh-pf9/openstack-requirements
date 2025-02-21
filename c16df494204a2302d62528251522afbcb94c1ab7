@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b583b2a_96785d04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-21T23:07:57Z",
+      "side": 1,
+      "message": "recheck sdk openstack.tests.functional.cloud.test_compute.TestCompute.test_get_server_console_name_or_id",
+      "revId": "c16df494204a2302d62528251522afbcb94c1ab7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
