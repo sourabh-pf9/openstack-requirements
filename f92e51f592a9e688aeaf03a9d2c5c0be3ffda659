@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb41c2ce_7c567d24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-02-21T14:33:37Z",
+      "side": 1,
+      "message": "recheck - cross-cinder-py312 failure doesn\u0027t look related.\n\n```\nRuntimeError: Second simultaneous read on fileno 7 detected.  Unless you really know what you\u0027re doing, make sure that only one greenthread can read any particular socket.  Consider using a pools.Pool. If you do know what you\u0027re doing and want to disable this error, call eventlet.debug.hub_prevent_multiple_readers(False) - MY THREAD\u003d\u003cbuilt-in method switch of greenlet.greenlet object at 0x7c2f1377d6c0\u003e; THAT THREAD\u003dFdListener(\u0027read\u0027, 7, \u003cbuilt-in method switch of greenlet.greenlet object at 0x7c2f048cd340\u003e, \u003cbuilt-in method throw of greenlet.greenlet object at 0x7c2f048cd340\u003e)\n```",
+      "revId": "f92e51f592a9e688aeaf03a9d2c5c0be3ffda659",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
