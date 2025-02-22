@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a895a327_5c75c9e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-22T11:12:31Z",
+      "side": 1,
+      "message": "recheck cinder.tests.unit.backup.drivers.test_backup_ceph.VolumeMetadataBackupTestCase.test_exists",
+      "revId": "929da9a5613913f777c2f50a4be7ec74e2f16146",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
