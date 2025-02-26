@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a68905a4_9da94201",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-26T17:59:41Z",
+      "side": 1,
+      "message": "we are releasing 7.4.0 now https://review.opendev.org/c/openstack/releases/+/942834\nI\u0027ll amend the new u-c bump to carry the !\u003d7.3.1 exclusion",
+      "revId": "335da9303ecd7ca44b2dd978917826e6cbcc5741",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
