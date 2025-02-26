@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd9d0ce2_14e5d407",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15343
+      },
+      "writtenOn": "2025-02-26T23:07:42Z",
+      "side": 1,
+      "message": "recheck\n\npy312 failure should be resolved with an updated setuptools; see https://github.com/pypa/setuptools/issues/4853",
+      "revId": "3c10e290f19b2b9980328169634172eeec38d20f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
