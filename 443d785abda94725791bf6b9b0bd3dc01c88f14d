@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c46227f_29465308",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-26T18:01:47Z",
+      "side": 1,
+      "message": "recheck unclear failure in requirements-tox-py312-check-uc, not sure how that could be related",
+      "revId": "443d785abda94725791bf6b9b0bd3dc01c88f14d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
