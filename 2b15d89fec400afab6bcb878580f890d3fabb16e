@@ -16,6 +16,23 @@
       "message": "Fixes Swift\u0027s gate: https://review.opendev.org/c/openstack/swift/+/940059",
       "revId": "2b15d89fec400afab6bcb878580f890d3fabb16e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7682f297_e6872b23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15343
+      },
+      "writtenOn": "2025-02-26T22:15:51Z",
+      "side": 1,
+      "message": "recheck\n\npy312 failure should be resolved with an updated setuptools; see https://github.com/pypa/setuptools/issues/4853",
+      "revId": "2b15d89fec400afab6bcb878580f890d3fabb16e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
