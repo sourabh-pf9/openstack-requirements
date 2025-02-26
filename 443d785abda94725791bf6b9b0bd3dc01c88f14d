@@ -16,6 +16,24 @@
       "message": "recheck unclear failure in requirements-tox-py312-check-uc, not sure how that could be related",
       "revId": "443d785abda94725791bf6b9b0bd3dc01c88f14d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "137a7f02_7061ecc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15343
+      },
+      "writtenOn": "2025-02-26T20:42:30Z",
+      "side": 1,
+      "message": "Seems pervasive, though -- all six of the builds in the last day failed: https://zuul.opendev.org/t/openstack/builds?job_name\u003drequirements-tox-py312-check-uc\u0026project\u003dopenstack/requirements\n\nAlways with `pkg_resources.DistributionNotFound: The \u0027infi.dtypes.wwn\u0027 distribution was not found and is required by the application`",
+      "parentUuid": "0c46227f_29465308",
+      "revId": "443d785abda94725791bf6b9b0bd3dc01c88f14d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
