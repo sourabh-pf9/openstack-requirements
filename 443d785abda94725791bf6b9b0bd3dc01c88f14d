@@ -34,6 +34,24 @@
       "parentUuid": "0c46227f_29465308",
       "revId": "443d785abda94725791bf6b9b0bd3dc01c88f14d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d56c11a_3e9f29ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15343
+      },
+      "writtenOn": "2025-02-26T22:14:15Z",
+      "side": 1,
+      "message": "Looks like maybe https://github.com/pypa/setuptools/issues/4853 ? Should be resolved with [latest `setuptools`](https://setuptools.pypa.io/en/stable/history.html#v75-8-2) released an hour or two ago.",
+      "parentUuid": "137a7f02_7061ecc8",
+      "revId": "443d785abda94725791bf6b9b0bd3dc01c88f14d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
