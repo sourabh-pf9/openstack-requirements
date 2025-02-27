@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "465fe3ac_6f77da86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-02-27T14:18:31Z",
+      "side": 1,
+      "message": "recheck requirements-tox-py312-check-uc timeout.",
+      "revId": "f91cd35279c4943e924480108e53ff0d62f2f096",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
