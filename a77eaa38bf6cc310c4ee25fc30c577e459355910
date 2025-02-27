@@ -33,6 +33,23 @@
       "message": "recheck tempest.api.compute.servers.test_create_server.ServersV294TestFqdnHostnames.test_verify_hostname_allows_fqdn",
       "revId": "a77eaa38bf6cc310c4ee25fc30c577e459355910",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96a0dfa4_f7c3463f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-02-27T14:15:20Z",
+      "side": 1,
+      "message": "recheck *-check-uc timeouts.",
+      "revId": "a77eaa38bf6cc310c4ee25fc30c577e459355910",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
