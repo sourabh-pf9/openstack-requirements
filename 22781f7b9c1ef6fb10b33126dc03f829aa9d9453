@@ -33,6 +33,23 @@
       "message": "actually it does, will need to wait for a fix from designate",
       "revId": "22781f7b9c1ef6fb10b33126dc03f829aa9d9453",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6334df7e_bd8044f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-02-28T18:34:24Z",
+      "side": 1,
+      "message": "procedural -2 for reqs freeze",
+      "revId": "22781f7b9c1ef6fb10b33126dc03f829aa9d9453",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
