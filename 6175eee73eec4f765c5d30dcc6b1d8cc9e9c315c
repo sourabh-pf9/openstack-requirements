@@ -33,6 +33,23 @@
       "message": "Watching this patch for the openstacksdk bump ...\n\nLooks like the same two Neutron tests in Horizon failed both times:\n\n```\n2025-02-28 09:55:45.758982 | ubuntu-noble | \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d short test summary info \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n2025-02-28 09:55:45.758991 | ubuntu-noble | FAILED openstack_dashboard/test/unit/api/test_neutron.py::NeutronApiTests::test_router_static_route_add\n2025-02-28 09:55:45.759111 | ubuntu-noble | FAILED openstack_dashboard/test/unit/api/test_neutron.py::NeutronApiTests::test_router_static_route_remove\n2025-02-28 09:55:45.759130 | ubuntu-noble | \u003d\u003d\u003d 2 failed, 1518 passed, 91 deselected, 1545 warnings in 313.40s (0:05:13) \u003d\u003d\u003d\n```",
       "revId": "6175eee73eec4f765c5d30dcc6b1d8cc9e9c315c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71e12e40_bc4d3fe6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-01T04:30:56Z",
+      "side": 1,
+      "message": "fix is in https://review.opendev.org/c/openstack/horizon/+/943001",
+      "revId": "6175eee73eec4f765c5d30dcc6b1d8cc9e9c315c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
