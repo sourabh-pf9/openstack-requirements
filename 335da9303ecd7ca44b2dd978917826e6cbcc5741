@@ -34,6 +34,40 @@
       "parentUuid": "a68905a4_9da94201",
       "revId": "335da9303ecd7ca44b2dd978917826e6cbcc5741",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8cd57cd_b03d3e40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-03T09:52:14Z",
+      "side": 1,
+      "message": "7.4.0 has been released, but is being blocked by yet another issue discovered in horizon unit tests, so we may need to do this one after all",
+      "revId": "335da9303ecd7ca44b2dd978917826e6cbcc5741",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "476da8b0_b4112746",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-03T09:52:14Z",
+      "side": 1,
+      "message": "7.2.1 doesn\u0027t exist, needs to be 7.2.0",
+      "revId": "335da9303ecd7ca44b2dd978917826e6cbcc5741",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
