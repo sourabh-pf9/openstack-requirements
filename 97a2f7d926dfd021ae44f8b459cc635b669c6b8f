@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "266b51e8_745aa3bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4690
+      },
+      "writtenOn": "2025-03-04T19:50:26Z",
+      "side": 1,
+      "message": "Just FYI this has been already proposed here and it\u0027s temporarily blocked by a bug in Horizon:\n\nhttps://review.opendev.org/c/openstack/requirements/+/942889",
+      "revId": "97a2f7d926dfd021ae44f8b459cc635b669c6b8f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
