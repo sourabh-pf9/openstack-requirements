@@ -50,6 +50,23 @@
       "message": "fix is in https://review.opendev.org/c/openstack/horizon/+/943001",
       "revId": "6175eee73eec4f765c5d30dcc6b1d8cc9e9c315c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "173f85c3_fe8ed9af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4690
+      },
+      "writtenOn": "2025-03-06T17:13:10Z",
+      "side": 1,
+      "message": "recheck https://review.opendev.org/c/openstack/horizon/+/943001 has merged",
+      "revId": "6175eee73eec4f765c5d30dcc6b1d8cc9e9c315c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
