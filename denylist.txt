@@ -34,6 +34,7 @@ neutron-fwaas
 neutron-lbaas
 neutron-vpnaas
 vmware-nsxlib
+tap-as-a-service
 
 # Projects are free to specify their own version of ansible and molecule
 ansible
