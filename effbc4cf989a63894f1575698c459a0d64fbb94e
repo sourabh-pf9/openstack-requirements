@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8940b0dc_a3f79c61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-15T12:38:00Z",
+      "side": 1,
+      "message": "technical -2 since we are in requirements freeze, patch should be fine after the release",
+      "revId": "effbc4cf989a63894f1575698c459a0d64fbb94e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
