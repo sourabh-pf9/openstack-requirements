@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f4dadb9_30fed26a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-15T12:39:26Z",
+      "side": 1,
+      "message": "technical -2 since we are in requirements freeze, should be fine after the release",
+      "revId": "d0c908a7a0944e11bb252fd665abad57d2c0341f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65f0b66f_c964965c",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-15T12:39:26Z",
+      "side": 1,
+      "message": "please keep entries sorted within this block",
+      "revId": "d0c908a7a0944e11bb252fd665abad57d2c0341f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
