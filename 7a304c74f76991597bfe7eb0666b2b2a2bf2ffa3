@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59e4b4b4_60a0f5a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-15T12:41:21Z",
+      "side": 1,
+      "message": "RFE thread https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/KLS3CRTV6U7EUF7I4IKZ5S7PCHRG4E3C/",
+      "revId": "7a304c74f76991597bfe7eb0666b2b2a2bf2ffa3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
