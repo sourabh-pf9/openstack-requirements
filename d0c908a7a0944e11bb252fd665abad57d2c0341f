@@ -33,6 +33,24 @@
       "message": "please keep entries sorted within this block",
       "revId": "d0c908a7a0944e11bb252fd665abad57d2c0341f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "236f6c91_f4ac69a0",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2025-03-16T14:30:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "65f0b66f_c964965c",
+      "revId": "d0c908a7a0944e11bb252fd665abad57d2c0341f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
