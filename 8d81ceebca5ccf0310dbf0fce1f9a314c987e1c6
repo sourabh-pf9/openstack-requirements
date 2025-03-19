@@ -91,6 +91,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "7ddb448d_fe730559",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31557
+      },
+      "writtenOn": "2025-03-19T14:05:07Z",
+      "side": 1,
+      "message": "This change breaks changing of WEBROOT because $static_dir not replaced to actual value for scss compilation.",
+      "revId": "8d81ceebca5ccf0310dbf0fce1f9a314c987e1c6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "74040e5b_27dd50c1",
         "filename": "global-requirements.txt",
         "patchSetId": 6
