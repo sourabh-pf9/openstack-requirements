@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "768fe8a8_af67b98b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-03-28T17:19:56Z",
+      "side": 1,
+      "message": "let me just block this for now, so we can remember a) to check this when a relevant change comes up and b) to amend the bot to not generate this patch next time around",
+      "revId": "0b2987824a2a5ea5dda62d2f7f94432c47a00a26",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "66487d47_de273797",
