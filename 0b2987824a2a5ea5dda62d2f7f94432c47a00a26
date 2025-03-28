@@ -16,6 +16,24 @@
       "message": "I\u0027m not sure that this change is actually correct for the requirements repo itself, won\u0027t this break self-testing of changes?",
       "revId": "0b2987824a2a5ea5dda62d2f7f94432c47a00a26",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91902291_73d6c3f1",
+        "filename": "tox.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-03-28T16:56:15Z",
+      "side": 1,
+      "message": "hmmm, you are right. i think this should be abandoned so that things are really tested against the actual upper-constraints.txt whenever something is changed in it in a requirements stable/* patch.",
+      "parentUuid": "66487d47_de273797",
+      "revId": "0b2987824a2a5ea5dda62d2f7f94432c47a00a26",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
