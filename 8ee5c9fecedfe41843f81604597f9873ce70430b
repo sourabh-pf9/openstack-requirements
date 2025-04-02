@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff2e9daa_289d0189",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2025-04-02T17:54:00Z",
+      "side": 1,
+      "message": "agree, if projects require specific version to pin that is doable in their rquirements.txt",
+      "revId": "8ee5c9fecedfe41843f81604597f9873ce70430b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
