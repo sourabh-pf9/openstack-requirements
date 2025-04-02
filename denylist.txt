@@ -35,6 +35,10 @@ neutron-lbaas
 neutron-vpnaas
 vmware-nsxlib
 
+# The os-traits library is just a bunch of string constant values, and
+# projects can specify the versions they care about in their own requirements.
+os-traits
+
 # Projects are free to specify their own version of ansible and molecule
 ansible
 ansible-compat
