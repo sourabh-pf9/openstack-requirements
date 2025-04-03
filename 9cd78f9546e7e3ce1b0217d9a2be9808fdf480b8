@@ -16,6 +16,23 @@
       "message": "A couple of things.\n\n1) To avoid merge conflicts I suggest only modfying denylist.txt.  Yes this will leave os-traits in upper-constraints.txt but only until the bot change to synchronise things lands.  Famous last words but I don\u0027t think that\u0027ll be a big problem.\n\n2) What is \u0027otu-traits\u0027?  does the \u0027otu\u0027 mean something I\u0027m missing?\n\nI\u0027m +2 on this, but would like someone from the release team to verify that just removing os-traits from upper-constraints.txt is enough to stop post-release jobs from creating changes like [1].  Until then I\u0027m setting my vote to +1 (not that it really matters as we need a rebase/update anyway)\n\n\n[1] https://review.opendev.org/c/openstack/requirements/+/946181",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1ac95f7_e3ba2bb6",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-03T03:23:45Z",
+      "side": 1,
+      "message": "So this is a real library that will become part of the delivered product, right? Then a distro will need to package one specific version of it for a release and cannot have different versions per project. Having a pinned version in u-c ensures that this is feasible and I don\u0027t think we should easily give up on that.\n\nBut maybe my understanding is incomplete, why would a bunch of string constants be different in this regard from a bunch of funtions?",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
