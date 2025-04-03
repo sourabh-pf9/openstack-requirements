@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3718d29e_d99d528f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-04-03T06:09:05Z",
+      "side": 1,
+      "message": "Sure.  Doesn\u0027t look like it will break anything.",
+      "revId": "c6d52d2c6fb16deea9e4035fdf1326b2b285547b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
