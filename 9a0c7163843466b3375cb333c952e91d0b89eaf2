@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ef049e2_665e5ca1",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2025-04-03T22:01:41Z",
+      "side": 1,
+      "message": "Ironic tests pass with updated pysnmp, but not new pyasn1. I\u0027ve been digging this.\n\nFirst, read: https://github.com/lextudio/pysnmp/issues/175 (tl;dr the modules Ironic use were removed around 6.1 era but are still in the pypi package)\n\nAs far as I can tell, we shouldn\u0027t have been able to run a pysnmp version past like, 6.1.x -- they had these modules we were using IN THE RELEASE even though they are NOT IN THE REPO.  So when updating the pyasn1 version, those rogue modules access code that no longer exists in pyasn1 and blows up. The real bug is that pysnmp versions past https://github.com/lextudio/pysnmp/commit/31953bc487148852e2eef774125a02028adabdef had them at all (these modules being removed would\u0027ve broken ironic, but in a different, more direct way)",
+      "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
