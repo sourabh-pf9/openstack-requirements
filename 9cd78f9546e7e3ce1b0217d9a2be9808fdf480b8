@@ -87,6 +87,24 @@
       "parentUuid": "de37bf23_8858e201",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2475df4c_d1aa9871",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-03T14:11:45Z",
+      "side": 1,
+      "message": "jsut to double down on this. the contract we have with os-traits is we never remove traits once added.\n\nwe are selective in adding new traits as a result which often cuases a lot of pain couming up to FF was we can have several change stuck behind doign a release to add the traits but if we are unsure we can deliver the full freature that can cause teh review to stall out in a chicken and egg situration.\n\n\nwe do have min version that we pinn placment too each release for os-traits and os-resouce clases.\n\nwhile there is a lib compont to both they are really just data packages\nwehre the data is really jsut a set of constants expressed as strings.\n\ni think decoupleing os-trait and os-resoucs classes could be useful in general.\n\nwhile we do not backprot traits, getting them form a new release in a stable branch should nto break things.\n\non master pinning to a specific version of os-trait adds littel value. on stable pinning to a major release could to prevent any possibel regressiosn with the very small set of funcitons that os-trait provide.\n\nis there a compmise we can maek so we only need to have a requirement bump on a major release (when there are breaking changes) ?",
+      "parentUuid": "e205e515_f078c32a",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
