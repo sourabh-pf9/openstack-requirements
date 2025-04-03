@@ -18,6 +18,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e67a17f_7084df8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2025-04-03T13:29:02Z",
+      "side": 1,
+      "message": "\u003e A couple of things.\n\u003e \n\u003e 1) To avoid merge conflicts I suggest only modfying denylist.txt.  Yes this will leave os-traits in upper-constraints.txt but only until the bot change to synchronise things lands.  Famous last words but I don\u0027t think that\u0027ll be a big problem.\n\nDoes that mean we add to denylist, land, then land another fix to remove? Or will the bot propose the removal?\n\n\u003e 2) What is \u0027otu-traits\u0027?  does the \u0027otu\u0027 mean something I\u0027m missing?\n\nOTU is the feature in nova I\u0027m working on that required me to modify os-traits, release os-traits, bump u-c, then bump our requirement... all to get a single string constant available to me :)",
+      "parentUuid": "bdc247d5_635efde5",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
@@ -49,6 +67,24 @@
       "side": 1,
       "message": "You\u0027re correct.  The assertion is that as it\u0027s a library that is \u0027additive\u0027 only *and* only contains constant strings (no code/functaional changes/bugs) the likelihood of it causing a regression is low (but I guess non-zero).\n\nA project may specify a minimum version, but there is no reason for it to add a maximum version, so from a distro POV just pick the \"highest minimum\"?\n\nI\u0027m fine with this exception, but I don\u0027t really see a \"great advantage\" to it.\n\n#shrug",
       "parentUuid": "c1ac95f7_e3ba2bb6",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e205e515_f078c32a",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2025-04-03T13:29:02Z",
+      "side": 1,
+      "message": "It\u0027s additive only so the only thing that matters to a project is the minimum version. My other suggestion besides this is to just always pin to \u003c4. Theoretically we\u0027d need a major version if we ever removed anything, and at least \u003c4 would let us avoid the dance until that point. Not sure if the bot allows that though.\n\nI see it as a \"great advantage\" to cut out the u-c bump from the already-ridiculous set of steps we have to do every time we want to add a new string constant. It was pretty quick this time, but it\u0027s not always that way.",
+      "parentUuid": "de37bf23_8858e201",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
