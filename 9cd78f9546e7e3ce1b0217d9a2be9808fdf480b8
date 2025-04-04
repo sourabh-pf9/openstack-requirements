@@ -36,6 +36,41 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9613227_41b7b35a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-04T05:03:28Z",
+      "side": 1,
+      "message": "\u003e OTU is the feature in nova I\u0027m working on that required me to modify os-traits, release os-traits, bump u-c, then bump our requirement... all to get a single string constant available to me :)\n\nso the only step that you could avoid with this patch is the \"bump u-c\" step, which is technically the easiest one, since the patch is automatically created after a release. IMO the real issue you are trying to work around is the lack of enough active contributors for the requirements project. if we had a bot that not only proposes the change, but also automatically merges it when the CI passes, would you still be wanting this patch? or are you rather unhappy with the traits-as-a-library concept in general? and how about just joining the requirements team instead?",
+      "parentUuid": "4e67a17f_7084df8a",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1868e89_d0b12730",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-04T05:03:28Z",
+      "side": 1,
+      "message": "detailed responses inline, to summarize: I\u0027d still hold up my -1 if this was rebased, since I don\u0027t think a technical workaround to a pure organizational problem is the correct solution",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
@@ -103,6 +138,24 @@
       "side": 1,
       "message": "jsut to double down on this. the contract we have with os-traits is we never remove traits once added.\n\nwe are selective in adding new traits as a result which often cuases a lot of pain couming up to FF was we can have several change stuck behind doign a release to add the traits but if we are unsure we can deliver the full freature that can cause teh review to stall out in a chicken and egg situration.\n\n\nwe do have min version that we pinn placment too each release for os-traits and os-resouce clases.\n\nwhile there is a lib compont to both they are really just data packages\nwehre the data is really jsut a set of constants expressed as strings.\n\ni think decoupleing os-trait and os-resoucs classes could be useful in general.\n\nwhile we do not backprot traits, getting them form a new release in a stable branch should nto break things.\n\non master pinning to a specific version of os-trait adds littel value. on stable pinning to a major release could to prevent any possibel regressiosn with the very small set of funcitons that os-trait provide.\n\nis there a compmise we can maek so we only need to have a requirement bump on a major release (when there are breaking changes) ?",
       "parentUuid": "e205e515_f078c32a",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1bc9a8f_67b62127",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-04T05:03:28Z",
+      "side": 1,
+      "message": "\u003e jsut to double down on this. the contract we have with os-traits is we never remove traits once added.\n\u003e \n\u003e we are selective in adding new traits as a result which often cuases a lot of pain couming up to FF was we can have several change stuck behind doign a release to add the traits but if we are unsure we can deliver the full freature that can cause teh review to stall out in a chicken and egg situration.\n\u003e \n\u003e \n\u003e we do have min version that we pinn placment too each release for os-traits and os-resouce clases.\n\u003e \n\u003e while there is a lib compont to both they are really just data packages\n\u003e wehre the data is really jsut a set of constants expressed as strings.\n\u003e \n\u003e i think decoupleing os-trait and os-resoucs classes could be useful in general.\n\u003e \n\u003e while we do not backprot traits, getting them form a new release in a stable branch should nto break things.\n\u003e \n\u003e on master pinning to a specific version of os-trait adds littel value. on stable pinning to a major release could to prevent any possibel regressiosn with the very small set of funcitons that os-trait provide.\n\u003e \n\u003e is there a compmise we can maek so we only need to have a requirement bump on a major release (when there are breaking changes) ?\n\nas I wrote above, the \"need to have a requirement bump\" IMHO is a small step in comparison to \"need to have a new release made\", so I would argue that dropping it is an unneccessary optimization.\n\nI also gather from your description that os-traits is indeed snowflakey, but it is still far away from other stuff in the denylist list like linters that do not make it into the finished product at all",
+      "parentUuid": "2475df4c_d1aa9871",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
