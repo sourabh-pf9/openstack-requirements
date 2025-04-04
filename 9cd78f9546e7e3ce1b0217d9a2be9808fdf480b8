@@ -71,6 +71,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7164e821_a15dc763",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-04T11:18:49Z",
+      "side": 1,
+      "message": "im not + or - one on this mainly because i dont know what the best path forward is\n\nits an annoying pain point for both reviewers and contibutors today and its not really workign well for us but i also get wehre the release team are coming form.",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
@@ -156,6 +173,24 @@
       "side": 1,
       "message": "\u003e jsut to double down on this. the contract we have with os-traits is we never remove traits once added.\n\u003e \n\u003e we are selective in adding new traits as a result which often cuases a lot of pain couming up to FF was we can have several change stuck behind doign a release to add the traits but if we are unsure we can deliver the full freature that can cause teh review to stall out in a chicken and egg situration.\n\u003e \n\u003e \n\u003e we do have min version that we pinn placment too each release for os-traits and os-resouce clases.\n\u003e \n\u003e while there is a lib compont to both they are really just data packages\n\u003e wehre the data is really jsut a set of constants expressed as strings.\n\u003e \n\u003e i think decoupleing os-trait and os-resoucs classes could be useful in general.\n\u003e \n\u003e while we do not backprot traits, getting them form a new release in a stable branch should nto break things.\n\u003e \n\u003e on master pinning to a specific version of os-trait adds littel value. on stable pinning to a major release could to prevent any possibel regressiosn with the very small set of funcitons that os-trait provide.\n\u003e \n\u003e is there a compmise we can maek so we only need to have a requirement bump on a major release (when there are breaking changes) ?\n\nas I wrote above, the \"need to have a requirement bump\" IMHO is a small step in comparison to \"need to have a new release made\", so I would argue that dropping it is an unneccessary optimization.\n\nI also gather from your description that os-traits is indeed snowflakey, but it is still far away from other stuff in the denylist list like linters that do not make it into the finished product at all",
       "parentUuid": "2475df4c_d1aa9871",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "471ac966_2f9e8763",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-04T11:18:49Z",
+      "side": 1,
+      "message": "To me os-traits is like tempest\n\nthere is a poirnt in its lifecycle when it makes sense to pin.\nfor tempest that when branches are movign to unmaintained.\nfor os-traits that wehn we branch the major version\n\nat all ohter time it makes more sense for master to track master\njust like we use master placmenet with maser nova.\n\nhaving os-trait as a seperate lib was only done becuase we want to have a way to import them without having to import all of nova or all of placement.\n\nwhat might be better is to change how we use it going forward.\n\n\nwe could swap nova to use os-traits form souce just by addign it to libs form git and modify our tox jobs to install it in a similar way.\n\nwe could fold os-traits and os-resouce classes into the placement or nova git repo as additional libs that we release form them but allow use to use them directly in treee prior to a release. so we would do 1 os-traits release a cycle (technialy we would probely do one every time we do a nova release btu like m1, FF, RC1) and not need to do any releases to land a feature in nova or placement depending on where we put it.\n\nwe could keep doing the release dance but to be clear, i will be proposing another os-traits release fo new traits we added since the last one dan did later today.\nwhich means another patch to the requirement repo too.\n\nim not actully sure what the best path forward is but the utility of having os-trait and os-resouce classes as seperate deliverable is questionable so it might be the case that we would be better off absoring them back into nova. its a conversation i think we shoudl have next week with the wirider nova/placment team.",
+      "parentUuid": "a1bc9a8f_67b62127",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
