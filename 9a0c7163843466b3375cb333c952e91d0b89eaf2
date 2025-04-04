@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "df09c296_04bda273",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-04T09:08:41Z",
+      "side": 1,
+      "message": "apparently there are 2 separate issues, also this should be capped at 0.4.1 to avoid yet another missing module",
+      "parentUuid": "f4db3282_18d0c82a",
+      "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f5b74f27_6db9649c",
         "filename": "upper-constraints.txt",
         "patchSetId": 5
