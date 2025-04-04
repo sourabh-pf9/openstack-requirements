@@ -88,6 +88,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "04029aca_58dc6c63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2025-04-04T13:53:52Z",
+      "side": 1,
+      "message": "\u003e IMO the real issue you are trying to work around is the lack of enough active contributors for the requirements project.\n\nThat may be partially true, but it\u0027s still a step in a sort of insane process that doesn\u0027t need to exist (for this package). To flip it around, since an upper constraint on os-traits literally doesn\u0027t make sense, why would be want to keep burdening the limited resources of the requirements team with something that very literally does not need a constraint\n\n\u003e if we had a bot that not only proposes the change, but also automatically merges it when the CI passes, would you still be wanting this patch?\n\nThat would be better obviously, but it\u0027s still a step that does not need to be in the process. It introduces more latency (even if the bot is fast) and depends on the bot being written to do this, maintained, etc. We literally already have a denylist for things like this.\n\n\u003e or are you rather unhappy with the traits-as-a-library concept in general?\n\nI surely am, but at the moment that\u0027s what we\u0027ve got and making it as painless as possible seems like a reasonable goal to me.",
+      "parentUuid": "d9613227_41b7b35a",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
@@ -191,6 +209,24 @@
       "side": 1,
       "message": "To me os-traits is like tempest\n\nthere is a poirnt in its lifecycle when it makes sense to pin.\nfor tempest that when branches are movign to unmaintained.\nfor os-traits that wehn we branch the major version\n\nat all ohter time it makes more sense for master to track master\njust like we use master placmenet with maser nova.\n\nhaving os-trait as a seperate lib was only done becuase we want to have a way to import them without having to import all of nova or all of placement.\n\nwhat might be better is to change how we use it going forward.\n\n\nwe could swap nova to use os-traits form souce just by addign it to libs form git and modify our tox jobs to install it in a similar way.\n\nwe could fold os-traits and os-resouce classes into the placement or nova git repo as additional libs that we release form them but allow use to use them directly in treee prior to a release. so we would do 1 os-traits release a cycle (technialy we would probely do one every time we do a nova release btu like m1, FF, RC1) and not need to do any releases to land a feature in nova or placement depending on where we put it.\n\nwe could keep doing the release dance but to be clear, i will be proposing another os-traits release fo new traits we added since the last one dan did later today.\nwhich means another patch to the requirement repo too.\n\nim not actully sure what the best path forward is but the utility of having os-trait and os-resouce classes as seperate deliverable is questionable so it might be the case that we would be better off absoring them back into nova. its a conversation i think we shoudl have next week with the wirider nova/placment team.",
       "parentUuid": "a1bc9a8f_67b62127",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e5fbbc5_c85665c6",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2025-04-04T13:53:52Z",
+      "side": 1,
+      "message": "\u003e we could keep doing the release dance but to be clear, i will be proposing another os-traits release fo new traits we added since the last one dan did later today.\n\u003e which means another patch to the requirement repo too.\n\nRight, this points out how silly this is. We did it yesterday and we\u0027re going to do it today. For something that does not need an upper constraint.\n\n\u003e im not actully sure what the best path forward is but the utility of having os-trait and os-resouce classes as seperate deliverable is questionable so it might be the case that we would be better off absoring them back into nova. its a conversation i think we shoudl have next week with the wirider nova/placment team.\n\nI\u0027m very much in favor of absorbing them back into something (seems like placement would be better). I think that making a generic tool that can generate a manifest of the resource classes and traits that we sync/update in nova any time we add a new one to placement would be fine. They\u0027re just string constants and really serve almost no purpose at runtime other than that.\n\nI also don\u0027t want to shoot for the above ideal (which is not a trivial amount of work), have it lose steam and also not land this denylist change. Perhaps the intent to eliminate this dance entirely is enough for the requirements team to allow this to proceed in the meantime to reduce some of the friction?",
+      "parentUuid": "471ac966_2f9e8763",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
