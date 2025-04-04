@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b2411d2_d4a89e60",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-04T12:39:10Z",
+      "side": 1,
+      "message": "this needs to be kept at 0.4.1 for the time being",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3cbb6cf7_38ac85b7",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-04T12:39:10Z",
+      "side": 1,
+      "message": "I believe this can be moved to max 6.1.4",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
