@@ -229,6 +229,24 @@
       "parentUuid": "471ac966_2f9e8763",
       "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f503c98_ab2c3bf6",
+        "filename": "denylist.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 8556
+      },
+      "writtenOn": "2025-04-04T19:59:22Z",
+      "side": 1,
+      "message": "\u003e \u003e im not actully sure what the best path forward is but the utility of having os-trait and os-resouce classes as seperate deliverable is questionable so it might be the case that we would be better off absoring them back into nova. its a conversation i think we shoudl have next week with the wirider nova/placment team.\n\u003e \n\u003e I\u0027m very much in favor of absorbing them back into something (seems like placement would be better). I think that making a generic tool that can generate a manifest of the resource classes and traits that we sync/update in nova any time we add a new one to placement would be fine. They\u0027re just string constants and really serve almost no purpose at runtime other than that.\n\nI was not part of the discussion so I might miss something but I also do not find any strong reason why os-traits (even os-resource-classes) need to be a separate lib. Because that gives less benefits but more overhead of extra releases, upper-contraints, and testing/packaging work. merging them in palcement is best close place to do.\n\n\u003e I also don\u0027t want to shoot for the above ideal (which is not a trivial amount of work), have it lose steam and also not land this denylist change. Perhaps the intent to eliminate this dance entirely is enough for the requirements team to allow this to proceed in the meantime to reduce some of the friction?\n\n\nI agree. I am not sure we should treat os-traits lib (having a set of constants only) the same as other and apply the mandate of u-c. Seeing a few neutron lib and tempest convience me to not have mandatory u-c for this lib which make process easy. To make the development process as easy as we can, the right path here can be to allow it in deny list now and later nova team can decide about merging it in placement/nova.",
+      "parentUuid": "3e5fbbc5_c85665c6",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
