@@ -106,6 +106,41 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "31620c33_c026dce6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-04-05T06:29:40Z",
+      "side": 1,
+      "message": "Dan, please\n1) re-base this change\n2) remove the u-c portion\n3) Add a comment in the commit message explaining that we\u0027re happy to let the bot clean up u-c after the fact\n\nI\u0027ll add an additional patch to add a warning in denylist.  I\u0027d ask you to do it but I\"m not sure exactly what to say other than \"os-traits is special; you aren\u0027t\" ... but nicer\n\nI Also want to make a couple of things clear.\n\n1) I am not discounting frickler\u0027s concerns.  I\u0027m possibly less worried\n2) I\u0027m only one core reviewer and wont do anything special to land this if other cores feel differently\n3) Dan, Sean and I all work for the same company but that is not a factor my decision making process.\n\nThat is all.",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8d62f6_6238e622",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 12898
+      },
+      "writtenOn": "2025-04-05T06:29:40Z",
+      "side": 1,
+      "message": "1) Yup just land the denylist.txt part and the proposal-bot will handle the removal from u-c.   Given that u-c already has 3.4.0[1] this shouldn\u0027t cause you any pain.\n\n2) Got it \"One-Time-Use\"\n\nI checked the release tooling and removing os-traits from u-c shouldn\u0027t cause any problems WRT to proposing updates.\n\nAs to the future of this patch, given the role/nature of os-traits I\u0027m okay with adding the exception.\n\n[1] https://opendev.org/openstack/requirements/src/branch/master/upper-constraints.txt#L362",
+      "parentUuid": "04029aca_58dc6c63",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
