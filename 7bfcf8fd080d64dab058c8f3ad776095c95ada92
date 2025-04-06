@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53eea61b_549d00ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 80
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-06T07:52:40Z",
+      "side": 1,
+      "message": "pyroute2 update also seems to be bonkers.\n\nalso I didn\u0027t expect us to have to throw out py39 this fast, but here we are\n\nvolunteers welcome",
+      "revId": "7bfcf8fd080d64dab058c8f3ad776095c95ada92",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}

@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8eecb8ef_51770b67",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-06T07:52:40Z",
+      "side": 1,
+      "message": "added that cap but the ironic job is still failing, can you please take another look?",
+      "parentUuid": "3b2411d2_d4a89e60",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3cbb6cf7_38ac85b7",
         "filename": "upper-constraints.txt",
         "patchSetId": 79
@@ -31,6 +49,24 @@
       "writtenOn": "2025-04-04T12:39:10Z",
       "side": 1,
       "message": "I believe this can be moved to max 6.1.4",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d2a8e35_a5f7d87c",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-06T07:52:40Z",
+      "side": 1,
+      "message": "let\u0027s move that bump to a dedicated patch",
+      "parentUuid": "3cbb6cf7_38ac85b7",
       "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
