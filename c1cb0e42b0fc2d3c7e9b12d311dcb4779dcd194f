@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "41c18641_bcbe35f9",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-07T09:10:11Z",
+      "side": 1,
+      "message": "yeah the problem is in pyasn1 that needs to be capped at 0.6.0",
+      "parentUuid": "8eecb8ef_51770b67",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3cbb6cf7_38ac85b7",
         "filename": "upper-constraints.txt",
         "patchSetId": 79
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "let\u0027s move that bump to a dedicated patch",
       "parentUuid": "3cbb6cf7_38ac85b7",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fda4d1a_06e62148",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-07T09:10:11Z",
+      "side": 1,
+      "message": "sounds good\nwe can have a patch just for the pysnmp relatead stuff, the working versions should be pysnmp-lextudio 6.1.4, pyasn1 0.6.0, pyasn1-modules 0.4.1",
+      "parentUuid": "5d2a8e35_a5f7d87c",
       "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }

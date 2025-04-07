@@ -16,6 +16,23 @@
       "message": "pyroute2 update also seems to be bonkers.\n\nalso I didn\u0027t expect us to have to throw out py39 this fast, but here we are\n\nvolunteers welcome",
       "revId": "7bfcf8fd080d64dab058c8f3ad776095c95ada92",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61991e82_47b5fe13",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 80
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-07T09:10:11Z",
+      "side": 1,
+      "message": "tis needs to be capped at 0.6.0",
+      "revId": "7bfcf8fd080d64dab058c8f3ad776095c95ada92",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
