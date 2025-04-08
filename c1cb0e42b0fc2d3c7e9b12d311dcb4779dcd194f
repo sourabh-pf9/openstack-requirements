@@ -54,6 +54,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "545d4cc1_b753aae0",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 79
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-08T06:39:21Z",
+      "side": 1,
+      "message": "ah, sorry, I had missed that pyasn1 also has had a new release, done.",
+      "parentUuid": "41c18641_bcbe35f9",
+      "revId": "c1cb0e42b0fc2d3c7e9b12d311dcb4779dcd194f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3cbb6cf7_38ac85b7",
