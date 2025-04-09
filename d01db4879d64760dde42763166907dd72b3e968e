@@ -16,6 +16,24 @@
       "message": "did you run neutron unit tests against it or only functional jobs?\n\nseems cross jobs are failing for neutron, os-vif and octavia, each due to different attributes having been removed",
       "revId": "d01db4879d64760dde42763166907dd72b3e968e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42caee1d_57a6a56a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2025-04-09T09:39:58Z",
+      "side": 1,
+      "message": "In Neutron we have two periodic jobs: functional and fullstack, working with pyroute2 master. This is why I proposed this patch, because I was sure that was working with Neutron, after working with the project maintainer (just helping him) to have this new release.\n\nI didn\u0027t check yet the CI results here, I\u0027ll do it today.",
+      "parentUuid": "ac6f0304_5e74f24b",
+      "revId": "d01db4879d64760dde42763166907dd72b3e968e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
