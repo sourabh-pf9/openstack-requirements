@@ -141,6 +141,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcd0ab67_7cb8d444",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4393
+      },
+      "writtenOn": "2025-04-09T14:48:00Z",
+      "side": 1,
+      "message": "Sorry, I missed this reply somehow. Thanks for the prescription, but I think we just agreed in the Nova PTG session to deprecate and remove os-traits and os-resource-classes entirely to sidestep this problem and the release requirements in general. That discussion might have been different if I had seen this reply, but I was going on the assumption that this had stalled out.\n\nSo I\u0027ll abandon this on the assumption that we\u0027ll just delete these libraries entirely and if it doesn\u0027t pan out, I\u0027ll restore it and do what you say here.",
+      "parentUuid": "31620c33_c026dce6",
+      "revId": "9cd78f9546e7e3ce1b0217d9a2be9808fdf480b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1ac95f7_e3ba2bb6",
