@@ -34,6 +34,23 @@
       "parentUuid": "ac6f0304_5e74f24b",
       "revId": "d01db4879d64760dde42763166907dd72b3e968e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8137b117_b7817f6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131
+      },
+      "writtenOn": "2025-04-10T13:54:58Z",
+      "side": 1,
+      "message": "recheck https://review.opendev.org/c/openstack/neutron/+/946817 merged",
+      "revId": "d01db4879d64760dde42763166907dd72b3e968e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
