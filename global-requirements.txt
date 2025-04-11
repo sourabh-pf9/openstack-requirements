@@ -158,6 +158,7 @@ setproctitle  # BSD
 SQLAlchemy  # MIT
 sqlalchemy-filters  # Apache-2.0
 SQLAlchemy-Utils  # BSD License
+ssh-python  # LGPLv2.1
 sshtunnel  # MIT
 statsd  # MIT
 suds-community  # LGPLv3+
