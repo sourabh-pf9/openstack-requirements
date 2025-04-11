@@ -51,6 +51,23 @@
       "message": "recheck https://review.opendev.org/c/openstack/neutron/+/946817 merged",
       "revId": "d01db4879d64760dde42763166907dd72b3e968e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73474e63_7f11fee0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2025-04-11T08:56:22Z",
+      "side": 1,
+      "message": "A set of patches have been proposed to fix the UT errors: https://review.opendev.org/q/topic:%22bug/2106605%22",
+      "revId": "d01db4879d64760dde42763166907dd72b3e968e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
