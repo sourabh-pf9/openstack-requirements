@@ -16,6 +16,24 @@
       "message": "I guess we need to add an exception for py3.9 to use typing_extensions 4.12.2",
       "revId": "f14bbb241415e22e7ebb09922478aa90da5cac28",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e72492a_f6394758",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 84
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-16T09:46:20Z",
+      "side": 1,
+      "message": "either that or drop py3.9 constraints completely, which also would reduce the maintainance work in general a lot. feel free to amend either way (though the latter might be better done in a dedicated patch first)",
+      "parentUuid": "e75846d2_dfc8e784",
+      "revId": "f14bbb241415e22e7ebb09922478aa90da5cac28",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
