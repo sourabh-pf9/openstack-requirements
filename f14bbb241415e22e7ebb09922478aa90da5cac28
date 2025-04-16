@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e75846d2_dfc8e784",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 84
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-04-16T08:55:31Z",
+      "side": 1,
+      "message": "I guess we need to add an exception for py3.9 to use typing_extensions 4.12.2",
+      "revId": "f14bbb241415e22e7ebb09922478aa90da5cac28",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
