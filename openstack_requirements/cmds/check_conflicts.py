@@ -21,6 +21,7 @@ import traceback
 import pkg_resources
 
 from openstack_requirements.utils import read_requirements_file
+from importlib import metadata
 
 
 def main():
@@ -49,6 +50,22 @@ def main():
                 for req, original_line in spec_list:
                     if req.markers in ["", pyver]:
                         pkg_resources.require(name)
+        except pkg_resources.DistributionNotFound:
+            # Use alternative method using importlib
+            # pkg_resources.require(name) can sometimes fail due to issues
+            # with package name normalization.
+            # For example, a package published as oslo.utils may be installed
+            # as oslo-utils, and pkg_resources may not resolve it correctly.
+            # If it occurs use an alternative method using importlib.
+            for req, _ in spec_list:
+                if not req.markers in ["", pyver]:
+                    pkg_ver = metadata.version(name)
+                    required_pkg_ver = req.specifiers.replace("===", "")
+                    if pkg_ver == required_pkg_ver:
+                        raise Exception(f"Package {name} version mismatch "
+                            f"version {required_pkg_ver} is required and "
+                            f"current package version is {pkg_ver}.")
+
         except pkg_resources.ContextualVersionConflict as e:
             if e.dist.key in xfails:
                 xfail_requirement = xfails[e.dist.key][0][0]
