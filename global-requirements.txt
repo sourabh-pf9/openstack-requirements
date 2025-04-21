@@ -217,6 +217,7 @@ zeroconf  # LGPL
 zipp  # MIT
 zstd  # BSD License (2 clause)
 zVMCloudConnector;sys_platform!='win32'  # Apache 2.0 License
+cheroot  # BSD
 
 ## section:testing
 
