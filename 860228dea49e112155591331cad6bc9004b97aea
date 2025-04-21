@@ -16,6 +16,23 @@
       "message": "CherryPy https://cherrypy.dev/ is a BSD licensed library https://github.com/cherrypy/cherrypy\n\nIt looks relatively well supported. \n\nI think it\u0027d be wise to WIP this change until we have consensus in Ironic around the IPA change, but in general I\u0027m in favor of this.",
       "revId": "860228dea49e112155591331cad6bc9004b97aea",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60f59d25_0eba26c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11904
+      },
+      "writtenOn": "2025-04-21T06:13:46Z",
+      "side": 1,
+      "message": "When this is ready and needed, please update to include answers to the items under Review Criteria here: https://wiki.openstack.org/wiki/Requirements",
+      "revId": "860228dea49e112155591331cad6bc9004b97aea",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
