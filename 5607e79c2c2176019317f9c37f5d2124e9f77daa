@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3928e090_456d7041",
+        "filename": "global-requirements.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 10239
+      },
+      "writtenOn": "2025-04-22T15:20:13Z",
+      "side": 1,
+      "message": "Wrong section: this is deprecated stuff. This one should go to section:general",
+      "revId": "5607e79c2c2176019317f9c37f5d2124e9f77daa",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
