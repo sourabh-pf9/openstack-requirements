@@ -85,6 +85,23 @@
       "message": "recheck os-vif and octavia patches have merged",
       "revId": "d01db4879d64760dde42763166907dd72b3e968e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cdd51a5_fd3547d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16688
+      },
+      "writtenOn": "2025-04-22T10:22:17Z",
+      "side": 1,
+      "message": "ping fellow reviewers",
+      "revId": "d01db4879d64760dde42763166907dd72b3e968e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
