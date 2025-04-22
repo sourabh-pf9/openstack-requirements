@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "710656a3_b45c7e33",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-22T12:13:58Z",
+      "side": 1,
+      "message": "this is less for nova and more for the fips goal.\nyou are only adding this to nova because of that.",
+      "revId": "6a418a7325821ce11847f291e41f84886e86acd1",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
