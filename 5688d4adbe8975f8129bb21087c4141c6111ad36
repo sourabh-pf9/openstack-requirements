@@ -67,6 +67,24 @@
       "message": "requirements-tox-py38-check-uc job failure seems consistent, i think recheck won\u0027t help with this, that issue has to be investigated first.",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e25cb5d_32d99e62",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-04-23T15:22:24Z",
+      "side": 1,
+      "message": "I investigate on this issue.\nThe reason seems that oslo.utils 7.3.0 is distributed with oslo.utils-7.3.0.dist-info\n\nand \n```\n.tox/py38-check-uc/bin/python -c \"import pkg_resources; print(pkg_resources.get_distribution(\u0027oslo.utils\u0027))\"\n\u003cstring\u003e:1: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html\noslo.utils 7.3.0\n```\n\n\noslo.utils 7.3.1 is distributed with oslo_utils oslo_utils-7.3.1.dist-info.\n\nand\n```\n🦉 rribaud   5688d4a  ~  workspace  openstack  requirements  .tox/py38-check-uc/bin/python -c \"import pkg_resources; print(pkg_resources.get_distribution(\u0027oslo.utils\u0027))\"\n\u003cstring\u003e:1: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html\nTraceback (most recent call last):\n  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 534, in get_distribution\n    dist \u003d get_provider(dist)\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 417, in get_provider\n    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 1070, in require\n    needed \u003d self.resolve(parse_requirements(requirements))\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 897, in resolve\n    dist \u003d self._resolve_dist(\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 938, in _resolve_dist\n    raise DistributionNotFound(req, requirers)\npkg_resources.DistributionNotFound: The \u0027oslo.utils\u0027 distribution was not found and is required by the application\n\n\n 🦉 rribaud   5688d4a  ~  workspace  openstack  requirements  1  .tox/py38-check-uc/bin/python -c \"import pkg_resources; print(pkg_resources.get_distribution(\u0027oslo_utils\u0027))\"\n\u003cstring\u003e:1: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html\noslo-utils 7.3.1\n```\n\nSo there is something not working with the name normalisation from \".\" to \"_\".\n\nI think it is probably a behavior change in setuptools.py. When we produced the package between 7.3.0 and 7.3.1",
+      "parentUuid": "16851def_9bf88f81",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
