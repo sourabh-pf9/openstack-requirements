@@ -50,6 +50,23 @@
       "message": "recheck",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16851def_9bf88f81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-04-23T10:29:49Z",
+      "side": 1,
+      "message": "requirements-tox-py38-check-uc job failure seems consistent, i think recheck won\u0027t help with this, that issue has to be investigated first.",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
