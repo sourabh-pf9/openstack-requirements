@@ -156,6 +156,24 @@
       "parentUuid": "c30c4011_182f2177",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fbd0c87d_4b123fe1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-23T17:54:28Z",
+      "side": 1,
+      "message": "ok so i replicated this locally using a ubuntu 20.04 distrobox container\n\nthen i ran tox -e py38-check-uc after installing bindep and this is the output fo pip freeze in the tox venv\n\n```\n(py38-check-uc) smooney@firebrand:~/repos/requirements$ pip freeze  | grep oslo\noslo.cache\u003d\u003d3.8.0\noslo.concurrency\u003d\u003d6.1.0\noslo.config\u003d\u003d9.6.0\noslo.context\u003d\u003d5.6.0\noslo.db\u003d\u003d16.0.0\noslo.i18n\u003d\u003d6.4.0\noslo.limit\u003d\u003d2.5.0\noslo.log\u003d\u003d6.1.2\noslo.messaging\u003d\u003d14.9.1\noslo.metrics\u003d\u003d0.9.0\noslo.middleware\u003d\u003d6.2.0\noslo.policy\u003d\u003d4.4.0\noslo.privsep\u003d\u003d3.4.0\noslo.reports\u003d\u003d3.4.0\noslo.rootwrap\u003d\u003d7.3.0\noslo.serialization\u003d\u003d5.5.0\noslo.service\u003d\u003d3.5.0\noslo.upgradecheck\u003d\u003d2.4.0\noslo.utils\u003d\u003d7.3.1\noslo.versionedobjects\u003d\u003d3.4.0\noslo.vmware\u003d\u003d4.5.0\noslosphinx\u003d\u003d4.18.0\noslotest\u003d\u003d5.0.0\n```\nas we can see oslo utils is present with teh corrrect name and has the expected version \n\nif i run the failing command in that venv i get the same error\n```\n(py38-check-uc) smooney@firebrand:~/repos/requirements$ check-conflicts /home/smooney/repos/requirements/upper-constraints.txt /home/smooney/repos/requirements/upper-constraints-xfails.txt\n\nChecking /home/smooney/repos/requirements/upper-constraints.txt\nTraceback (most recent call last):\n  File \"/home/smooney/repos/requirements/.tox/py38-check-uc/bin/check-conflicts\", line 8, in \u003cmodule\u003e\n    sys.exit(main())\n  File \"/home/smooney/repos/requirements/openstack_requirements/cmds/check_conflicts.py\", line 51, in main\n    pkg_resources.require(name)\n  File \"/home/smooney/repos/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 1070, in require\n    needed \u003d self.resolve(parse_requirements(requirements))\n  File \"/home/smooney/repos/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 897, in resolve\n    dist \u003d self._resolve_dist(\n  File \"/home/smooney/repos/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 938, in _resolve_dist\n    raise DistributionNotFound(req, requirers)\npkg_resources.DistributionNotFound: The \u0027oslo.utils\u003e\u003d3.36.0\u0027 distribution was not found and is required by oslo.log\n(py38-check-uc) smooney@firebrand:~/repos/requirements$\n```",
+      "parentUuid": "7cc8652f_327d9956",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
