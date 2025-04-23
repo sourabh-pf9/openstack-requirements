@@ -138,6 +138,24 @@
       "message": "root@instance:/# pip list |grep oslo\n\noslo-utils          7.3.1\noslo.config         9.6.0\noslo.context        5.6.0\noslo.i18n           6.4.0\noslo.log            6.1.2\noslo.serialization  5.5.0\n\n\u003e\u003e\u003e pkg_resources.require(\"oslo.utils\")\nTraceback (most recent call last):\n  File \"\u003cstdin\u003e\", line 1, in \u003cmodule\u003e\n  File \"/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py\", line 1070, in require\n    needed \u003d self.resolve(parse_requirements(requirements))\n  File \"/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py\", line 897, in resolve\n    dist \u003d self._resolve_dist(\n  File \"/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py\", line 938, in _resolve_dist\n    raise DistributionNotFound(req, requirers)\npkg_resources.DistributionNotFound: The \u0027oslo.utils\u0027 distribution was not found and is required by the application\n\n\n\u003e\u003e\u003e pkg_resources.require(\"oslo-utils\")\n[oslo-utils 7.3.1 (/usr/local/lib/python3.8/dist-packages), pytz 2025.2 (/usr/local/lib/python3.8/dist-packages), PyYAML 6.0.2 (/usr/local/lib/python3.8/dist-packages), packaging 25.0\n (/usr/local/lib/python3.8/dist-packages), pyparsing 3.1.4 (/usr/local/lib/python3.8/dist-packages), debtcollector 3.0.0 (/usr/local/lib/python3.8/dist-packages), netifaces 0.11.0 (/u\nsr/local/lib/python3.8/dist-packages), netaddr 1.3.0 (/usr/local/lib/python3.8/dist-packages), oslo.i18n 6.4.0 (/usr/local/lib/python3.8/dist-packages), iso8601 2.1.0 (/usr/local/lib/\npython3.8/dist-packages), wrapt 1.17.2 (/usr/local/lib/python3.8/dist-packages), pbr 6.1.1 (/usr/local/lib/python3.8/dist-packages), setuptools 75.3.2 (/usr/local/lib/python3.8/dist-p\nackages)]\n\n\nI guess this explains the failure",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74778351_28b15a5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1313
+      },
+      "writtenOn": "2025-04-23T16:43:26Z",
+      "side": 1,
+      "message": "I just realized that someone already find this, igonre it.",
+      "parentUuid": "c30c4011_182f2177",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
