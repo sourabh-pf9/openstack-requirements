@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d6d20ea_e9ae29a4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2025-04-23T21:04:40Z",
+      "side": 1,
+      "message": "Note: we\u0027ll almost certainly need this for Ironic as well (although you don\u0027t have to mention it here, just letting reviewers know).",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
