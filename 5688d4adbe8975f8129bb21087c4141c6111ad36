@@ -85,6 +85,24 @@
       "parentUuid": "16851def_9bf88f81",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "832f1da9_5c8e9859",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-04-23T16:02:13Z",
+      "side": 1,
+      "message": "Later...\n\nI managed to fix the issue by modifying the tox target like this:\n```\n[testenv:py38-check-uc]\nallowlist_externals \u003d\n  check-conflicts\n  mv\nbasepython \u003d python3.8\ndeps \u003d -r{toxinidir}/upper-constraints.txt\ncommands \u003d\n  mv \\\n    .tox/py38-check-uc/lib/python3.8/site-packages/oslo_utils-7.3.1.dist-info \\\n    .tox/py38-check-uc/lib/python3.8/site-packages/oslo.utils-7.3.1.dist-info\n    check-conflicts {toxinidir}/upper-constraints.txt {toxinidir}/upper-constraints-xfails.txt\n```\n\nHowever, I don\u0027t know if this is the proper way to fix the issue, but it clarifies it.",
+      "parentUuid": "0e25cb5d_32d99e62",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
