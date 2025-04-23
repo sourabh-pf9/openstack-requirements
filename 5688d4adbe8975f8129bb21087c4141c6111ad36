@@ -103,6 +103,24 @@
       "parentUuid": "0e25cb5d_32d99e62",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cc8652f_327d9956",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-23T16:34:02Z",
+      "side": 1,
+      "message": "https://github.com/openstack/oslo.utils/blob/master/setup.cfg#L9\n\noslo utils has a min version of 3.9 so it cant install in 3.8\n\nwe should drop this job.\n\noslo lags 1 Python behind normally but our minimum Python version is now 3.10\n\nso we can keep the 3.9 job but we should remove the 3.8 job\n\n\n3.8 supprot was remvoed in https://github.com/openstack/oslo.utils/commit/fa2ecb269a4aaccfbb4903d95e8f13042d83aece in 7.4.0 as par to epoxy.\n\nlater\n----\njust realisted this is 2024.2 so technially 3.8 was unsupproted by openstack service but it was supproted by oslo.utils so i shoudl proably look at the error closer",
+      "parentUuid": "832f1da9_5c8e9859",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
