@@ -33,6 +33,23 @@
       "message": "I too am blocked by this.",
       "revId": "6fe0f67186b8a8bd561c3c9c31491484534a7cfc",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "037560b7_e285655f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2271
+      },
+      "writtenOn": "2025-04-23T21:55:40Z",
+      "side": 1,
+      "message": "recheck dependencies now merged",
+      "revId": "6fe0f67186b8a8bd561c3c9c31491484534a7cfc",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
