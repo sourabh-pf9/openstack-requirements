@@ -3,6 +3,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fdfd2a5c_5f59cb83",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-24T09:51:43Z",
+      "side": 1,
+      "message": "not your fault, but we really need to amend these questions. Ubuntu LTS+Debian stable is what really matters these days. but don\u0027t amend your answer for this",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b3c7bf4_d58046b6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-24T09:51:43Z",
+      "side": 1,
+      "message": "Do you happen to know where this dependency comes from? Else I can do some digging myself",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6d6d20ea_e9ae29a4",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
@@ -14,6 +48,40 @@
       "writtenOn": "2025-04-23T21:04:40Z",
       "side": 1,
       "message": "Note: we\u0027ll almost certainly need this for Ironic as well (although you don\u0027t have to mention it here, just letting reviewers know).",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f257078_7fa16fcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-24T09:51:43Z",
+      "side": 1,
+      "message": "I\u0027m +2 on the addition in general, just a nit inline",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "904f7da4_f0ea6e60",
+        "filename": "global-requirements.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-24T09:51:43Z",
+      "side": 1,
+      "message": "sorry to keep bumping you around, but please keep this list alphabetically sorted. maybe it would help to add some comment about this at the top? I can also amend the patch myself if you prefer",
       "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
