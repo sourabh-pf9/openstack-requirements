@@ -192,6 +192,23 @@
       "parentUuid": "fbd0c87d_4b123fe1",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19439f6a_2d659aad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1313
+      },
+      "writtenOn": "2025-04-24T04:17:07Z",
+      "side": 1,
+      "message": "# Test on Focal python 3.8, \n\nroot@instance:/# pip list |grep oslo\n\noslo-utils          7.3.1\n\nroot@instance:/# pip show oslo-utils\n\nName: oslo-utils\nVersion: 7.3.1\nSummary: Oslo Utility library\nHome-page: https://docs.openstack.org/oslo.utils/latest/\nAuthor: OpenStack\nAuthor-email: openstack-discuss@lists.openstack.org\nLicense: None\nLocation: /usr/local/lib/python3.8/dist-packages\nRequires: iso8601, oslo.i18n, netaddr, netifaces, debtcollector, pyparsing, packaging, PyYAML, pytz\nRequired-by: oslo.log, oslo.serialization\nroot@instance:/# pip --version\n\npip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)\n\nroot@instance:/# pip install --upgrade pip\n\nroot@instance:/# /usr/local/bin/pip --version\npip 25.0.1 from /usr/local/lib/python3.8/dist-packages/pip (python 3.8)\n\n\nroot@instance:/# /usr/local/bin/pip list\nPackage            Version\n------------------ -----------\n\noslo.config        9.6.0\noslo.context       5.6.0\noslo.i18n          6.4.0\noslo.log           6.1.2\noslo.serialization 5.5.0\noslo.utils         7.3.1\n\nroot@instance:/# /usr/local/bin/pip show oslo.utils\nName: oslo.utils\nVersion: 7.3.1\nSummary: Oslo Utility library\nHome-page: https://docs.openstack.org/oslo.utils/latest/\nAuthor: OpenStack\nAuthor-email: openstack-discuss@lists.openstack.org\nLicense:\nLocation: /usr/local/lib/python3.8/dist-packages\nRequires: debtcollector, iso8601, netaddr, netifaces, oslo.i18n, packaging, pyparsing, pytz, PyYAML\nRequired-by: oslo.log, oslo.serialization",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
