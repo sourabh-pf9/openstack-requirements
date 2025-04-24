@@ -48,7 +48,11 @@ def main():
                                                      sys.version_info[1])
                 for req, original_line in spec_list:
                     if req.markers in ["", pyver]:
-                        pkg_resources.require(name)
+                        try:
+                            pkg_resources.require(name)
+                        except pkg_resources.DistributionNotFound:
+                            modified_name = name.replace('.', '_')
+                            pkg_resources.require(modified_name)
         except pkg_resources.ContextualVersionConflict as e:
             if e.dist.key in xfails:
                 xfail_requirement = xfails[e.dist.key][0][0]
