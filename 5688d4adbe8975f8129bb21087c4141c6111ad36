@@ -209,6 +209,23 @@
       "message": "# Test on Focal python 3.8, \n\nroot@instance:/# pip list |grep oslo\n\noslo-utils          7.3.1\n\nroot@instance:/# pip show oslo-utils\n\nName: oslo-utils\nVersion: 7.3.1\nSummary: Oslo Utility library\nHome-page: https://docs.openstack.org/oslo.utils/latest/\nAuthor: OpenStack\nAuthor-email: openstack-discuss@lists.openstack.org\nLicense: None\nLocation: /usr/local/lib/python3.8/dist-packages\nRequires: iso8601, oslo.i18n, netaddr, netifaces, debtcollector, pyparsing, packaging, PyYAML, pytz\nRequired-by: oslo.log, oslo.serialization\nroot@instance:/# pip --version\n\npip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)\n\nroot@instance:/# pip install --upgrade pip\n\nroot@instance:/# /usr/local/bin/pip --version\npip 25.0.1 from /usr/local/lib/python3.8/dist-packages/pip (python 3.8)\n\n\nroot@instance:/# /usr/local/bin/pip list\nPackage            Version\n------------------ -----------\n\noslo.config        9.6.0\noslo.context       5.6.0\noslo.i18n          6.4.0\noslo.log           6.1.2\noslo.serialization 5.5.0\noslo.utils         7.3.1\n\nroot@instance:/# /usr/local/bin/pip show oslo.utils\nName: oslo.utils\nVersion: 7.3.1\nSummary: Oslo Utility library\nHome-page: https://docs.openstack.org/oslo.utils/latest/\nAuthor: OpenStack\nAuthor-email: openstack-discuss@lists.openstack.org\nLicense:\nLocation: /usr/local/lib/python3.8/dist-packages\nRequires: debtcollector, iso8601, netaddr, netifaces, oslo.i18n, packaging, pyparsing, pytz, PyYAML\nRequired-by: oslo.log, oslo.serialization",
       "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30026fc9_dc43ce27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1313
+      },
+      "writtenOn": "2025-04-24T07:15:50Z",
+      "side": 1,
+      "message": "# oslo.utils 7.3.0 has no issue\n\nPython 3.8.10 (default, Mar 18 2025, 20:04:55)\n[GCC 9.4.0] on linux\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n\u003e\u003e\u003e import pkg_resources\n\u003e\u003e\u003e pkg_resources.require(\"oslo.utils\")\n[oslo.utils 7.3.0 (/usr/local/lib/python3.8/dist-packages), pytz 2025.2 (/usr/local/lib/python3.8/dist-packages), pyparsing 3.1.4 (/usr/local/lib/python3.8/dist-packages), packaging 25.0 (/usr/local/lib/python3.8/dist-packages), oslo.i18n 6.4.0 (/usr/local/lib/python3.8/dist-packages), netifaces 0.11.0 (/usr/local/lib/python3.8/dist-packages), netaddr 1.3.0 (/usr/local/lib/python3.8/dist-packages), iso8601 2.1.0 (/usr/local/lib/python3.8/dist-packages), debtcollector 3.0.0 (/usr/local/lib/python3.8/dist-packages), PyYAML 6.0.2 (/usr/local/lib/python3.8/dist-packages), pbr 6.1.1 (/usr/local/lib/python3.8/dist-packages), wrapt 1.17.2 (/usr/local/lib/python3.8/dist-packages), setuptools 75.3.2 (/usr/local/lib/python3.8/dist-packages)]",
+      "revId": "5688d4adbe8975f8129bb21087c4141c6111ad36",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
