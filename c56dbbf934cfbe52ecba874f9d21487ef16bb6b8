@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e67ca5a_5d9abe75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-04-24T11:54:19Z",
+      "side": 1,
+      "message": "Unless if I\u0027m wrong this approach is not working.\nBecause the replacement happens on the wrong package.\n\nThe issue raises when we are checking the oslo.limit package.\nSo the code is changing oslo.limit to oslo_limit and not oslo.utils to oslo_utils.\n\n\n\n```\nChecking /home/rribaud/workspace/openstack/requirements/upper-constraints.txt\nvoluptuous\nchardet\nenum-compat\nrsa\nrestructuredtext-lint\nnetmiko\nsshtunnel\npastedeploy\ntyping\nroutes\nrtslib-fb\noslo.limit\nTraceback (most recent call last):\n  File \"/home/rribaud/workspace/openstack/requirements/openstack_requirements/cmds/check_conflicts.py\", line 53, in main\n    pkg_resources.require(name)\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 1070, in require\n    needed \u003d self.resolve(parse_requirements(requirements))\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 897, in resolve\n    dist \u003d self._resolve_dist(\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 938, in _resolve_dist\n    raise DistributionNotFound(req, requirers)\npkg_resources.DistributionNotFound: The \u0027oslo.utils\u003e\u003d3.36.0\u0027 distribution was not found and is required by oslo.log\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/bin/check-conflicts\", line 8, in \u003cmodule\u003e\n    sys.exit(main())\n  File \"/home/rribaud/workspace/openstack/requirements/openstack_requirements/cmds/check_conflicts.py\", line 56, in main\n    pkg_resources.require(modified_name)\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 1070, in require\n    needed \u003d self.resolve(parse_requirements(requirements))\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 897, in resolve\n    dist \u003d self._resolve_dist(\n  File \"/home/rribaud/workspace/openstack/requirements/.tox/py38-check-uc/lib/python3.8/site-packages/pkg_resources/__init__.py\", line 938, in _resolve_dist\n    raise DistributionNotFound(req, requirers)\npkg_resources.DistributionNotFound: The \u0027oslo.utils\u003e\u003d3.36.0\u0027 distribution was not found and is required by oslo.log\npy38-check-uc: exit 1 (0.62 seconds) /home/rribaud/workspace/openstack/requirements\u003e check-conflicts /home/rribaud/workspace/openstack/requirements/upper-constraints.txt /home/rribaud/workspace/openstack/requirements/upper-constraints-xfails.txt pid\u003d619428\n  py38-check-uc: FAIL code 1 (16.23\u003dsetup[15.61]+cmd[0.62] seconds)\n  evaluation failed :( (16.43 seconds)\n```",
+      "revId": "c56dbbf934cfbe52ecba874f9d21487ef16bb6b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
