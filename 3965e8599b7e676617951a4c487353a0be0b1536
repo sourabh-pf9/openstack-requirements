@@ -39,6 +39,30 @@
       },
       "revId": "3965e8599b7e676617951a4c487353a0be0b1536",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f8ed082_82bf91da",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-04-24T12:15:49Z",
+      "side": 1,
+      "message": "Please look at my comment here:\nhttps://review.opendev.org/c/openstack/requirements/+/948051/comments/4e67ca5a_5d9abe75",
+      "parentUuid": "60ae3f58_9386950d",
+      "range": {
+        "startLine": 52,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 51
+      },
+      "revId": "3965e8599b7e676617951a4c487353a0be0b1536",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
