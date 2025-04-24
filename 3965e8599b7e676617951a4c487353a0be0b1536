@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60ae3f58_9386950d",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-24T11:25:26Z",
+      "side": 1,
+      "message": "so in my comment i noted that this fails but this\n\n pkg_resources.require(name.replace(\u0027.\u0027, \u0027_\u0027))\n \nreturns the package on py38\n\nwe probaly shoudl seperate changes to this file out into its own seperate commit.\n\ni woudl start by continuting to use pkg utits and instead ot do this\n\n```suggestion\n                        try:\n                            pkg_resources.require(name)\n                        except pkg_resources.DistributionNotFound:\n                             pkg_resources.require(name.replace(\u0027.\u0027, \u0027_\u0027))\n```\n\nlong term chanigng to importlib.metadata is the correct approch but i woudl get this working with pkg_resouce to unblock the repo.  or just turn off the py38 job becuase its not requried anymore,\nthen have a followup to move to importlib because pkg_resouce i thinkis gone in py 3.13 and we need to stop using it regradless.\n\nmovign to import lib shoudl remvoe all uasage of pkg_resouces rather then falling back like htis.",
+      "range": {
+        "startLine": 52,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 51
+      },
+      "revId": "3965e8599b7e676617951a4c487353a0be0b1536",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
