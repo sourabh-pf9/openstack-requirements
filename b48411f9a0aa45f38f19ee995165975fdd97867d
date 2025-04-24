@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6d60699_be9fd08d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-04-24T15:40:24Z",
+      "side": 1,
+      "message": "if we are makign this change it shoudl be done on master first and then backported like any other repo.\n\notherwise this shoudl have the `[stable-only]` tag in the commit titile",
+      "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
