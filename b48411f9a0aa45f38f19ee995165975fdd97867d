@@ -16,6 +16,24 @@
       "message": "if we are makign this change it shoudl be done on master first and then backported like any other repo.\n\notherwise this shoudl have the `[stable-only]` tag in the commit titile",
       "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c6eb8e0_c357dbb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-04-24T16:56:31Z",
+      "side": 1,
+      "message": "I\u0027m not opposed to propose it on master.\nBut in the meantime, Yaguang proposes removing the py38-check-uc job in this patch https://review.opendev.org/c/openstack/requirements/+/948051.\n\nTo my mind, this is not necessary to remove the job, and this patch could be leveraged later to replace pkg_resources.\n\nSo if we tend to keep that patch I\u0027ll propose it on master, but I won\u0027t do it if we would rather remove the job.",
+      "parentUuid": "c6d60699_be9fd08d",
+      "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
