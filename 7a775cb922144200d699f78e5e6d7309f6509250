@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4f9d08c6_704548be",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 36770
+      },
+      "writtenOn": "2025-04-24T12:24:49Z",
+      "side": 1,
+      "message": "So, cheroot was added to constraints in https://review.opendev.org/c/openstack/requirements/+/915548. I couldn\u0027t find this as a direct dep in the packages as of today. Second opinion needed.",
+      "parentUuid": "3b3c7bf4_d58046b6",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6d6d20ea_e9ae29a4",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
