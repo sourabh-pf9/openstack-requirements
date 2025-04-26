@@ -18,6 +18,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c74f79f1_8d595b63",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-26T13:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdfd2a5c_5f59cb83",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b3c7bf4_d58046b6",
@@ -90,6 +108,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "afddcaaf_f74c4785",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-26T13:41:09Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "6d6d20ea_e9ae29a4",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4f257078_7fa16fcb",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 4
@@ -118,6 +154,24 @@
       "writtenOn": "2025-04-24T09:51:43Z",
       "side": 1,
       "message": "sorry to keep bumping you around, but please keep this list alphabetically sorted. maybe it would help to add some comment about this at the top? I can also amend the patch myself if you prefer",
+      "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92bb1852_4b113697",
+        "filename": "global-requirements.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-26T13:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "904f7da4_f0ea6e60",
       "revId": "7a775cb922144200d699f78e5e6d7309f6509250",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
