@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3119e30_551a0335",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-28T10:22:05Z",
+      "side": 1,
+      "message": "this makes the regular fix-up task for bot-generated u-c updates a lot easier (see https://review.opendev.org/c/openstack/requirements/+/907665), so I\u0027d very much like to see us proceed with this",
+      "revId": "dfc4189062d8a638cc04b6cdb2e2c35de21680e6",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
