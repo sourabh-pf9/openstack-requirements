@@ -72,6 +72,24 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1987c3ad_3167dce5",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-28T17:42:09Z",
+      "side": 1,
+      "message": "ack, we\u0027re keeping the current versions for now. please create a dedicated change when/if these libs can be removed. another option might be to make these imports optional in ironic, so that they could be dropped from requirements there and only need to be installed when the SNMP driver is actually getting used? that would allow for faster removal from global reqs",
+      "parentUuid": "c6eb71c3_6fd7b91f",
+      "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5b74f27_6db9649c",
@@ -85,6 +103,24 @@
       "writtenOn": "2025-04-04T08:29:25Z",
       "side": 1,
       "message": "this should be capped at 6.1.4",
+      "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e37f1ace_c529b71f",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-28T17:42:09Z",
+      "side": 1,
+      "message": "keeping it at the current version 5.0.33 for now",
+      "parentUuid": "f5b74f27_6db9649c",
       "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
