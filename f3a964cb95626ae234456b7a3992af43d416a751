@@ -16,6 +16,23 @@
       "message": "oops, missed to drop the procedural -2 here",
       "revId": "f3a964cb95626ae234456b7a3992af43d416a751",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35f6fb30_6ec468b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2025-04-28T17:00:57Z",
+      "side": 1,
+      "message": "I had a comment here that I never posted, just saw the draft. Nothing actionable 😊",
+      "revId": "f3a964cb95626ae234456b7a3992af43d416a751",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }

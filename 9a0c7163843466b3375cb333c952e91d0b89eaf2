@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c6eb71c3_6fd7b91f",
+        "filename": "upper-constraints.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 10342
+      },
+      "writtenOn": "2025-04-28T17:00:57Z",
+      "side": 1,
+      "message": "My first post wasn\u0027t exactly right (I detail what I did wrong in that issue), but I agree we need to pin pyasn1_modules. I\u0027ve deprecated the SNMP driver, it will be removed after deprecation period (along with our dependency on this) unless it\u0027s fixed before then.",
+      "parentUuid": "df09c296_04bda273",
+      "revId": "9a0c7163843466b3375cb333c952e91d0b89eaf2",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f5b74f27_6db9649c",
         "filename": "upper-constraints.txt",
         "patchSetId": 5
