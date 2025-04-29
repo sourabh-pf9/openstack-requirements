@@ -16,6 +16,23 @@
       "message": "recheck tempest failure tempest.api.object_storage.test_object_expiry.ObjectExpiryTest.test_get_object_at_expiry_time",
       "revId": "84f41f5ed9c339a9f1353a273cfd8bf441a5f8d4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d1ed8ba_e7e80128",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-29T12:42:37Z",
+      "side": 1,
+      "message": "recheck different tempest failure this time",
+      "revId": "84f41f5ed9c339a9f1353a273cfd8bf441a5f8d4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
