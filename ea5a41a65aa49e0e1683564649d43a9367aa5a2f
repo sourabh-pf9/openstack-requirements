@@ -16,6 +16,24 @@
       "message": "recheck",
       "revId": "ea5a41a65aa49e0e1683564649d43a9367aa5a2f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba09efb1_4dc0c5f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-29T15:12:18Z",
+      "side": 1,
+      "message": "please don\u0027t issue \"recheck\" commands without a comment explaining why a recheck would be needed",
+      "parentUuid": "5c129a1c_d9b3908d",
+      "revId": "ea5a41a65aa49e0e1683564649d43a9367aa5a2f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
