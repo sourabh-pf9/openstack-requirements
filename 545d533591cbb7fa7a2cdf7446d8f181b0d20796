@@ -16,6 +16,23 @@
       "message": "recheck github issue",
       "revId": "545d533591cbb7fa7a2cdf7446d8f181b0d20796",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44019824_a79d1c9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-04-29T20:38:09Z",
+      "side": 1,
+      "message": "recheck another rate race condition in tempest - g-api startup failed",
+      "revId": "545d533591cbb7fa7a2cdf7446d8f181b0d20796",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
