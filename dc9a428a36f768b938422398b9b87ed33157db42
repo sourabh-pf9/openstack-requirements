@@ -16,6 +16,23 @@
       "message": "the approach in https://review.opendev.org/c/openstack/requirements/+/948067/1 looks better to me",
       "revId": "dc9a428a36f768b938422398b9b87ed33157db42",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f19f7d30_38ad97bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1313
+      },
+      "writtenOn": "2025-04-29T15:13:51Z",
+      "side": 1,
+      "message": "Ok, I\u0027ll abondon this one, let\u0027s working on https://review.opendev.org/c/openstack/requirements/+/948067/1",
+      "revId": "dc9a428a36f768b938422398b9b87ed33157db42",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
