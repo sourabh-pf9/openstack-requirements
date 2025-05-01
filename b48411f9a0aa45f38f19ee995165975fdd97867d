@@ -51,6 +51,23 @@
       "message": "@rene.ribaud@gmail.com I have abondoned my patch, you can create the patch for master, I really want to get this fixed ASAP, as this blocks a Nova 2024.2 fix",
       "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8ea3912_cc7df675",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-01T07:50:30Z",
+      "side": 1,
+      "message": "IIUC this fix is only needed for python3.8, so I\u0027d be fine with applying it only to the stable branches that actually require it",
+      "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
