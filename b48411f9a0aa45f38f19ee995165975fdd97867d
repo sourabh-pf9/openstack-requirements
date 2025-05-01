@@ -68,6 +68,24 @@
       "message": "IIUC this fix is only needed for python3.8, so I\u0027d be fine with applying it only to the stable branches that actually require it",
       "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0d68130_f546698b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-05-01T11:37:06Z",
+      "side": 1,
+      "message": "my understanding is pkg_resouces does not exist on Python 3.13 so we will need to fix master not to use it eventually.\n\nfor now your right this is not removing the dep on pkg_resouces so we can simply apply this to stable only but master will have to be updated seperately.",
+      "parentUuid": "d8ea3912_cc7df675",
+      "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
