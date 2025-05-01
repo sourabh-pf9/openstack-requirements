@@ -86,6 +86,24 @@
       "parentUuid": "d8ea3912_cc7df675",
       "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a9affd9_444f0e9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-05-01T12:56:12Z",
+      "side": 1,
+      "message": "Hello, I\u0027m on PTO this week and currently only have access to my phone. If it can wait until Monday, I can propose this patch on master early that day and backport it to stable afterward.",
+      "parentUuid": "b0d68130_f546698b",
+      "revId": "b48411f9a0aa45f38f19ee995165975fdd97867d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
