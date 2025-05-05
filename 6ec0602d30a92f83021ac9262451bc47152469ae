@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b89baab_e37ced40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-05T19:34:02Z",
+      "side": 1,
+      "message": "we no longer track constraints for python3.9 in master as it is too much work to keep them in place after the bot upgrades. see how much simpler https://review.opendev.org/c/openstack/requirements/+/907665 has become recently",
+      "revId": "6ec0602d30a92f83021ac9262451bc47152469ae",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
