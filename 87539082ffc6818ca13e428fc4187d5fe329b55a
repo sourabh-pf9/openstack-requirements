@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e057bc23_05cf696a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-05T08:25:31Z",
+      "side": 1,
+      "message": "80.3.0 has been yanked from pypi, 80.3.1 should have fixed the immediate issues",
+      "revId": "87539082ffc6818ca13e428fc4187d5fe329b55a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
