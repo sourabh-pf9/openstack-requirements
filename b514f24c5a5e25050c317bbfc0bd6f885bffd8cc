@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6592731e_d8e3186e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 88
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-05T08:26:58Z",
+      "side": 1,
+      "message": "recheck setuptools 80.3.0 has been yanked",
+      "revId": "b514f24c5a5e25050c317bbfc0bd6f885bffd8cc",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
