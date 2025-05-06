@@ -33,6 +33,24 @@
       "message": "as i wrote in my previous comment, this is not testing the same if i understand well.\n\nwe probably have to replace the above \u0027pkg_resources.require(name)\u0027 with \u0027metadata.requires(name)\u0027 for the same result we wanted to test originally.",
       "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cc60b5a_2f0fe45a",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-05-06T17:01:33Z",
+      "side": 1,
+      "message": "(and a side note, that while pkg_resources.require(\u003cname\u003e) drops ContextualVersionConflict error if a dependency\u0027s version does not met the required specifiers, metadata.requires(\u003cname\u003e) just gives back the list [1]. in cases where the requirements are all met, pkg_resources.require would just give back the list the same way as metadata.requires, without any error.\n\n\n[1] an example where i\u0027ve installed oslo.log (which installs all its dependencies) and then downgraded oslo.utils to does not met the requirement that oslo.log needs:\n\npkg_resources.require raises the error:\n\n    \u003e\u003e\u003e pkg_resources.require(\u0027oslo.log\u0027)\n    Traceback (most recent call last):\n      File \"\u003cstdin\u003e\", line 1, in \u003cmodule\u003e\n      File \"/usr/lib/python3/dist-packages/pkg_resources/__init__.py\", line 901, in require\n        needed \u003d self.resolve(parse_requirements(requirements))\n      File \"/usr/lib/python3/dist-packages/pkg_resources/__init__.py\", line 792, in resolve\n        raise VersionConflict(dist, req).with_context(dependent_req)\n    pkg_resources.ContextualVersionConflict: (oslo.utils 3.35.0 (/home/stack/.local/lib/python3.8/site-packages), Requirement.parse(\u0027oslo.utils\u003e\u003d3.36.0\u0027), {\u0027oslo.log\u0027})\n\n\nmetadata.requires just gives back the list and does not say anything about the version conflict:\n\n    \u003e\u003e\u003e metadata.requires(\u0027oslo.utils\u0027)\n    [\u0027pbr (!\u003d2.1.0,\u003e\u003d2.0.0)\u0027, \u0027six (\u003e\u003d1.10.0)\u0027, \u0027iso8601 (\u003e\u003d0.1.11)\u0027, \u0027oslo.i18n (\u003e\u003d3.15.3)\u0027, \u0027monotonic (\u003e\u003d0.6)\u0027, \u0027pytz (\u003e\u003d2013.6)\u0027, \u0027netaddr (\u003e\u003d0.7.18)\u0027, \u0027netifaces (\u003e\u003d0.10.\n    4)\u0027, \u0027debtcollector (\u003e\u003d1.2.0)\u0027, \u0027pyparsing (\u003e\u003d2.1.0)\u0027, \"funcsigs (\u003e\u003d1.0.0); (python_version\u003d\u003d\u00272.7\u0027 or python_version\u003d\u003d\u00272.6\u0027)\"]\n)",
+      "parentUuid": "fb9786c3_b5b69655",
+      "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
