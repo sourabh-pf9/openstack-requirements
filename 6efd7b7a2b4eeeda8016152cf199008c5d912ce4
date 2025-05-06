@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7acdc44e_949f3a9f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-05-06T16:07:08Z",
+      "side": 1,
+      "message": "I\u0027m not quite sure we are checking the same thing:\n\n* pkg_resource.require(\u003cname\u003e) gives back a list of packages that are required by package \u003cname\u003e to be installed, with installed versions.\n\n* importlib.metadata.version(\u003cname\u003e) gives back the installed version of the package \u003cname\u003e itself. but i might be missing something.",
+      "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
