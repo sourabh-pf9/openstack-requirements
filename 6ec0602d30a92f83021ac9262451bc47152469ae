@@ -16,6 +16,24 @@
       "message": "we no longer track constraints for python3.9 in master as it is too much work to keep them in place after the bot upgrades. see how much simpler https://review.opendev.org/c/openstack/requirements/+/907665 has become recently",
       "revId": "6ec0602d30a92f83021ac9262451bc47152469ae",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3d0c202_4301ed43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23851
+      },
+      "writtenOn": "2025-05-06T09:26:21Z",
+      "side": 1,
+      "message": "I don\u0027t doubt it\u0027s simpler and nicer, but removing python3.9 support suddenly from requirements broke our bifrost CI as we have CS9 based jobs\nI guess this will impact whoever is still using a distribution with Python 3.9 as base python binary",
+      "parentUuid": "6b89baab_e37ced40",
+      "revId": "6ec0602d30a92f83021ac9262451bc47152469ae",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
