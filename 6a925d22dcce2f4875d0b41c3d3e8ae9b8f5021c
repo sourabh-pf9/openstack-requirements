@@ -16,6 +16,23 @@
       "message": "recheck not sure if all failures are related",
       "revId": "6a925d22dcce2f4875d0b41c3d3e8ae9b8f5021c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2347d6c2_10bd3129",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15334
+      },
+      "writtenOn": "2025-05-06T17:15:37Z",
+      "side": 1,
+      "message": "Yeah, this is a bug. Fix is here https://review.opendev.org/c/openstack/oslo.middleware/+/948861. We should wait for that to merge and cut 6.4.1.",
+      "revId": "6a925d22dcce2f4875d0b41c3d3e8ae9b8f5021c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
