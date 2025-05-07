@@ -51,6 +51,24 @@
       "parentUuid": "fb9786c3_b5b69655",
       "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b0d2297_d4343def",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-05-07T07:16:48Z",
+      "side": 1,
+      "message": "Oh! I guess you are one step ahead of me, Elod.\nMy goal with the patch was to provide a workaround to allow merging https://review.opendev.org/c/openstack/releases/+/947847.\nRight now, it only checks that the installed packages match the versions from upper-constraints.txt if pkg_resources.require() fails to resolve the package name due to the package name normalization issue. At the moment, this only affects Python 3.8.\n\nTo my mind, this is a first patch, but we’ll need a second, more elaborate one to replace the pkg_resources.require() method, as it will no longer be supported in Python 3.13, as I understand from Sean.",
+      "parentUuid": "6cc60b5a_2f0fe45a",
+      "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
