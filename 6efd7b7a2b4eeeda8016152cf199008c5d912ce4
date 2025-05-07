@@ -69,6 +69,24 @@
       "parentUuid": "6cc60b5a_2f0fe45a",
       "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50d48a41_04adb205",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-05-07T07:47:14Z",
+      "side": 1,
+      "message": "I realize I was too restrictive in my previous message.\nI believe we should phase out pkg_resources and replace it with importlib and packaging, as this seems to be the most appropriate approach for modern Python.\nHowever, this would be a more ambitious second patch, since pkg_resources is used in many places throughout the repository.\n\nThat said, I’d be happy to help move in that direction if we agree it’s the right path forward.",
+      "parentUuid": "1b0d2297_d4343def",
+      "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
