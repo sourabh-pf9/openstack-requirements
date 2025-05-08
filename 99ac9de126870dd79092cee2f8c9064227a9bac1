@@ -16,6 +16,23 @@
       "message": "I agree, it\u0027s a pretty big deal both for Ironic itself and for Metal3.\n\nFor example, without RHEL 10/CS 10 support in Bifrost, we\u0027re risking having no upgrade path for the current RHEL 9/CS 9 users.",
       "revId": "99ac9de126870dd79092cee2f8c9064227a9bac1",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c8eae66_30bd09d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-08T10:13:24Z",
+      "side": 1,
+      "message": "ok, so let\u0027s see how far we can get with this",
+      "revId": "99ac9de126870dd79092cee2f8c9064227a9bac1",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
