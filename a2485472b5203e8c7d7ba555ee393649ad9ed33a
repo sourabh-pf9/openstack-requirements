@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0e3e32d_35b9f406",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-10T10:08:42Z",
+      "side": 1,
+      "message": "I\u0027m not sure if it is necessary to rerun the whole loop. how about adding another try just around the `pkg_resources.require()` call for this?",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93c18cb3_eb55dd75",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-10T10:08:42Z",
+      "side": 1,
+      "message": "if you check the exception handling below, we should probably do the same here:\nprint a message, a traceback and increase error_count. this will allow the script to continue running and possibly catch multiple issues in a single run, rather than having to discover them one by one.",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f9cfe75_e0e8ad46",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-10T10:08:42Z",
+      "side": 1,
+      "message": "at first I was thinking whether we\u0027d also need this override handling in the newly added code, but then I noticed that the xfails file has been empty for seven years, so now my idea would be instead to drop this completely. that could happen in a dedicated patch though",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
