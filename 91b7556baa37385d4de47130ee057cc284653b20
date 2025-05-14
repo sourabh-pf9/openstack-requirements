@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20f719e8_c8788ecb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 15197
+      },
+      "writtenOn": "2025-05-14T12:32:22Z",
+      "side": 1,
+      "message": "deprecated",
+      "range": {
+        "startLine": 9,
+        "startChar": 43,
+        "endLine": 9,
+        "endChar": 54
+      },
+      "revId": "91b7556baa37385d4de47130ee057cc284653b20",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3085578b_c6863056",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15197
+      },
+      "writtenOn": "2025-05-14T12:32:22Z",
+      "side": 1,
+      "message": "I noticed this too, thanks for this fix!",
+      "revId": "91b7556baa37385d4de47130ee057cc284653b20",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
