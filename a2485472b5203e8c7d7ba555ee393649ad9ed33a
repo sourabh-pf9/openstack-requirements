@@ -50,6 +50,24 @@
       "message": "at first I was thinking whether we\u0027d also need this override handling in the newly added code, but then I noticed that the xfails file has been empty for seven years, so now my idea would be instead to drop this completely. that could happen in a dedicated patch though",
       "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ae776c6_ba49f613",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-05-14T12:13:48Z",
+      "side": 1,
+      "message": "Hi friclker, can you have a look at my comments within \nhttps://review.opendev.org/c/openstack/requirements/+/948811/comment/fb9786c3_b5b69655/\n\nI would like to ensure we are on the same page.\nMy expectation would be to not spend too much time with the current patch, and propose a more robust one compatible with python 3.13, removing obsolete deps.",
+      "parentUuid": "3f9cfe75_e0e8ad46",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
