@@ -68,6 +68,24 @@
       "parentUuid": "3f9cfe75_e0e8ad46",
       "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dda44690_89dddf9a",
+        "filename": "openstack_requirements/cmds/check_conflicts.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-14T15:32:02Z",
+      "side": 1,
+      "message": "ok, but then let\u0027s stick to the original idea of doing this as a stable-only change only where it is needed?",
+      "parentUuid": "7ae776c6_ba49f613",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
