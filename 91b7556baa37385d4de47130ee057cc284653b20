@@ -39,6 +39,23 @@
       "message": "I noticed this too, thanks for this fix!",
       "revId": "91b7556baa37385d4de47130ee057cc284653b20",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a547c4e4_afbd50c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-15T05:46:16Z",
+      "side": 1,
+      "message": "thanks for doing this, let\u0027s go with a cherry-pick of the bot-generated patch though, which contains all the metadata for the release https://review.opendev.org/c/openstack/requirements/+/949844?usp\u003dsearch",
+      "revId": "91b7556baa37385d4de47130ee057cc284653b20",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
