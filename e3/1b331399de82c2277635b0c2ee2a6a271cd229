@@ -1,0 +1,12 @@
+Code-Review+2: Dr. Jens Harbott <frickler@offenerstapel.de>
+Code-Review+1: Pavlo Shchelokovskyy <pshchelokovskyy@mirantis.com>
+Code-Review+2: Sean McGinnis <sean.mcginnis@gmail.com>
+Code-Review+1: Riccardo Pittau <elfosardo@gmail.com>
+Verified+2: Zuul
+Workflow+1: Dr. Jens Harbott <frickler@offenerstapel.de>
+Submitted-by: Zuul
+Submitted-at: Thu, 15 May 2025 07:29:05 +0000
+Reviewed-on: https://review.opendev.org/c/openstack/requirements/+/949316
+Comments-Total: 1
+Project: openstack/requirements
+Branch: refs/heads/stable/2025.1
