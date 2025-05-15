@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35002640_f9517661",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-15T05:44:41Z",
+      "side": 1,
+      "message": "release was made for 2025.1, but it is also the newest release for master now",
+      "revId": "efc3304578779be27a65b8aa235d1f02d4c0908a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
