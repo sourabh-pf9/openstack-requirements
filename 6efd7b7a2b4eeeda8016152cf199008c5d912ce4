@@ -18,6 +18,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "413d2611_7443b1ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-16T11:39:21Z",
+      "side": 1,
+      "message": "the oslo.utils release is 1 month old now, let\u0027s just move along with this now, we can make amendmends later if needed",
+      "revId": "6efd7b7a2b4eeeda8016152cf199008c5d912ce4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fb9786c3_b5b69655",
