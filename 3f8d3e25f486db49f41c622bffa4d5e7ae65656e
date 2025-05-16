@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99967be0_366a6df4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-16T15:09:51Z",
+      "side": 1,
+      "message": "recheck tempest identity.admin failure looks unrelated",
+      "revId": "3f8d3e25f486db49f41c622bffa4d5e7ae65656e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
