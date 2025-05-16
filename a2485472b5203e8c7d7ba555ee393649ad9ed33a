@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "933b682a_8013fd13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-16T11:40:56Z",
+      "side": 1,
+      "message": "I approved the patch on 2024.2 now to unblock the gate there and I would vote that this patch isn\u0027t needed on master",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d0e3e32d_35b9f406",
