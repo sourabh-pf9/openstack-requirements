@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44f86922_046f3dc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-17T09:28:56Z",
+      "side": 1,
+      "message": "need to get all the new-release patches in before proceeding with this one",
+      "revId": "72ca02e274645e22afccd761b0fae4f9e2bba0bf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
