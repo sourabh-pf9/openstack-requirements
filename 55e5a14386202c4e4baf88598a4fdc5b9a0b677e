@@ -33,6 +33,24 @@
       "message": "recheck https://review.opendev.org/c/openstack/heat/+/950244 should fix the error",
       "revId": "55e5a14386202c4e4baf88598a4fdc5b9a0b677e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eacc25d2_e1821c79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-05-19T12:58:14Z",
+      "side": 1,
+      "message": "thanks! gate is fixed.",
+      "parentUuid": "e686fcb2_81441c6a",
+      "revId": "55e5a14386202c4e4baf88598a4fdc5b9a0b677e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
