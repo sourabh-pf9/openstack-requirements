@@ -16,6 +16,23 @@
       "message": "recheck tempest identity.admin failure looks unrelated",
       "revId": "3f8d3e25f486db49f41c622bffa4d5e7ae65656e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8b69a9b_de487c08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11628
+      },
+      "writtenOn": "2025-05-19T16:15:17Z",
+      "side": 1,
+      "message": "The zuul failures on this and py3.8 were valid, this change is now impacting designate as well with the same issue",
+      "revId": "3f8d3e25f486db49f41c622bffa4d5e7ae65656e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ],
   "submitRequirementResults": [
