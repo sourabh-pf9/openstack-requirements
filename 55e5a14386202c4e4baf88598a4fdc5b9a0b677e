@@ -16,6 +16,23 @@
       "message": "heat failure looks real",
       "revId": "55e5a14386202c4e4baf88598a4fdc5b9a0b677e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e686fcb2_81441c6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9816
+      },
+      "writtenOn": "2025-05-19T05:32:49Z",
+      "side": 1,
+      "message": "recheck https://review.opendev.org/c/openstack/heat/+/950244 should fix the error",
+      "revId": "55e5a14386202c4e4baf88598a4fdc5b9a0b677e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
