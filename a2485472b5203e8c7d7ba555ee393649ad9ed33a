@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1940a325_63b9be5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-19T10:07:23Z",
+      "side": 1,
+      "message": "Sure, help is always welcome",
+      "parentUuid": "f39e0f4d_2201352a",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0e3e32d_35b9f406",
         "filename": "openstack_requirements/cmds/check_conflicts.py",
         "patchSetId": 2
