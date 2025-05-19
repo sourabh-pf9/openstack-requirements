@@ -54,6 +54,23 @@
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "11dc7bce_7f500972",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-19T11:52:01Z",
+      "side": 1,
+      "message": "just after I wrote this, I notice that we seem to have similar failures on the master branch now, see e.g. https://zuul.opendev.org/t/openstack/build/a016e42f7bad42639242fd37390e28f7\n\nso please don\u0027t abandon yet, I\u0027ll rebase that patch on top of this one",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d0e3e32d_35b9f406",
