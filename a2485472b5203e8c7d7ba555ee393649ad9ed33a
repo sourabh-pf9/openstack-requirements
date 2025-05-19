@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f39e0f4d_2201352a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16207
+      },
+      "writtenOn": "2025-05-19T09:04:42Z",
+      "side": 1,
+      "message": "Hi Jens, cool with me.\nThanks for merging the patch on 2024.2.\n\nDo you want me to work/help on more \"long-term\" pkg_resources replacement patch ?\nI\u0027ll await your answer, then I will abandon this one.",
+      "parentUuid": "933b682a_8013fd13",
+      "revId": "a2485472b5203e8c7d7ba555ee393649ad9ed33a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0e3e32d_35b9f406",
         "filename": "openstack_requirements/cmds/check_conflicts.py",
         "patchSetId": 2
