@@ -16,6 +16,24 @@
       "message": "This and https://review.opendev.org/c/openstack/horizon/+/950382 need each other to pass the gate tests. I wonder if there is some way to get them merged together?",
       "revId": "04cd1d0b561dc14f84b67c24842c88e7452ba1ce",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07a587ea_c296a775",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37632
+      },
+      "writtenOn": "2025-05-20T13:23:13Z",
+      "side": 1,
+      "message": "@openstack@dopieralski.pl Yes, I was wondering about the same.\n@frickler@offenerstapel.de Hello, could you, please, direct us, is there any solution for these types of dependencies? 😊",
+      "parentUuid": "7fc8f1ac_453454c0",
+      "revId": "04cd1d0b561dc14f84b67c24842c88e7452ba1ce",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
