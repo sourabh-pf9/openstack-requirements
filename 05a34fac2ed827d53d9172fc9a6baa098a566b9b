@@ -33,6 +33,23 @@
       "message": "cyclic dependencies are bad, the best way to solve this would be to make horizon work with both library versions for the transition and bump the minimum version only after a deprecation period. otherwise you are making upgrades very difficult for deployers",
       "revId": "05a34fac2ed827d53d9172fc9a6baa098a566b9b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4935886c_aa98dfde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8648
+      },
+      "writtenOn": "2025-05-21T11:34:23Z",
+      "side": 1,
+      "message": "This isn\u0027t really a cyclic dependency, as customers never install the requirements repository. It was just my mistake setting the dependencies in the wrong direction. I think we have it sorted out, we can merge this patch first, and then the horizon one will pass.",
+      "revId": "05a34fac2ed827d53d9172fc9a6baa098a566b9b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
