@@ -16,6 +16,24 @@
       "message": "is there a specific reason that you don\u0027t use the `py312` env like all the other cross tests? I would prefer to stay consistent in that regard\n\nI\u0027m also not sure whether we want to make the job voting right from the start, but I also won\u0027t object to that",
       "revId": "0a65df4da38f10e617e584dfcab93403d4587ffa",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e77a83af_ce88c84b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2025-05-21T01:13:31Z",
+      "side": 1,
+      "message": "Yes. it will use 3.12 by default because of the job def and this way i will never need to update it to a new pytohn runtime which si why we also did that for os-vif \n\nhttps://review.opendev.org/c/openstack/requirements/+/950360/1/.zuul.d/cross-jobs.yaml#209\n\nim making it voting because the unerlying job has been stable and the recone oslo.context release broke us but we coudl have it non voting initally.\n\nthis is the third time a requirement bump has broken watcher since i got invovled at the start of the 2025.1 cycle so i wanted ot get ahead of that going forward.",
+      "parentUuid": "c250dccc_7444007c",
+      "revId": "0a65df4da38f10e617e584dfcab93403d4587ffa",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
