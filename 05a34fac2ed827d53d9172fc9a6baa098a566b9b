@@ -50,6 +50,23 @@
       "message": "This isn\u0027t really a cyclic dependency, as customers never install the requirements repository. It was just my mistake setting the dependencies in the wrong direction. I think we have it sorted out, we can merge this patch first, and then the horizon one will pass.",
       "revId": "05a34fac2ed827d53d9172fc9a6baa098a566b9b",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8783953a_7eff638a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-23T07:50:27Z",
+      "side": 1,
+      "message": "well you cannot merge this one first as it depends on https://review.opendev.org/c/openstack/horizon/+/950382 and the latter is failing CI",
+      "revId": "05a34fac2ed827d53d9172fc9a6baa098a566b9b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
