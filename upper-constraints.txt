@@ -82,7 +82,6 @@ XStatic-Graphlib===2.1.7.0
 pyserial===3.5
 moto===5.1.4
 infi.dtypes.wwn===0.1.1
-rpm-vercmp===0.1.2
 python-freezerclient===6.0.0
 python-vitrageclient===5.2.0
 py-pure-client===1.67.0
