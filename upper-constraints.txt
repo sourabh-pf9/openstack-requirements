@@ -188,7 +188,6 @@ URLObject===2.4.3
 psycopg2-binary===2.9.10
 glance_store===4.10.0
 openstack-release-test===8.1.0
-pycryptodomex===3.22.0
 requests-mock===1.12.1
 os-apply-config===14.0.0
 gunicorn===23.0.0
@@ -224,7 +223,6 @@ threadloop===1.0.2
 amqp===5.3.1
 ruamel.yaml===0.18.10
 websockify===0.12.0
-CherryPy===18.10.0
 gssapi===1.9.0
 XStatic-JQuery.quicksearch===2.0.3.2
 pyasn1_modules===0.4.1
@@ -387,7 +385,6 @@ osc-lib===4.0.2
 python-consul===1.1.0
 more-itertools===10.7.0
 seqdiag===3.0.0
-zc.lockfile===3.0.post1
 numpy===2.0.0;python_version=='3.9'
 numpy===2.2.5;python_version>='3.10'
 msgpack===1.1.0
@@ -582,7 +579,6 @@ virtualenv===20.31.2
 colorama===0.4.6
 confetti===2.5.3
 ironic-lib===7.0.0
-aiohappyeyeballs===2.6.1
 pytz===2025.2
 opentelemetry-proto===1.33.0
 XStatic-D3===3.5.17.0
