@@ -16,6 +16,23 @@
       "message": "hey @simon@purestorage.com please have a look at this, I have no idea why this bump is causing all the reqs checks to fail",
       "revId": "edb6d83ea50883db40843b310719018531e583ef",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b3b7adf_b01acb6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-25T11:36:55Z",
+      "side": 1,
+      "message": "oh, there\u0027s a strong cap on setuptools. looks like this somehow isn\u0027t compatible with recent oslo releases\n\nCollecting setuptools\u003c\u003d75.6.0,\u003e\u003d70.0.0 (from py-pure-client\u003d\u003d1.68.0)",
+      "revId": "edb6d83ea50883db40843b310719018531e583ef",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
