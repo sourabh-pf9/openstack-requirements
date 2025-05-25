@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9610a27b_435d53cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-05-25T09:37:45Z",
+      "side": 1,
+      "message": "hey @simon@purestorage.com please have a look at this, I have no idea why this bump is causing all the reqs checks to fail",
+      "revId": "edb6d83ea50883db40843b310719018531e583ef",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
