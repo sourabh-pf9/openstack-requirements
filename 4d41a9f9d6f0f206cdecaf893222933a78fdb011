@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "164cfe85_5e408e1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11628
+      },
+      "writtenOn": "2025-05-28T16:38:57Z",
+      "side": 1,
+      "message": "We need this for the Octavia gates, it fixes a regression in Taskflow that broke us.",
+      "revId": "4d41a9f9d6f0f206cdecaf893222933a78fdb011",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
