@@ -16,6 +16,23 @@
       "message": "could have been added the reason of this patch in the commit message o:) otherwise LGTM.\n\n(the reason is: py39 is not supported starting from 2025.2 Flamingo [1] hence projects dropping py39 version support from their setup.py, which makes this job fail.\n\n[1] https://governance.openstack.org/tc/reference/runtimes/2025.2.html )",
       "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6aa325f_5b10d9e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-06-04T09:12:54Z",
+      "side": 1,
+      "message": "as long as we have constraints for py39 in u-c, we also need to keep verifying them, see https://review.opendev.org/c/openstack/requirements/+/948876 for context",
+      "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
