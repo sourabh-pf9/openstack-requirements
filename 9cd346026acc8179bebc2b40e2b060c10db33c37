@@ -51,6 +51,24 @@
       "parentUuid": "d6aa325f_5b10d9e4",
       "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9656a86b_8d3d22ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-06-04T10:09:33Z",
+      "side": 1,
+      "message": "Okay, I see now your comment Jens on the patch on top of this [1]. Thanks.\n\n[1] https://review.opendev.org/c/openstack/requirements/+/951657/2#message-a2b9e2366ce2ceb06e8a35b1e3b95ba55a9150d2",
+      "parentUuid": "61b6ff3c_9184df7d",
+      "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
