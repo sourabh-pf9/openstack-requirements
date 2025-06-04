@@ -33,6 +33,24 @@
       "message": "as long as we have constraints for py39 in u-c, we also need to keep verifying them, see https://review.opendev.org/c/openstack/requirements/+/948876 for context",
       "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61b6ff3c_9184df7d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17685
+      },
+      "writtenOn": "2025-06-04T09:57:29Z",
+      "side": 1,
+      "message": "does that mean that projects that dropped py39 support needs a revert for their patches? (e.g. openstacksdk requires python \u003e 3.9 already, so requirements-tox-py39-check-uc job fails when bumping upper constraints - see the patch on top of this) or should the requirements-tox-py39-check-uc job be set as non-voting?",
+      "parentUuid": "d6aa325f_5b10d9e4",
+      "revId": "9cd346026acc8179bebc2b40e2b060c10db33c37",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
