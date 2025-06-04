@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83b520ad_fc8d57a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-06-04T09:13:57Z",
+      "side": 1,
+      "message": "instead of the parent we need to add a constraint for an older version for py39",
+      "revId": "f758581e9bdc7f23cde1fad84ae160efccfea5b3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
