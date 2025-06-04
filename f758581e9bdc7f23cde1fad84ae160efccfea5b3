@@ -16,6 +16,23 @@
       "message": "instead of the parent we need to add a constraint for an older version for py39",
       "revId": "f758581e9bdc7f23cde1fad84ae160efccfea5b3",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbb26086_bc09e416",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-06-04T09:15:17Z",
+      "side": 1,
+      "message": "see https://review.opendev.org/c/openstack/requirements/+/950844 for comparison",
+      "revId": "f758581e9bdc7f23cde1fad84ae160efccfea5b3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
     }
   ]
 }
