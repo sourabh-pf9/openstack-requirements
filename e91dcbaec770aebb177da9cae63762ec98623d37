@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c031b16d_e771e705",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13252
+      },
+      "writtenOn": "2025-06-05T10:43:31Z",
+      "side": 1,
+      "message": "I don\u0027t want to review this, would be good if there was a real requirements team that handled these things in a timely manner. Maybe a good opportunity to start looking for new contributors",
+      "revId": "e91dcbaec770aebb177da9cae63762ec98623d37",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543"
+    }
+  ]
+}
