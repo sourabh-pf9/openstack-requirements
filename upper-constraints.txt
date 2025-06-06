@@ -581,3 +581,4 @@ actdiag===3.0.0
 sysv-ipc===1.1.0
 sphinxcontrib-applehelp===2.0.0
 scikit-learn===1.6.1
+validate-pyproject==0.24.1

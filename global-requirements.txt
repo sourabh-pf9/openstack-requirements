@@ -276,6 +276,7 @@ types-simplejson  # Apache-2.0
 typing  # PSF
 typing-extensions  # PSF
 tzdata  # MIT
+validate-pyproject # MPL-2.0
 virtualbmc  # Apache-2.0
 virtualenv!=16.3.0  # MIT
 WebTest  # MIT
